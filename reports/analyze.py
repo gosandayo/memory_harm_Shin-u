@@ -23,7 +23,7 @@ def _resolve_log_dir(log_dir: str) -> Path:
     if requested.exists():
         return requested
 
-    drive_candidate = Path("/content/drive/MyDrive/memory_harm_Shinu/data/logs")
+    drive_candidate = Path("/content/drive/MyDrive/memory_harm_Shin-u/data/logs")
     if drive_candidate.exists():
         print(f"Using Drive logs: {drive_candidate}")
         return drive_candidate
