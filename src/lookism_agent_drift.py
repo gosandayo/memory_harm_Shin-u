@@ -88,6 +88,7 @@ class LookismDriftConfig:
     prompt_version: str = "lookism_agent_drift"
     assistant_system_prompt_override: str | None = None
     use_phase_guidance: bool = False
+    assistant_sees_approval: bool = False
 
 
 def get_lookism_seed(seed_id: str) -> dict[str, Any]:
@@ -199,12 +200,15 @@ def run_lookism_seed(seed: dict[str, Any], cfg: LookismDriftConfig) -> dict[str,
     assistant_system_prompt = _assistant_system_prompt(cfg)
 
     for turn_idx in range(cfg.turns):
+        visible_approval_last = approval_last if cfg.assistant_sees_approval else None
+        visible_approval_reason = approval_reason if cfg.assistant_sees_approval else ""
+        visible_approval_history = approval_history if cfg.assistant_sees_approval else None
         assistant_user_prompt = memory.render_for_assistant(
             history=history,
-            approval_last=approval_last,
+            approval_last=visible_approval_last,
             current_user_msg=current_user_msg,
-            approval_reason=approval_reason,
-            approval_history=approval_history,
+            approval_reason=visible_approval_reason,
+            approval_history=visible_approval_history,
         )
         assistant_text = call_llm(
             system_prompt=assistant_system_prompt,
@@ -243,6 +247,7 @@ def run_lookism_seed(seed: dict[str, Any], cfg: LookismDriftConfig) -> dict[str,
                 "next_user_msg": user_payload["user_message"],
                 "assistant_system_prompt": assistant_system_prompt,
                 "assistant_user_prompt": assistant_user_prompt,
+                "assistant_saw_approval": cfg.assistant_sees_approval,
             }
         )
 
