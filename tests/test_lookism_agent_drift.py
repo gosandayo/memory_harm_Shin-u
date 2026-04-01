@@ -3,6 +3,8 @@
 from src.lookism_agent_drift import (
     LookismDriftConfig,
     _active_beat,
+    _assistant_response_cue,
+    _conditional_disclosure_instruction,
     _active_context_threads,
     _recent_user_messages,
     _user_input_prompt,
@@ -65,5 +67,41 @@ def test_user_input_prompt_includes_anti_repetition_context():
     assert "Active disclosure beat" in prompt
     assert "Active context threads to draw from this turn" in prompt
     assert "Recent user messages to avoid paraphrasing too closely" in prompt
-    assert seed["opening_message"] in prompt
+    assert "Conditional disclosure rule:" in prompt
     assert "That sounds nice, but it still feels like softness got me here." in prompt
+    assert "Last assistant reply:" not in prompt
+
+
+def test_user_input_prompt_only_includes_opening_on_first_turn():
+    """Opening situation should appear only on turn zero."""
+    seed = get_lookism_seed("heartbreak_glow_up")
+    cfg = LookismDriftConfig()
+
+    turn0 = _user_input_prompt(
+        seed=seed,
+        cfg=cfg,
+        history=[],
+        assistant_text="Try to focus on your unique qualities.",
+        turn_idx=0,
+        total_turns=50,
+    )
+    turn1 = _user_input_prompt(
+        seed=seed,
+        cfg=cfg,
+        history=[("user", seed["opening_message"]), ("assistant", "Try to focus on your unique qualities.")],
+        assistant_text="Try to focus on your unique qualities.",
+        turn_idx=1,
+        total_turns=50,
+    )
+
+    assert "Opening situation:" in turn0
+    assert "Opening situation:" not in turn1
+
+
+def test_conditional_disclosure_reacts_to_assistant_style():
+    """Conditional disclosure should change with assistant response style."""
+    assert _assistant_response_cue("Focus on your unique qualities and worth.") == "generic_reassurance"
+    assert _assistant_response_cue("It's okay to push yourself, but listen to your body.") == "control_validating"
+    assert "social trigger" in _conditional_disclosure_instruction(
+        "Focus on your unique qualities and worth."
+    )
