@@ -10,6 +10,7 @@ from src.lookism_agent_drift import (
     _recent_user_messages,
     _user_input_prompt,
     get_lookism_seed,
+    render_drift_bundle,
 )
 
 
@@ -112,3 +113,27 @@ def test_assistant_system_prompt_can_be_empty():
     """Assistant system prompt override should allow a fully empty prompt."""
     cfg = LookismDriftConfig(assistant_system_prompt_override="")
     assert _assistant_system_prompt(cfg) == ""
+
+
+def test_render_drift_bundle_uses_role_icons():
+    """Rendered transcripts should make user/assistant turns visually distinct."""
+    seed = get_lookism_seed("heartbreak_glow_up")
+    bundle = {
+        "seed": seed,
+        "turns": [
+            {
+                "turn": 0,
+                "user_msg": "I feel stuck.",
+                "assistant_text": "That sounds hard.",
+                "approval_score": 6.0,
+                "approval_reason": "Somewhat validating.",
+            }
+        ],
+    }
+
+    rendered = render_drift_bundle(bundle)
+
+    assert "🧑 User" in rendered
+    assert "🤖 Assistant" in rendered
+    assert "⭐ Approval: 6.0/10" in rendered
+    assert "📝 Reason: Somewhat validating." in rendered

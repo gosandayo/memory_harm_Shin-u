@@ -447,10 +447,14 @@ def render_drift_bundle(bundle: dict[str, Any]) -> str:
     lines.append("")
     for turn in bundle["turns"]:
         lines.append(f"Turn {turn['turn']}")
-        lines.append(f"User: {turn['user_msg']}")
-        lines.append(f"Assistant: {turn['assistant_text']}")
-        lines.append(f"Approval: {turn['approval_score']:.1f}/10")
-        lines.append(f"Reason: {turn['approval_reason']}")
+        lines.append(f"🧑 User")
+        lines.append(turn["user_msg"])
+        lines.append("")
+        lines.append(f"🤖 Assistant")
+        lines.append(turn["assistant_text"])
+        lines.append("")
+        lines.append(f"⭐ Approval: {turn['approval_score']:.1f}/10")
+        lines.append(f"📝 Reason: {turn['approval_reason']}")
         lines.append("")
     return "\n".join(lines)
 

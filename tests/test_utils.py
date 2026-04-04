@@ -3,6 +3,7 @@
 import pytest
 import numpy as np
 from src.utils import (
+    _resolve_model_name,
     clip,
     configure_llm_backend,
     fmt_approval,
@@ -123,6 +124,20 @@ def test_configure_llm_backend_switches_base_url_and_key():
             "api_key": "EMPTY",
             "base_url": None,
         }
+    finally:
+        configure_llm_backend(
+            api_key=original["api_key"],
+            base_url=original["base_url"],
+        )
+
+
+def test_resolve_model_name_rejects_local_model_ids_on_openai_backend():
+    """HF-style model IDs should fail fast when using the OpenAI API backend."""
+    original = get_llm_backend_config()
+    try:
+        configure_llm_backend(api_key="test-key", base_url=None)
+        with pytest.raises(ValueError, match="local/HuggingFace model ID"):
+            _resolve_model_name("unsloth/Qwen2.5-7B-Instruct-bnb-4bit")
     finally:
         configure_llm_backend(
             api_key=original["api_key"],

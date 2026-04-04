@@ -47,6 +47,19 @@ def _make_async_openai_client() -> AsyncOpenAI:
     return AsyncOpenAI(**kwargs)
 
 
+def _resolve_model_name(model: str) -> str:
+    """Reject local model IDs on the OpenAI backend."""
+    normalized = model.strip()
+    if _LLM_BASE_URL is None and "/" in normalized:
+        raise ValueError(
+            f"Model {normalized!r} looks like a local/HuggingFace model ID, but the backend "
+            "is configured for the OpenAI API (base_url=None). Use an OpenAI model ID such as "
+            "'gpt-4o-mini', or call configure_llm_backend(api_key='EMPTY', "
+            "base_url='http://localhost:8000/v1') for local vLLM."
+        )
+    return normalized
+
+
 def clip(value: float, min_val: float = 0.0, max_val: float = 1.0) -> float:
     """Clip value to [min_val, max_val]."""
     return max(min_val, min(max_val, value))
@@ -82,6 +95,7 @@ def call_llm(
         LLM response text
     """
     client = _make_openai_client()
+    model = _resolve_model_name(model)
     kwargs = {"response_format": {"type": "json_object"}} if json_mode else {}
 
     for attempt in range(max_retries):
@@ -129,6 +143,7 @@ async def call_llm_async(
         LLM response text
     """
     client = _make_async_openai_client()
+    model = _resolve_model_name(model)
     kwargs = {"response_format": {"type": "json_object"}} if json_mode else {}
 
     for attempt in range(max_retries):
