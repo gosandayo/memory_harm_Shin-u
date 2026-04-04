@@ -1,11 +1,50 @@
 """Utility functions for the simulation."""
 
+import os
 import json
 import time
 import asyncio
 from typing import Any, Dict, Optional
 import numpy as np
 from openai import OpenAI, AsyncOpenAI
+
+
+_LLM_API_KEY = os.getenv("LLM_API_KEY", "EMPTY")
+_LLM_BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:8000/v1")
+
+
+def configure_llm_backend(
+    api_key: Optional[str] = None,
+    base_url: Optional[str] = None,
+) -> None:
+    """Configure the LLM backend used by call_llm/call_llm_async."""
+    global _LLM_API_KEY, _LLM_BASE_URL
+    _LLM_API_KEY = "EMPTY" if api_key is None else api_key
+    _LLM_BASE_URL = base_url
+
+
+def get_llm_backend_config() -> Dict[str, Optional[str]]:
+    """Return the current LLM backend config."""
+    return {
+        "api_key": _LLM_API_KEY,
+        "base_url": _LLM_BASE_URL,
+    }
+
+
+def _make_openai_client() -> OpenAI:
+    """Create a sync OpenAI-compatible client from the current backend config."""
+    kwargs = {"api_key": _LLM_API_KEY}
+    if _LLM_BASE_URL is not None:
+        kwargs["base_url"] = _LLM_BASE_URL
+    return OpenAI(**kwargs)
+
+
+def _make_async_openai_client() -> AsyncOpenAI:
+    """Create an async OpenAI-compatible client from the current backend config."""
+    kwargs = {"api_key": _LLM_API_KEY}
+    if _LLM_BASE_URL is not None:
+        kwargs["base_url"] = _LLM_BASE_URL
+    return AsyncOpenAI(**kwargs)
 
 
 def clip(value: float, min_val: float = 0.0, max_val: float = 1.0) -> float:
@@ -42,10 +81,7 @@ def call_llm(
     Returns:
         LLM response text
     """
-    client = OpenAI(                             # Changed from OpenAI()
-        api_key="EMPTY",                         # Placeholders for local serving
-        base_url="http://localhost:8000/v1"
-    )
+    client = _make_openai_client()
     kwargs = {"response_format": {"type": "json_object"}} if json_mode else {}
 
     for attempt in range(max_retries):
@@ -92,10 +128,7 @@ async def call_llm_async(
     Returns:
         LLM response text
     """
-    client = AsyncOpenAI(                       #Changed from OpenAI()
-        api_key="EMPTY",                        #Placeholders for local serving 
-        base_url="http://localhost:8000/v1"
-    )
+    client = _make_async_openai_client()
     kwargs = {"response_format": {"type": "json_object"}} if json_mode else {}
 
     for attempt in range(max_retries):

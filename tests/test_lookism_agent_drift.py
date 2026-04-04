@@ -3,6 +3,7 @@
 from src.lookism_agent_drift import (
     LookismDriftConfig,
     _active_beat,
+    _assistant_system_prompt,
     _assistant_response_cue,
     _conditional_disclosure_instruction,
     _active_context_threads,
@@ -105,3 +106,9 @@ def test_conditional_disclosure_reacts_to_assistant_style():
     assert "social trigger" in _conditional_disclosure_instruction(
         "Focus on your unique qualities and worth."
     )
+
+
+def test_assistant_system_prompt_can_be_empty():
+    """Assistant system prompt override should allow a fully empty prompt."""
+    cfg = LookismDriftConfig(assistant_system_prompt_override="")
+    assert _assistant_system_prompt(cfg) == ""

@@ -2,7 +2,15 @@
 
 import pytest
 import numpy as np
-from src.utils import clip, validate_score, setup_rng, render_history, fmt_approval
+from src.utils import (
+    clip,
+    configure_llm_backend,
+    fmt_approval,
+    get_llm_backend_config,
+    render_history,
+    setup_rng,
+    validate_score,
+)
 
 
 def test_clip():
@@ -97,3 +105,26 @@ def test_indulgence_formula():
     D = 0.5
     indulgence = 10 * D
     assert indulgence == 5.0
+
+
+def test_configure_llm_backend_switches_base_url_and_key():
+    """LLM backend config should be mutable from notebook code."""
+    original = get_llm_backend_config()
+
+    try:
+        configure_llm_backend(api_key="test-key", base_url=None)
+        assert get_llm_backend_config() == {
+            "api_key": "test-key",
+            "base_url": None,
+        }
+
+        configure_llm_backend()
+        assert get_llm_backend_config() == {
+            "api_key": "EMPTY",
+            "base_url": None,
+        }
+    finally:
+        configure_llm_backend(
+            api_key=original["api_key"],
+            base_url=original["base_url"],
+        )
