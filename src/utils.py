@@ -4,13 +4,28 @@ import os
 import json
 import time
 import asyncio
+from pathlib import Path
 from typing import Any, Dict, Optional
 import numpy as np
+from dotenv import load_dotenv
 from openai import OpenAI, AsyncOpenAI
 
 
-_LLM_API_KEY = os.getenv("LLM_API_KEY", "EMPTY")
-_LLM_BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:8000/v1")
+load_dotenv(Path(__file__).parent.parent / ".env")
+
+
+def _env_backend_config() -> tuple[str, Optional[str]]:
+    """Load LLM backend defaults from environment variables."""
+    api_key = os.getenv("LLM_API_KEY") or os.getenv("OPENAI_API_KEY") or "EMPTY"
+    base_url = os.getenv("LLM_BASE_URL")
+    if base_url is None:
+        base_url = "http://localhost:8000/v1"
+    elif base_url.strip().lower() in {"", "empty", "none", "null"}:
+        base_url = None
+    return api_key, base_url
+
+
+_LLM_API_KEY, _LLM_BASE_URL = _env_backend_config()
 
 
 def configure_llm_backend(

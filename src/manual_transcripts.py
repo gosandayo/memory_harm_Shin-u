@@ -123,14 +123,17 @@ def render_transcript(bundle: dict[str, Any]) -> str:
     lines.append("")
     for turn in bundle["turns"]:
         lines.append(f"Turn {turn['turn']}")
-        lines.append(f"User: {turn['user_msg']}")
-        lines.append(f"Assistant: {turn['assistant_text']}")
+        lines.append("🧑 User")
+        lines.append(turn["user_msg"])
+        lines.append("")
+        lines.append("🤖 Assistant")
+        lines.append(turn["assistant_text"])
         lines.append("")
     return "\n".join(lines)
 
 
 def save_bundle(bundle: dict[str, Any], output_dir: str | Path) -> Path:
-    """Save a manual transcript bundle to disk."""
+    """Save a manual transcript bundle and a readable text transcript to disk."""
     out_dir = Path(output_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -140,6 +143,11 @@ def save_bundle(bundle: dict[str, Any], output_dir: str | Path) -> Path:
     path = out_dir / f"{candidate_id}_{prompt_version}_{ts}.json"
     with open(path, "w", encoding="utf-8") as f:
         json.dump(bundle, f, indent=2, ensure_ascii=True)
+        f.write("\n")
+
+    text_path = path.with_suffix(".txt")
+    with open(text_path, "w", encoding="utf-8") as f:
+        f.write(render_transcript(bundle))
         f.write("\n")
     return path
 

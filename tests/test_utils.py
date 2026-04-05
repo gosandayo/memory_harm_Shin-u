@@ -3,6 +3,7 @@
 import pytest
 import numpy as np
 from src.utils import (
+    _env_backend_config,
     _resolve_model_name,
     clip,
     configure_llm_backend,
@@ -143,3 +144,30 @@ def test_resolve_model_name_rejects_local_model_ids_on_openai_backend():
             api_key=original["api_key"],
             base_url=original["base_url"],
         )
+
+
+def test_env_backend_config_uses_openai_key_fallback(monkeypatch):
+    """OPENAI_API_KEY should be used when LLM_API_KEY is absent."""
+    monkeypatch.delenv("LLM_API_KEY", raising=False)
+    monkeypatch.setenv("OPENAI_API_KEY", "sk-test")
+    monkeypatch.setenv("LLM_BASE_URL", "")
+
+    assert _env_backend_config() == ("sk-test", None)
+
+
+def test_env_backend_config_treats_empty_sentinel_as_openai_default(monkeypatch):
+    """LLM_BASE_URL sentinel values should map to the OpenAI default endpoint."""
+    monkeypatch.delenv("LLM_API_KEY", raising=False)
+    monkeypatch.setenv("OPENAI_API_KEY", "sk-test")
+    monkeypatch.setenv("LLM_BASE_URL", "EMPTY")
+
+    assert _env_backend_config() == ("sk-test", None)
+
+
+def test_env_backend_config_defaults_to_local_vllm(monkeypatch):
+    """Default backend should stay local vLLM when no env vars are set."""
+    monkeypatch.delenv("LLM_API_KEY", raising=False)
+    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+    monkeypatch.delenv("LLM_BASE_URL", raising=False)
+
+    assert _env_backend_config() == ("EMPTY", "http://localhost:8000/v1")
