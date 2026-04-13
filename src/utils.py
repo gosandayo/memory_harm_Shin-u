@@ -33,7 +33,7 @@ def get_llm_backend_config() -> Dict[str, Optional[str]]:
 
 def _make_openai_client() -> OpenAI:
     """Create a sync OpenAI-compatible client from the current backend config."""
-    kwargs = {"api_key": _LLM_API_KEY}
+    kwargs = {"api_key": _LLM_API_KEY, "timeout": 60.0}
     if _LLM_BASE_URL is not None:
         kwargs["base_url"] = _LLM_BASE_URL
     return OpenAI(**kwargs)
