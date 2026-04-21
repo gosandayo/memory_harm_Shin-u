@@ -53,7 +53,7 @@ OUT_ROOT = Path("data/manual_transcripts")
 # Branch controller model — intentionally different from evaluator
 STANCE_CLASSIFIER_MODEL = "gpt-4o-mini"
 
-CONDITIONS = [
+ALL_CONDITIONS = [
     ("no_memory", "no_feedback"),
     ("memory", "no_feedback"),
     ("no_memory", "feedback"),
@@ -340,7 +340,36 @@ def cond_key(has_memory: bool, has_feedback: bool) -> str:
     return f"{m}_{f}"
 
 
-def analyze(all_results: list[dict]) -> str:
+def parse_conditions(raw: str | None) -> list[tuple[str, str]]:
+    """Parse V4_2X2_CONDITIONS.
+
+    Accepts comma-separated condition keys:
+      nomem_nofb,mem_nofb,nomem_fb,mem_fb
+
+    If unset, returns the full 2x2 design.
+    """
+    if not raw:
+        return ALL_CONDITIONS
+
+    by_key = {
+        cond_key(memory == "memory", feedback == "feedback"): (memory, feedback)
+        for memory, feedback in ALL_CONDITIONS
+    }
+    selected: list[tuple[str, str]] = []
+    for part in raw.split(","):
+        key = part.strip()
+        if not key:
+            continue
+        if key not in by_key:
+            allowed = ", ".join(sorted(by_key))
+            raise ValueError(f"Unknown condition {key!r}; allowed: {allowed}")
+        selected.append(by_key[key])
+    if not selected:
+        raise ValueError("V4_2X2_CONDITIONS was set but no conditions were selected")
+    return selected
+
+
+def analyze(all_results: list[dict], conditions: list[tuple[str, str]]) -> str:
     from scipy import stats
 
     N = len(all_results)
@@ -352,7 +381,8 @@ def analyze(all_results: list[dict]) -> str:
         ("Late/Thr (T36-49)", PHASE2C_END, TOTAL_TURNS),
     ]
 
-    conds = ["nomem_nofb", "mem_nofb", "nomem_fb", "mem_fb"]
+    conds = [cond_key(memory == "memory", feedback == "feedback")
+             for memory, feedback in conditions]
     labels = {"nomem_nofb": "NoMem/NoFB", "mem_nofb": "Mem/NoFB",
               "nomem_fb": "NoMem/FB", "mem_fb": "Mem/FB"}
 
@@ -382,8 +412,9 @@ def analyze(all_results: list[dict]) -> str:
         lines.append(f"{name:<22}" + "".join(vals))
 
     # 2×2 ANOVA-style: main effects and interaction (Late/Threshold)
+    required_2x2 = {"nomem_nofb", "mem_nofb", "nomem_fb", "mem_fb"}
     lines.append(f"\n--- 2×2 effects at Late/Threshold (T36-49) ---")
-    if N > 1:
+    if required_2x2 <= set(conds) and N > 1:
         nomem_nofb = mats["nomem_nofb"][:, PHASE2C_END:TOTAL_TURNS].mean(1)
         mem_nofb = mats["mem_nofb"][:, PHASE2C_END:TOTAL_TURNS].mean(1)
         nomem_fb = mats["nomem_fb"][:, PHASE2C_END:TOTAL_TURNS].mean(1)
@@ -405,14 +436,36 @@ def analyze(all_results: list[dict]) -> str:
         interaction = (mem_fb - nomem_fb) - (mem_nofb - nomem_nofb)
         t_int, p_int = stats.ttest_1samp(interaction, 0)
         lines.append(f"  Interaction (M×F):    Δ={interaction.mean():+.2f}  p={p_int:.3f}")
-    else:
+    elif required_2x2 <= set(conds):
         for c in conds:
             lines.append(f"  {labels[c]:<14s} {mats[c][:, PHASE2C_END:TOTAL_TURNS].mean():.2f}")
         lines.append("  (N=1, no significance tests)")
+    else:
+        lines.append("  Skipped: selected conditions do not include the full 2x2 design.")
+
+        if {"nomem_fb", "mem_fb"} <= set(conds):
+            nomem_fb = mats["nomem_fb"][:, PHASE2C_END:TOTAL_TURNS].mean(1)
+            mem_fb = mats["mem_fb"][:, PHASE2C_END:TOTAL_TURNS].mean(1)
+            d = mem_fb.mean() - nomem_fb.mean()
+            if N > 1:
+                t_stat, p = stats.ttest_rel(mem_fb, nomem_fb)
+                lines.append(f"  FB-only memory effect: Δ={d:+.2f}  p={p:.3f}")
+            else:
+                lines.append(f"  FB-only memory effect: Δ={d:+.2f}  (N=1)")
+
+        if {"nomem_nofb", "mem_nofb"} <= set(conds):
+            nomem_nofb = mats["nomem_nofb"][:, PHASE2C_END:TOTAL_TURNS].mean(1)
+            mem_nofb = mats["mem_nofb"][:, PHASE2C_END:TOTAL_TURNS].mean(1)
+            d = mem_nofb.mean() - nomem_nofb.mean()
+            if N > 1:
+                t_stat, p = stats.ttest_rel(mem_nofb, nomem_nofb)
+                lines.append(f"  NoFB-only memory effect: Δ={d:+.2f}  p={p:.3f}")
+            else:
+                lines.append(f"  NoFB-only memory effect: Δ={d:+.2f}  (N=1)")
 
     # Stance distribution in feedback conditions
     lines.append(f"\n--- Stance distribution (feedback conditions) ---")
-    for c in ["nomem_fb", "mem_fb"]:
+    for c in [c for c in ["nomem_fb", "mem_fb"] if c in conds]:
         stances = []
         for r in all_results:
             for t in r[c]:
@@ -455,11 +508,12 @@ def main():
 
     N_RUNS = int(os.environ.get("V4_2X2_RUNS", "1"))
     SEED = int(os.environ.get("V4_2X2_SEED", "42"))
+    conditions = parse_conditions(os.environ.get("V4_2X2_CONDITIONS"))
 
     print(f"V4 2×2 Memory × Feedback Experiment")
     print(f"  Turns: {TOTAL_TURNS}  |  Model: {ASSISTANT_MODEL}")
     print(f"  Runs: {N_RUNS}  |  Seed: {SEED}")
-    print(f"  Conditions: {[cond_key(*c) for c in CONDITIONS]}")
+    print(f"  Conditions: {[cond_key(memory == 'memory', feedback == 'feedback') for memory, feedback in conditions]}")
     print(f"  Output: {out_dir}")
     print()
 
@@ -480,7 +534,7 @@ def main():
         print(f"\n====== Run {run_idx} ======")
         result = {"run_idx": run_idx}
 
-        for has_memory, has_feedback in CONDITIONS:
+        for has_memory, has_feedback in conditions:
             has_mem = has_memory == "memory"
             has_fb = has_feedback == "feedback"
             key = cond_key(has_mem, has_fb)
@@ -497,7 +551,7 @@ def main():
         json.dumps(all_results, indent=2, ensure_ascii=False), encoding="utf-8"
     )
 
-    analysis_text = analyze(all_results)
+    analysis_text = analyze(all_results, conditions)
     (out_dir / "analysis.txt").write_text(analysis_text, encoding="utf-8")
 
 

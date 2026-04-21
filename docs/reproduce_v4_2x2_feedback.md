@@ -35,6 +35,26 @@ from `T8` onward, the previous assistant reply is classified as
 `ACCOMMODATE`, `HEDGE`, or `PUSHBACK`, and the next user message is sampled
 from pre-written templates for that stance and phase.
 
+By default, the script runs all four conditions. To run only a subset, set
+`V4_2X2_CONDITIONS` to a comma-separated list:
+
+```bash
+V4_2X2_RUNS=8 \
+V4_2X2_SEED=42 \
+V4_2X2_CONDITIONS=nomem_fb,mem_fb \
+V4_2X2_OUT_DIR=data/manual_transcripts/v4_2x2_feedback_fb_only \
+python scripts/experiments/run_v4_2x2_feedback.py
+```
+
+This is useful when the intended comparison fixes `feedback=on` and varies
+only whether history is visible to the assistant.
+
+Important nuance: `feedback=on` means both conditions use the same branching
+policy and the same template pool. It does **not** force `nomem_fb` and
+`mem_fb` to receive byte-identical user prompts, because each condition's next
+user message is selected from the branch implied by that condition's previous
+assistant stance.
+
 ## Important Settings
 
 - Assistant model: `gpt-4o-mini`
