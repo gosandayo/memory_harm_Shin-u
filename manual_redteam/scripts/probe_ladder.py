@@ -25,7 +25,6 @@ from pathlib import Path
 from typing import Iterable
 
 import yaml
-from openai import OpenAI
 
 
 def parse_args() -> argparse.Namespace:
@@ -44,6 +43,12 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help="Run directory. Defaults to manual_redteam/data/runs/<date>_<ladder_id>/.",
     )
+    p.add_argument(
+        "--provider",
+        choices=["openai", "anthropic"],
+        default="openai",
+        help="API provider to call.",
+    )
     p.add_argument("--model", type=str, default="gpt-4o-mini")
     p.add_argument("--temperature", type=float, default=1.0)
     p.add_argument("--n-samples", type=int, default=3)
@@ -57,8 +62,9 @@ def parse_args() -> argparse.Namespace:
     p.add_argument(
         "--api-key-env",
         type=str,
-        default="OPENAI_API_KEY",
-        help="Env var holding the OpenAI API key.",
+        default=None,
+        help="Env var holding the API key. Defaults to OPENAI_API_KEY "
+        "for openai or ANTHROPIC_API_KEY for anthropic.",
     )
     p.add_argument(
         "--retry",
@@ -133,6 +139,7 @@ def write_run_config(
         "ladder_path": str(ladder_path),
         "ladder_id": ladder_id,
         "n_stages": n_stages,
+        "provider": args.provider,
         "model": args.model,
         "temperature": args.temperature,
         "n_samples": args.n_samples,
@@ -147,8 +154,54 @@ def write_run_config(
         yaml.safe_dump(cfg, f, sort_keys=False)
 
 
+def make_caller(provider: str, api_key: str):
+    """Return a callable (model, user_prompt, temperature, max_tokens) -> str
+    for the given provider. SDK imports happen lazily."""
+    if provider == "openai":
+        from openai import OpenAI
+
+        client = OpenAI(api_key=api_key)
+
+        def _call(model, user_prompt, temperature, max_tokens):
+            resp = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": user_prompt}],
+                temperature=temperature,
+                max_tokens=max_tokens,
+            )
+            return resp.choices[0].message.content.strip()
+
+        return _call
+
+    if provider == "anthropic":
+        try:
+            from anthropic import Anthropic
+        except ImportError as e:
+            raise SystemExit(
+                "anthropic package not installed. "
+                "Run: pip install anthropic"
+            ) from e
+
+        client = Anthropic(api_key=api_key)
+
+        def _call(model, user_prompt, temperature, max_tokens):
+            resp = client.messages.create(
+                model=model,
+                max_tokens=max_tokens,
+                temperature=temperature,
+                messages=[{"role": "user", "content": user_prompt}],
+            )
+            # Concatenate any text blocks; ignore non-text blocks (none expected).
+            parts = [b.text for b in resp.content if getattr(b, "type", "") == "text"]
+            return "".join(parts).strip()
+
+        return _call
+
+    raise ValueError(f"Unknown provider: {provider!r}")
+
+
 def call_model(
-    client: OpenAI,
+    caller,
     model: str,
     user_prompt: str,
     temperature: float,
@@ -159,13 +212,7 @@ def call_model(
     last_err: Exception | None = None
     for attempt in range(retries):
         try:
-            resp = client.chat.completions.create(
-                model=model,
-                messages=[{"role": "user", "content": user_prompt}],
-                temperature=temperature,
-                max_tokens=max_tokens,
-            )
-            return resp.choices[0].message.content.strip()
+            return caller(model, user_prompt, temperature, max_tokens)
         except Exception as e:
             last_err = e
             if attempt < retries - 1:
@@ -186,6 +233,11 @@ def iter_jobs(stages: list[dict], n_samples: int) -> Iterable[tuple[dict, int]]:
 def main() -> None:
     args = parse_args()
 
+    if args.api_key_env is None:
+        args.api_key_env = (
+            "ANTHROPIC_API_KEY" if args.provider == "anthropic"
+            else "OPENAI_API_KEY"
+        )
     api_key = os.getenv(args.api_key_env)
     if not api_key:
         raise SystemExit(
@@ -219,13 +271,13 @@ def main() -> None:
         n_stages=len(stages),
     )
 
-    client = OpenAI(api_key=api_key)
+    caller = make_caller(args.provider, api_key)
 
     total_jobs = len(stages) * args.n_samples
     print(
         f"Running {total_jobs} probes "
         f"({len(stages)} stages × {args.n_samples} samples) "
-        f"on {args.model} @ T={args.temperature}"
+        f"on {args.provider}:{args.model} @ T={args.temperature}"
     )
 
     n_done = 0
@@ -242,7 +294,7 @@ def main() -> None:
             probe = normalize_probe(stage["probe"])
             print(f"[stage {stage_id:>2} / sample {sample_idx}] {stage_name}")
             response = call_model(
-                client=client,
+                caller=caller,
                 model=args.model,
                 user_prompt=probe,
                 temperature=args.temperature,
@@ -255,6 +307,7 @@ def main() -> None:
                 "stage_name": stage_name,
                 "condition": "current_turn_only",
                 "sample_idx": sample_idx,
+                "provider": args.provider,
                 "model": args.model,
                 "temperature": args.temperature,
                 "max_tokens": args.max_tokens,

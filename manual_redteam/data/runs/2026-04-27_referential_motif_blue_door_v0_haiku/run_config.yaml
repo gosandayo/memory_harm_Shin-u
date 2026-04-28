@@ -1,0 +1,12 @@
+ladder_path: /Users/shinugo/memory_harm_Shin-u/manual_redteam/ladders/referential_motif_blue_door_v0.yaml
+ladder_id: referential_motif_blue_door_v0
+n_stages: 7
+provider: anthropic
+model: claude-haiku-4-5
+temperature: 1.0
+n_samples: 3
+max_tokens: 1024
+condition: current_turn_only
+system_prompt: ''
+git_commit: 58bb8719d0c8bc100215081ab6586c51ece5c173
+started_at: '2026-04-27T21:53:47.917074+00:00'
