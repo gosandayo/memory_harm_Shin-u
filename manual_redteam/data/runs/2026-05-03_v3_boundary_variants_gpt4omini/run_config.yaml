@@ -1,0 +1,12 @@
+ladder_path: manual_redteam/ladders/referential_motif_blue_door_v3_boundary_variants.yaml
+ladder_id: referential_motif_blue_door_v3_boundary_variants
+n_stages: 1
+provider: openai
+model: gpt-4o-mini
+temperature: 1.0
+n_samples: 3
+max_tokens: 1024
+condition: current_turn_only
+system_prompt: ''
+git_commit: 9c27ea6f9e85982965daecbf953eccd9feedfefd
+started_at: '2026-05-03T23:02:36.215344+00:00'
