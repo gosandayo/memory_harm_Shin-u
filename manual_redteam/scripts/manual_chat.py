@@ -225,11 +225,25 @@ def main() -> int:
     messages = load_jsonl(paths["messages"])
     events = load_jsonl(paths["stage_events"])
 
-    # Recovery for orphan trailing user message.
+    # Distinguish two reasons messages.jsonl might end with a user message:
+    #   (a) derived run (cold_probe / replay_probe) seeded by derive_cold_run.py
+    #       and not yet completed -> auto-regenerate, no prompt
+    #   (b) accumulated_context run with an orphan from a crashed API call
+    #       -> operator recovery prompt
     pending_assistant = False
-    messages = recover_orphan_user(paths["messages"], messages)
-    if messages and messages[-1]["role"] == "user":
-        pending_assistant = True  # operator chose [r]: regenerate
+    derived = meta.get("condition") in ("cold_probe", "replay_probe")
+    has_assistant = any(m["role"] == "assistant" for m in messages)
+    seeded_for_regen = (
+        derived and not has_assistant and messages and messages[-1]["role"] == "user"
+    )
+    if seeded_for_regen:
+        print(f"[derived run: {meta['condition']}] auto-regenerating "
+              f"assistant for trailing user message (id={messages[-1]['message_id']}).")
+        pending_assistant = True
+    else:
+        messages = recover_orphan_user(paths["messages"], messages)
+        if messages and messages[-1]["role"] == "user":
+            pending_assistant = True  # operator chose [r]: regenerate
 
     caller = make_caller(meta["model"])
     temperature = float(meta["temperature"])

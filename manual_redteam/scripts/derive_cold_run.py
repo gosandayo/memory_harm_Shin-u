@@ -2,9 +2,11 @@
 
 cold_probe   the target user message at --source-message-id is extracted
              into a fresh run with no prior context.
-replay_probe all messages with id < --source-message-id are copied (with
-             renumbered ids starting at 1) into a fresh run; the next user
-             message will be typed live in manual_chat.py.
+replay_probe all messages with id <= --source-message-id are copied (with
+             renumbered ids starting at 1) into a fresh run, *including*
+             the target user message. manual_chat.py auto-regenerates the
+             assistant response for the trailing user message; the prompt
+             is held identical to the source.
 
 Updates the source run's session_meta.yaml `paired_with` list.
 
@@ -134,8 +136,8 @@ def main() -> int:
     new_paths["messages"].touch()
     if args.mode == "cold":
         kept = [target]
-    else:  # replay
-        kept = [m for m in src_messages if int(m["message_id"]) < args.source_message_id]
+    else:  # replay: include source_message_id so the prompt is held identical
+        kept = [m for m in src_messages if int(m["message_id"]) <= args.source_message_id]
 
     # Renumber message_ids starting at 1; preserve role/content/stage_id/attempt.
     new_paths["stage_events"].touch()
@@ -186,10 +188,8 @@ def main() -> int:
     print(f"  source_message_id: {args.source_message_id}")
     print(f"  source_stage_id:   {target_stage}")
     print(f"  messages seeded:   {len(kept)}")
-    if args.mode == "cold":
-        print(f"  cold messages.jsonl is complete; rendering / paired analysis only.")
-    else:
-        print(f"  next: python scripts/manual_chat.py --run-dir {new_dir}")
+    print(f"  next: python scripts/manual_chat.py --run-dir {new_dir}")
+    print(f"        (auto-regenerates the trailing user message; no prompt)")
     return 0
 
 

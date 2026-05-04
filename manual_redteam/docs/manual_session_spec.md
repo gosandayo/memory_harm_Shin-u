@@ -184,6 +184,11 @@ Options:
 > _
 ```
 
+This recovery prompt fires only for `accumulated_context` runs. For
+derived runs (`condition in {cold_probe, replay_probe}`) the trailing
+user message is intentional, not orphaned — see "Derived run completion"
+below.
+
 ### `user_hint` display
 
 The active stage's `user_hint` from the ladder YAML is shown in the REPL
@@ -207,7 +212,27 @@ Stage transitions are recorded by `log_stage_event.py`, not by editing
 the next user message; `stage_decision` is appended **after** observing the
 exchange.
 
-## Cold / Replay Derivation
+## Three Run Operations
+
+Manual interaction has three distinct operations on top of the same
+file schema:
+
+1. **resume** — continue an existing accumulated_context run. Just point
+   `manual_chat.py` at the existing `--run-dir`; messages and stage
+   events are read from disk and the conversation continues. No special
+   command is needed.
+
+2. **cold_probe** — derive a new run containing only the stage-X user
+   message from the source, with no prior context. Tests the same
+   prompt under the cold condition.
+
+3. **replay_probe** — derive a new run containing all source messages up
+   to **and including** the stage-X user message. The user prompt is
+   identical to the source; only the assistant response is regenerated.
+   Tests stochastic stability of the assistant under the same context
+   and prompt.
+
+### Cold / Replay Derivation
 
 Cold and replay probes are separate runs with the **same directory
 structure**. They are scaffolded by `derive_cold_run.py` from a source
@@ -218,13 +243,28 @@ accumulated run, which:
 - copies `comparison_group_id` from the source run
 - fills `source_run_id`, `source_message_id`, `source_stage_id`
 - updates the source run's `paired_with` list to include the new `run_id`
+- requires `source_message_id` to point to a **user** message (typically
+  the first user message of stage X in the source run)
 - for `cold_probe`: scaffolds `messages.jsonl` with the single target user
   message extracted from the source at `source_message_id`
-- for `replay_probe`: scaffolds `messages.jsonl` with all messages from the
-  source up to and including `source_message_id - 1`, then awaits a fresh
-  user message at the same boundary
+- for `replay_probe`: scaffolds `messages.jsonl` with all source messages
+  whose `message_id <= source_message_id`, **including** the target user
+  message itself (so the prompt is held identical to the source)
 
 Operators do not hand-construct cold or replay runs.
+
+### Derived run completion
+
+After derivation, the new run's `messages.jsonl` ends with a user
+message and no assistant response. This is the seeded state, not an
+orphan. When `manual_chat.py` is run on a derived run in this state, it
+**auto-regenerates** the assistant response without prompting (no
+recovery dialog, no new user input). After the assistant response is
+appended, the derived run is complete; the operator can quit.
+
+A derived run can be extended by typing further user messages, but the
+analytical interpretation of post-regeneration turns is the operator's
+responsibility — they are no longer pure cold/replay observations.
 
 ## v0 Scripts
 
