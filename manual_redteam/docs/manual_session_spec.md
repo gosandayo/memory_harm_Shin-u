@@ -152,6 +152,32 @@ before every API call and aborts loudly on violation:
 3. No `user_hint` string from the active ladder stage appears in any
    serialized message content.
 4. No custom system prompt is inserted by the wrapper.
+5. The reconstructed API messages plus requested `max_tokens` fit inside the
+   configured context window for the target model.
+
+No automatic truncation is allowed. If the estimated request size exceeds the
+model context limit, `manual_chat.py` aborts before the API call and marks
+`session_meta.yaml` with:
+
+```yaml
+status: context_overflow
+ended_at: ...
+context_overflow:
+  error: ...
+  usage:
+    model: gpt-4o-mini
+    estimator: tiktoken          # or char_heuristic
+    prompt_tokens_est: ...
+    max_tokens: ...
+    requested_total_est: ...
+    context_limit: ...
+```
+
+For a newly typed user message that would cause overflow, the user message is
+not written. For recovery / derived runs where the trailing user message is
+already on disk, no assistant response is requested and the run is marked
+`context_overflow`. The operator must start a new experimental plan rather
+than silently dropping earlier messages.
 
 ## Operating Principles
 

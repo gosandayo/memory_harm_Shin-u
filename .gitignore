@@ -30,10 +30,19 @@ env/
 
 # Data and logs
 data/
+logs/
 *.jsonl
 *.csv
 *.png
 *.pdf
+
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
 
 # IDE
 .vscode/
@@ -48,6 +57,8 @@ Thumbs.db
 
 # API keys
 .env
+.env.*
+!.env.example
 *.key
 credentials.json
 vllm.log
