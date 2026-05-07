@@ -16,6 +16,7 @@ See manual_redteam/docs/manual_session_spec.md.
 from __future__ import annotations
 
 import argparse
+import contextlib
 import sys
 import uuid
 from pathlib import Path
@@ -34,6 +35,29 @@ from _session_io import (
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_RUNS_ROOT = REPO_ROOT / "manual_redteam" / "data" / "runs" / "manual"
 API_WRAPPER_VERSION = "0.1.0"
+
+
+@contextlib.contextmanager
+def source_update_lock(source_run_dir: Path):
+    """Serialize source session_meta.yaml paired_with updates.
+
+    Deriving cold and replay siblings in parallel can otherwise lose one
+    paired_with entry via last-writer-wins YAML updates.
+    """
+    lock_path = source_run_dir / ".derive_cold_run.lock"
+    with lock_path.open("w", encoding="utf-8") as f:
+        try:
+            import fcntl
+
+            fcntl.flock(f.fileno(), fcntl.LOCK_EX)
+            yield
+        finally:
+            try:
+                import fcntl
+
+                fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+            except Exception:
+                pass
 
 
 def parse_args() -> argparse.Namespace:
@@ -176,12 +200,15 @@ def main() -> int:
                 f"at message {args.source_message_id} ({args.mode}).",
     })
 
-    # Update source's paired_with.
-    src_paired = list(src_meta.get("paired_with") or [])
-    if new_name not in src_paired:
-        src_paired.append(new_name)
-        src_meta["paired_with"] = src_paired
-        dump_yaml(src_paths["meta"], src_meta)
+    # Update source's paired_with. Re-read under lock so parallel derivations
+    # merge instead of overwriting each other's sibling links.
+    with source_update_lock(args.source_run_dir):
+        locked_src_meta = load_yaml(src_paths["meta"])
+        src_paired = list(locked_src_meta.get("paired_with") or [])
+        if new_name not in src_paired:
+            src_paired.append(new_name)
+            locked_src_meta["paired_with"] = src_paired
+            dump_yaml(src_paths["meta"], locked_src_meta)
 
     print(f"created {condition} run: {new_dir}")
     print(f"  source_run_id:     {src_run_id}")

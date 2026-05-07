@@ -26,7 +26,11 @@ import time
 from pathlib import Path
 
 from _session_io import (
+    ContextOverflowError,
     append_jsonl,
+    assert_context_window,
+    context_usage,
+    dump_yaml,
     find_stage,
     format_user_hint,
     hint_leak_in_message,
@@ -40,6 +44,16 @@ from _session_io import (
 
 
 SEP = "─" * 65
+REPO_ROOT = Path(__file__).resolve().parents[2]
+
+
+def load_dotenv_if_available() -> None:
+    """Load repo-root .env for local API keys when python-dotenv is installed."""
+    try:
+        from dotenv import load_dotenv
+    except ImportError:
+        return
+    load_dotenv(REPO_ROOT / ".env")
 
 
 # ---------- Assertions ----------
@@ -66,6 +80,29 @@ def assert_api_messages(api_messages: list[dict], hint_snapshot: str) -> None:
                     f"stage's user_hint snapshot. Hints must not appear in "
                     f"API messages."
                 )
+
+
+def mark_context_overflow(
+    paths: dict[str, Path],
+    meta: dict,
+    usage: dict | None,
+    error: Exception,
+) -> None:
+    """Persist a loud overflow marker in session_meta.yaml."""
+    meta["status"] = "context_overflow"
+    meta["ended_at"] = now_iso()
+    meta["context_overflow"] = {
+        "error": str(error),
+        "usage": usage or {},
+    }
+    dump_yaml(paths["meta"], meta)
+
+
+def usage_for_meta(api_payload: list[dict], model: str, max_tokens: int) -> dict:
+    try:
+        return context_usage(api_payload, model, max_tokens)
+    except Exception as e:
+        return {"usage_error": str(e)}
 
 
 # ---------- Recovery ----------
@@ -184,6 +221,15 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--max-tokens", type=int, default=1024)
     p.add_argument("--retries", type=int, default=3)
     p.add_argument("--retry-delay", type=float, default=2.0)
+    p.add_argument(
+        "--api-key-env",
+        type=str,
+        default=None,
+        help=(
+            "Env var holding the API key. Defaults to OPENAI_API_KEY for "
+            "OpenAI models or ANTHROPIC_API_KEY for Claude models."
+        ),
+    )
     return p.parse_args()
 
 
@@ -212,6 +258,7 @@ def read_user_input() -> str:
 
 def main() -> int:
     args = parse_args()
+    load_dotenv_if_available()
     paths = run_paths(args.run_dir)
     if not paths["meta"].exists():
         sys.exit(f"session_meta.yaml not found in {args.run_dir}")
@@ -232,10 +279,7 @@ def main() -> int:
     #       -> operator recovery prompt
     pending_assistant = False
     derived = meta.get("condition") in ("cold_probe", "replay_probe")
-    has_assistant = any(m["role"] == "assistant" for m in messages)
-    seeded_for_regen = (
-        derived and not has_assistant and messages and messages[-1]["role"] == "user"
-    )
+    seeded_for_regen = derived and messages and messages[-1]["role"] == "user"
     if seeded_for_regen:
         print(f"[derived run: {meta['condition']}] auto-regenerating "
               f"assistant for trailing user message (id={messages[-1]['message_id']}).")
@@ -244,6 +288,15 @@ def main() -> int:
         messages = recover_orphan_user(paths["messages"], messages)
         if messages and messages[-1]["role"] == "user":
             pending_assistant = True  # operator chose [r]: regenerate
+
+    if args.api_key_env:
+        key = os.environ.get(args.api_key_env)
+        if not key:
+            sys.exit(f"Set {args.api_key_env} in your environment or .env.")
+        if "gpt" in meta["model"].lower() or meta["model"].lower().startswith("o"):
+            os.environ["OPENAI_API_KEY"] = key
+        elif "claude" in meta["model"].lower():
+            os.environ["ANTHROPIC_API_KEY"] = key
 
     caller = make_caller(meta["model"])
     temperature = float(meta["temperature"])
@@ -308,10 +361,17 @@ def main() -> int:
             ] + [{"role": "user", "content": user_text}]
             try:
                 assert_api_messages(api_payload, active.get("user_hint_snapshot", ""))
+                assert_context_window(api_payload, meta["model"], args.max_tokens)
             except AssertionError as e:
                 print(f"[assertion failed] {e}")
                 print("user message NOT written. fix and retry.")
                 continue
+            except (ContextOverflowError, KeyError) as e:
+                usage = usage_for_meta(api_payload, meta["model"], args.max_tokens)
+                mark_context_overflow(paths, meta, usage, e)
+                print(f"[context overflow] {e}")
+                print("user message NOT written. run marked context_overflow.")
+                return 2
 
             append_jsonl(paths["messages"], user_row)
             messages.append(user_row)
@@ -322,8 +382,20 @@ def main() -> int:
         ]
         # Re-assert post-write (should still hold).
         assert_api_messages(api_payload, active.get("user_hint_snapshot", ""))
+        try:
+            usage = assert_context_window(api_payload, meta["model"], args.max_tokens)
+        except (ContextOverflowError, KeyError) as e:
+            usage = usage_for_meta(api_payload, meta["model"], args.max_tokens)
+            mark_context_overflow(paths, meta, usage, e)
+            print(f"[context overflow] {e}")
+            print("assistant response NOT requested. run marked context_overflow.")
+            return 2
 
-        print("\n[calling api...]")
+        print(
+            "\n[calling api...] "
+            f"est_tokens={usage['prompt_tokens_est']}+{usage['max_tokens']}"
+            f"/{usage['context_limit']} ({usage['estimator']})"
+        )
         assistant_text = call_with_retry(
             caller, api_payload, temperature, args.max_tokens,
             args.retries, args.retry_delay,

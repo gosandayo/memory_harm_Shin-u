@@ -27,6 +27,9 @@ from typing import Iterable
 import yaml
 
 
+REPO_ROOT = Path(__file__).resolve().parents[2]
+
+
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument(
@@ -78,6 +81,15 @@ def parse_args() -> argparse.Namespace:
         default=2.0,
     )
     return p.parse_args()
+
+
+def load_dotenv_if_available() -> None:
+    """Load repo-root .env for local API keys when python-dotenv is installed."""
+    try:
+        from dotenv import load_dotenv
+    except ImportError:
+        return
+    load_dotenv(REPO_ROOT / ".env")
 
 
 def load_ladder(path: Path) -> dict:
@@ -232,6 +244,7 @@ def iter_jobs(stages: list[dict], n_samples: int) -> Iterable[tuple[dict, int]]:
 
 def main() -> None:
     args = parse_args()
+    load_dotenv_if_available()
 
     if args.api_key_env is None:
         args.api_key_env = (
@@ -315,6 +328,14 @@ def main() -> None:
                 "response": response,
                 "timestamp": dt.datetime.now(dt.timezone.utc).isoformat(),
             }
+            for key in (
+                "probe_id",
+                "endpoint_role",
+                "breach_type",
+                "risk_dimension",
+            ):
+                if key in stage:
+                    row[key] = stage[key]
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
             f.flush()
             n_done += 1

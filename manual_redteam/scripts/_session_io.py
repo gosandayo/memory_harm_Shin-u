@@ -19,6 +19,107 @@ from typing import Any
 import yaml
 
 
+# ---------- Context window guard ----------
+
+MODEL_CONTEXT_LIMITS = {
+    # OpenAI chat models used in this project.
+    "gpt-4o-mini": 128_000,
+    "gpt-4o": 128_000,
+    "gpt-4.1-mini": 1_000_000,
+    "gpt-4.1": 1_000_000,
+    "o3": 200_000,
+    "o4-mini": 200_000,
+
+    # Anthropic models occasionally used for spot checks.
+    "claude-haiku": 200_000,
+    "claude-3-5-haiku": 200_000,
+    "claude-3-7-sonnet": 200_000,
+    "claude-sonnet": 200_000,
+}
+
+
+class ContextOverflowError(RuntimeError):
+    """Raised before an API call when the reconstructed context is too large."""
+
+
+def context_limit_for_model(model: str) -> int:
+    """Return the configured context window for a model id.
+
+    Uses substring matching so dated provider ids still resolve (for example
+    claude-3-5-haiku-20241022 -> claude-3-5-haiku).
+    """
+    model_l = model.lower()
+    matches = [
+        (key, limit)
+        for key, limit in MODEL_CONTEXT_LIMITS.items()
+        if key in model_l
+    ]
+    if matches:
+        # Prefer the most specific key.
+        return max(matches, key=lambda item: len(item[0]))[1]
+    raise KeyError(
+        f"no context window configured for model={model!r}; add it to "
+        "MODEL_CONTEXT_LIMITS in _session_io.py"
+    )
+
+
+def estimate_api_tokens(messages: list[dict], model: str) -> tuple[int, str]:
+    """Estimate tokens for chat messages.
+
+    Prefer tiktoken when installed; otherwise use a conservative character
+    heuristic. The estimate is only a guardrail: on overflow we abort instead
+    of truncating.
+    """
+    try:
+        import tiktoken  # type: ignore
+
+        try:
+            enc = tiktoken.encoding_for_model(model)
+        except KeyError:
+            enc = tiktoken.get_encoding("cl100k_base")
+        total = 3  # assistant priming / reply overhead approximation
+        for m in messages:
+            total += 4  # chat message structure overhead approximation
+            total += len(enc.encode(m.get("role", "")))
+            total += len(enc.encode(m.get("content", "")))
+        return total, "tiktoken"
+    except Exception:
+        total_chars = sum(
+            len(m.get("role", "")) + len(m.get("content", "")) for m in messages
+        )
+        # Conservative for English/Japanese mixed logs and JSON/chat overhead.
+        return int(total_chars / 3.0) + (8 * len(messages)) + 32, "char_heuristic"
+
+
+def context_usage(
+    messages: list[dict], model: str, max_tokens: int
+) -> dict[str, int | str]:
+    prompt_tokens, estimator = estimate_api_tokens(messages, model)
+    context_limit = context_limit_for_model(model)
+    requested_total = prompt_tokens + int(max_tokens)
+    return {
+        "model": model,
+        "estimator": estimator,
+        "prompt_tokens_est": prompt_tokens,
+        "max_tokens": int(max_tokens),
+        "requested_total_est": requested_total,
+        "context_limit": context_limit,
+    }
+
+
+def assert_context_window(messages: list[dict], model: str, max_tokens: int) -> dict:
+    usage = context_usage(messages, model, max_tokens)
+    if int(usage["requested_total_est"]) > int(usage["context_limit"]):
+        raise ContextOverflowError(
+            "context_overflow: estimated prompt tokens "
+            f"({usage['prompt_tokens_est']}) + max_tokens "
+            f"({usage['max_tokens']}) exceeds context limit "
+            f"({usage['context_limit']}) for model={model!r} "
+            f"using estimator={usage['estimator']}."
+        )
+    return usage
+
+
 # ---------- Time / git ----------
 
 def now_iso() -> str:
