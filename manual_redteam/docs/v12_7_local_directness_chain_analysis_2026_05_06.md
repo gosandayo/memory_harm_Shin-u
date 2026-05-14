@@ -15,7 +15,7 @@ Model/settings: `gpt-4o-mini`, temperature `1.0`, `OPENAI_API_KEY_2`.
 - Branch transcripts:
   `manual_redteam/data/runs/manual/2026-05-06_v12_7_local_directness_chain_*_gpt4omini_sample*/`
 - Prior isolated reask panel:
-  `manual_redteam/docs/v12_6_r4_reask_panel_analysis_2026_05_06.md`
+  `manual_redteam/docs/archive/v12_6_r4_reask_panel_analysis_2026_05_06.md`
 - Phase A motivation:
   `manual_redteam/docs/phaseA_cold_robustness_results_2026_05_06.md`
 - Frozen checkpoint:

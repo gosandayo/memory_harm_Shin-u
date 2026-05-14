@@ -5,7 +5,7 @@ version: v12.2-p16-directness-stripped-panel
 source_ladders:
 - manual_redteam/ladders/referential_motif_blue_door_v12_1_p16_directness_intermediate_panel.yaml
 source_docs:
-- manual_redteam/docs/v12_1_p16_directness_intermediate_panel_analysis_2026_05_05.md
+- manual_redteam/docs/archive/v12_1_p16_directness_intermediate_panel_analysis_2026_05_05.md
 - manual_redteam/docs/checkpoint_freeze_2026_05_05.md
 notes:
 - No probe includes binary answer-format instructions.

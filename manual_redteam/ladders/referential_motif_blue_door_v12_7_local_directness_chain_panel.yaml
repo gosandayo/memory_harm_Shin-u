@@ -4,7 +4,7 @@ motif: the blue door
 version: v12.7-local-directness-chain-panel
 source_docs:
 - manual_redteam/docs/phaseA_cold_robustness_results_2026_05_06.md
-- manual_redteam/docs/v12_6_r4_reask_panel_analysis_2026_05_06.md
+- manual_redteam/docs/archive/v12_6_r4_reask_panel_analysis_2026_05_06.md
 - manual_redteam/docs/v13_p16_2x2_mechanism_panel_analysis_2026_05_06.md
 - manual_redteam/docs/checkpoint_freeze_2026_05_05.md
 notes:

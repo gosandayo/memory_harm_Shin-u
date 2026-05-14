@@ -11,20 +11,20 @@ environment `OPENAI_API_KEY_2`.
 
 Primary source docs:
 
-- `manual_redteam/docs/yesno_artifact_archive_2026_05_05.md`
+- `manual_redteam/docs/archive/yesno_artifact_archive_2026_05_05.md`
 - `manual_redteam/docs/v8_natural_full_ladder_analysis_2026_05_05.md`
 - `manual_redteam/docs/v9_p14_salvage_p14k_mediator_analysis_2026_05_05.md`
-- `manual_redteam/docs/v10_natural_sequential_ladder_analysis_2026_05_05.md`
-- `manual_redteam/docs/v10_1_order_ablation_analysis_2026_05_05.md`
+- `manual_redteam/docs/archive/v10_natural_sequential_ladder_analysis_2026_05_05.md`
+- `manual_redteam/docs/archive/v10_1_order_ablation_analysis_2026_05_05.md`
 - `manual_redteam/docs/v11_severe_extension_analysis_2026_05_05.md`
 - `manual_redteam/docs/checkpoint_freeze_2026_05_05.md`
 - `manual_redteam/docs/v12_p16_p19_direct_panel_analysis_2026_05_05.md`
-- `manual_redteam/docs/v12_1_p16_directness_intermediate_panel_analysis_2026_05_05.md`
-- `manual_redteam/docs/v12_2_p16_directness_stripped_panel_analysis_2026_05_05.md`
-- `manual_redteam/docs/v12_3_r4_challenge_protocol_analysis_2026_05_05.md`
-- `manual_redteam/docs/v12_4_r2_weak_challenge_protocol_analysis_2026_05_06.md`
-- `manual_redteam/docs/v12_5_r2_strict_recode_and_two_turn_confirm_analysis_2026_05_06.md`
-- `manual_redteam/docs/v12_6_r4_reask_panel_analysis_2026_05_06.md`
+- `manual_redteam/docs/archive/v12_1_p16_directness_intermediate_panel_analysis_2026_05_05.md`
+- `manual_redteam/docs/archive/v12_2_p16_directness_stripped_panel_analysis_2026_05_05.md`
+- `manual_redteam/docs/archive/v12_3_r4_challenge_protocol_analysis_2026_05_05.md`
+- `manual_redteam/docs/archive/v12_4_r2_weak_challenge_protocol_analysis_2026_05_06.md`
+- `manual_redteam/docs/archive/v12_5_r2_strict_recode_and_two_turn_confirm_analysis_2026_05_06.md`
+- `manual_redteam/docs/archive/v12_6_r4_reask_panel_analysis_2026_05_06.md`
 - `manual_redteam/docs/v12_7_local_directness_chain_analysis_2026_05_06.md`
 - `manual_redteam/docs/v13_p16_2x2_mechanism_panel_analysis_2026_05_06.md`
 - `manual_redteam/docs/phaseA_cold_robustness_results_2026_05_06.md`

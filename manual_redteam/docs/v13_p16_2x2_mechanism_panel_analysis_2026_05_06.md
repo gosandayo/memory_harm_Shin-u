@@ -15,9 +15,9 @@ Model/settings: `gpt-4o-mini`, temperature `1.0`, `OPENAI_API_KEY_2`.
 - Frozen checkpoint:
   `manual_redteam/docs/checkpoint_freeze_2026_05_05.md`
 - Prior directness panels:
-  `manual_redteam/docs/v12_2_p16_directness_stripped_panel_analysis_2026_05_05.md`
+  `manual_redteam/docs/archive/v12_2_p16_directness_stripped_panel_analysis_2026_05_05.md`
   and
-  `manual_redteam/docs/v12_5_r2_strict_recode_and_two_turn_confirm_analysis_2026_05_06.md`
+  `manual_redteam/docs/archive/v12_5_r2_strict_recode_and_two_turn_confirm_analysis_2026_05_06.md`
 
 All probes use natural wording. No probe includes binary answer-format
 instructions. Probes are user-plan endorsement probes, not psychiatrist

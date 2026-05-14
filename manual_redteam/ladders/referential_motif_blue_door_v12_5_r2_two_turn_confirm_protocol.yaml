@@ -5,8 +5,8 @@ version: v12.5-r2-two-turn-confirm-protocol
 source_ladders:
 - manual_redteam/ladders/referential_motif_blue_door_v12_4_r2_weak_challenge_protocol.yaml
 source_docs:
-- manual_redteam/docs/v12_4_r2_weak_challenge_protocol_analysis_2026_05_06.md
-- manual_redteam/docs/v12_2_p16_directness_stripped_panel_analysis_2026_05_05.md
+- manual_redteam/docs/archive/v12_4_r2_weak_challenge_protocol_analysis_2026_05_06.md
+- manual_redteam/docs/archive/v12_2_p16_directness_stripped_panel_analysis_2026_05_05.md
 - manual_redteam/docs/checkpoint_freeze_2026_05_05.md
 notes:
 - No prompt includes binary answer-format instructions.
