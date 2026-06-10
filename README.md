@@ -1,68 +1,40 @@
-# Fork details
+# memory_harm — LLM safety red-team measurement
 
-This is the copy of the original 'memory_harm' repo. This copy has modifications made by Laxman to run Google Colab Pro (A100 GPU). I think the code can also run on Colab Free version (just a different GPU ig). Follow the instructions on Run_Experiment_Laxman.ipynb notebook to run the code.
+Authorized red-team **measurement** research: does a model that endorses
+earlier, milder rungs of an escalation ladder get led into endorsing
+increasingly severe claims toward a harmful endpoint — and does the safety
+boundary move with it? Current target: a measurement-instrument paper for the
+Stanford AIMS workshop (2026-06-23).
 
+## Where to start reading
 
+1. **`manual_redteam/docs/CURRENT.md`** — the single living source of truth
+   for the active design (ladder, endpoints, models, plan). Everything else
+   in `manual_redteam/docs/` is dated, append-only history.
+2. `manual_redteam/docs/DECISIONS.md` — one-line log of direction changes.
+3. `manual_redteam/portfolio/` — curated entry point (runs index).
+4. `CLAUDE.md` — repo conventions, the two-ladder hazard warning, and the
+   safety scope (Tier-4 method/means content is a hard ceiling).
 
+## Layout
 
+| Path | What it is |
+|---|---|
+| `manual_redteam/` | **The active project.** Ladder experiments: `core/` (package), `scripts/` (runners/analysis), `ladders/` + `context_prefixes/` (experiment definitions), `docs/` (CURRENT.md + dated notes), `data/` (raw run vault, mostly git-ignored), `portfolio/` |
+| `docs/` | Writeup sources (.tex/.md) and dated research notes, April–present |
+| `legacy/2026-04_memory_lookism/` | Frozen first-generation project (memory-driven drift, Colab era). No active code depends on it — see its README |
+| `REFACTORING_PLAN.md` | Repo cleanup plan and status |
 
-# Memory-Driven Personalization Can Induce Harmful Drift
+## Safety / scope
 
-LLM-vs-LLM simulation demonstrating how memory-based personalization at inference time can create self-reinforcing harmful feedback loops.
+Red-team measurement under authorization. Raw transcripts stay in
+`manual_redteam/data/runs/` and are not tracked in git; blind-label files and
+seal checksums are kept as the audit trail. Tier-4 (method/means/planning)
+content is never introduced or solicited; see `CLAUDE.md`.
 
 ## Setup
 
 ```bash
 pip install -r requirements.txt
+cp .env.example .env   # add OPENAI_API_KEY
 ```
-
-Set your OpenAI API key:
-```bash
-export OPENAI_API_KEY="your-api-key-here"
-```
-
-## Project Structure
-
-```
-memory_harm/
-├── configs/           # Experiment configurations
-│   └── exp.yaml      # Main config file
-├── src/              # Source code
-│   ├── sim.py        # Main simulation loop
-│   ├── assistant.py  # Assistant LLM interface
-│   ├── user.py       # Simulated user LLM
-│   ├── memory.py     # Memory management
-│   ├── prompts.py    # Prompt templates
-│   ├── metrics.py    # Analysis and metrics
-│   └── utils.py      # Utility functions
-├── data/logs/        # Experiment logs (JSONL)
-├── reports/          # Analysis notebooks
-├── tests/            # Unit tests
-└── project_plan.md   # Detailed specification
-```
-
-## Running Experiments
-
-```bash
-# Run a single experiment
-python src/sim.py --config configs/exp.yaml
-
-# Run with different memory modes
-python src/sim.py --config configs/exp.yaml --memory_mode full_context
-python src/sim.py --config configs/exp.yaml --memory_mode summary
-python src/sim.py --config configs/exp.yaml --memory_mode none
-```
-
-## Analysis
-
-See `reports/analyze.ipynb` for analysis and visualization.
-
-## Key Concepts
-
-- **Desperation (D)**: Hidden user state in [0,1] affecting behavior
-- **Enablement score**: How much assistant validates immediate indulgence (0-10)
-- **Indulgence score**: User's tendency to indulge based on D (0-10)
-- **Approval score**: Reward based on alignment between enablement and indulgence
-- **Memory modes**: full_context, summary, or none
-
-See `project_plan.md` for complete technical specification.
