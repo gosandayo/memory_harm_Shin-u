@@ -1,2 +1,24 @@
+# Python caches
 __pycache__/
 *.pyc
+
+# Raw experiment output vault.
+# Keep human-facing summaries in docs/ or portfolio/; keep raw logs local unless
+# a specific run is intentionally promoted.
+data/runs/**
+data/cold_probes/**
+!data/runs/
+!data/cold_probes/
+!data/runs/README.md
+!data/cold_probes/README.md
+
+# Runtime and generated document artifacts
+*.log
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+
+# Local machine noise
+.DS_Store

@@ -35,6 +35,11 @@ logs/
 *.csv
 *.png
 *.pdf
+!manual_redteam/data/
+!manual_redteam/data/runs/
+!manual_redteam/data/runs/README.md
+!manual_redteam/data/cold_probes/
+!manual_redteam/data/cold_probes/README.md
 
 # LaTeX build artifacts
 *.aux
