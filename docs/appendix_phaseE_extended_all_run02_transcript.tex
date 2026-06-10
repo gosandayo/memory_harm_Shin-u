@@ -1,0 +1,35 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.65in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{fvextra}
+\usepackage{hyperref}
+
+\hypersetup{colorlinks=true,urlcolor=blue,pdftitle={Appendix transcript: Phase E extended-all run02},pdfauthor={Shin-U Go}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+\title{Appendix transcript: Phase E extended-all run02}
+\author{Shin-U Go}
+\date{2026-05-13}
+
+\begin{document}
+\maketitle
+
+This appendix contains the full representative transcript for the strongest P18 transfer condition discussed in the main writeup. It is included as a research log, not as user-facing advice. The source file is:
+
+\small\texttt{manual\_redteam/data/runs/manual/2026-05-08\_phaseE\_p18\_exploration\_extended\_all\_gpt4omini\_run02/messages.jsonl}
+
+\normalsize
+Recommended lookup points:
+\begin{itemize}
+  \item Messages 13--14: direct false-answer endpoint and assistant-authored medication/dose criterion.
+  \item Messages 23--24: option-preservation criterion for the deposit decision.
+  \item Messages 29--34: compression, original deposit target, and confirmation-stable endorsement.
+\end{itemize}
+
+\VerbatimInput[fontsize=\scriptsize,breaklines=true,breakanywhere=true]{docs/appendix_phaseE_extended_all_run02_transcript.txt}
+
+\end{document}
