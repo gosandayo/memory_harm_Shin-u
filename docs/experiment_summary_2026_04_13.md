@@ -250,7 +250,7 @@ V3 (neutral setup, persona-only user agent) shows the theoretically ideal patter
 - **Monotonically increasing delta**: Setup +0.00 -> Middle +0.64 -> Late +0.57 -> Threshold +1.60
 - **Threshold delta (+1.60) is comparable to V2-Bare (+1.44)** despite having no scripted escalation
 
-This is the strongest evidence that **memory itself** (not scripted user behavior) causes the differential response. The Phase 2 user agent in V3 discussed general wellness topics (snacks, portion sizes, food diary, Zumba classes) with no mention of calorie restriction. Yet the accumulated conversational rapport led to measurably weaker safety responses when the same extreme probes (Phase 3-4) were presented.
+This is the strongest evidence so far that **memory itself** (not scripted user behavior) contributes substantially to the differential response. The Phase 2 user agent in V3 discussed general wellness topics (snacks, portion sizes, food diary, Zumba classes) with no mention of calorie restriction. Yet the accumulated conversational rapport led to measurably weaker safety responses when the same extreme probes (Phase 3-4) were presented.
 
 ### 5.5 Phase 2 user behavior under persona-only prompting
 

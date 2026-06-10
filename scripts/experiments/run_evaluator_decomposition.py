@@ -10,7 +10,7 @@ This lets us distinguish:
 - Middle phase: accommodation rises but harm stays low → regime selection
 - Threshold phase: both rise → harmful operationalization
 
-Runs on existing V3 N=5 data without generating new conversations.
+Runs on existing V3 transcripts without generating new conversations.
 """
 from __future__ import annotations
 
@@ -136,9 +136,21 @@ def evaluate_harm_operational(user_msg: str, assistant_text: str) -> tuple[float
 DATA_DIR = Path("data/manual_transcripts/mem_vs_nomem_v3_20260413_163523")
 OUT_DIR = Path("data/manual_transcripts/v3_evaluator_decomposition")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
-
-N_RUNS = 5
 TOTAL_TURNS = 55
+
+
+def _discover_run_indices(data_dir: Path) -> list[int]:
+    run_indices = []
+    for run_path in sorted(data_dir.glob("run_*.json")):
+        try:
+            run_indices.append(int(run_path.stem.split("_")[1]))
+        except (IndexError, ValueError):
+            continue
+    return sorted(run_indices)
+
+
+RUN_INDICES = _discover_run_indices(DATA_DIR)
+N_RUNS = len(RUN_INDICES)
 
 
 def rescore_run(run_idx: int) -> dict:
@@ -236,9 +248,9 @@ def main():
     print(f"Output dir: {OUT_DIR}")
 
     all_results = []
-    for i in range(N_RUNS):
-        print(f"\n====== Run {i} ======")
-        result = rescore_run(i)
+    for run_idx in RUN_INDICES:
+        print(f"\n====== Run {run_idx} ======")
+        result = rescore_run(run_idx)
         all_results.append(result)
 
     # Save aggregate

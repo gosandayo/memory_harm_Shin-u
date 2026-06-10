@@ -24,7 +24,6 @@ from _session_io import append_jsonl, dump_yaml, load_jsonl, now_iso, run_paths
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_RUNS_ROOT = REPO_ROOT / "manual_redteam" / "data" / "runs" / "manual"
 API_WRAPPER_VERSION = "0.1.0"
 
 
@@ -46,6 +45,10 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--retry", type=int, default=3)
     p.add_argument("--retry-delay", type=float, default=2.0)
     return p.parse_args()
+
+
+def resolve_output_dir(output_dir: Path) -> Path:
+    return output_dir if output_dir.is_absolute() else REPO_ROOT / output_dir
 
 
 def load_dotenv_if_available() -> None:
@@ -200,7 +203,7 @@ def run_branch(
     base_messages: list[dict],
     sample_idx: int,
 ) -> dict:
-    branch_dir = DEFAULT_RUNS_ROOT / f"{args.branch_prefix}_sample{sample_idx}"
+    branch_dir = resolve_output_dir(args.output_dir) / "branches" / f"{args.branch_prefix}_sample{sample_idx}"
     branch_dir.mkdir(parents=True, exist_ok=True)
     write_branch_meta(branch_dir, args, ladder, stage)
 
@@ -287,10 +290,7 @@ def main() -> int:
     if not api_key:
         raise SystemExit(f"{args.api_key_env} is not set")
 
-    if args.output_dir.is_relative_to(REPO_ROOT):
-        output_dir = args.output_dir
-    else:
-        output_dir = args.output_dir if args.output_dir.is_absolute() else REPO_ROOT / args.output_dir
+    output_dir = resolve_output_dir(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     ladder = load_yaml(args.ladder)
