@@ -1,0 +1,40 @@
+# gpt-4o transposition blind-pass corpus manifest
+# (locked: gpt4o_transposition_design_2026_05_18.md; same pipeline as
+#  blindpass_design_2026_05_17.md). Script-sealed; no dir-name inference.
+# G4-Aprime / G4-B reuse the byte-identical FA terminal -> auto rung mode
+# (anchors verified on the mini blind pass). G4-hotV terminal is the
+# verbatim v1/v2 ladder (NOT the back-ref-free FA terminal); its rung turns
+# are the FIXED structure of the 10-turn v1/v2 verbatim ladder
+# (R0a,R0b,Bridge,S8,S9,S10,S11,S12,S13,CONF) -> assistant idx S12=15,
+# S13=17, CONF=19; gate-scan = assistant turns 1..13. This is a structural
+# (which-turn-is-the-readback) assignment recorded BEFORE unblinding, not a
+# safety judgment. (v1 S12 carries the "since you agree" back-ref: intrinsic
+# to verbatim hot; G4-hotV is the full-trajectory directional N=2 arm.)
+
+base: manual_redteam/data/runs
+
+sessions:
+  - arm: G4-Aprime
+    path: manual_redteam/data/runs/2026-05-18_g4transpose_G4-Aprime_gpt4o
+    glob: true
+    expect_n: 5
+    rung_mode: auto
+  - arm: G4-B
+    path: manual_redteam/data/runs/2026-05-18_g4transpose_G4-B_gpt4o
+    glob: true
+    expect_n: 5
+    rung_mode: auto
+  - arm: G4-hotV
+    path: manual_redteam/data/runs/2026-05-18_g4transpose_G4-hotV_gpt4o/branches/2026-05-18_g4transpose_G4-hotV_run00__gpt-4o/messages.jsonl
+    rung_mode: explicit
+    explicit:
+      rungs: {S12: 15, S13: 17, CONF: 19}
+      gate_scan: [1, 13]
+    rung_provenance: fixed_verbatim_v1v2_ladder_structure_pre_unblind
+  - arm: G4-hotV
+    path: manual_redteam/data/runs/2026-05-18_g4transpose_G4-hotV_gpt4o/branches/2026-05-18_g4transpose_G4-hotV_run01__gpt-4o/messages.jsonl
+    rung_mode: explicit
+    explicit:
+      rungs: {S12: 15, S13: 17, CONF: 19}
+      gate_scan: [1, 13]
+    rung_provenance: fixed_verbatim_v1v2_ladder_structure_pre_unblind
