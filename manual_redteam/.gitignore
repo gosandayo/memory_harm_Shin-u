@@ -7,10 +7,22 @@ __pycache__/
 # a specific run is intentionally promoted.
 data/runs/**
 data/cold_probes/**
+data/simulator_discover/**
+data/adaptive/**
+data/elicitations/**
 !data/runs/
 !data/cold_probes/
+!data/simulator_discover/
+!data/adaptive/
+!data/elicitations/
 !data/runs/README.md
 !data/cold_probes/README.md
+!data/simulator_discover/README.md
+!data/adaptive/README.md
+!data/elicitations/README.md
+# data/blindpass/ intentionally NOT ignored: blind-label jsonl + seal checksums
+# are audit-trail candidates for git tracking (decision pending, REFACTORING_PLAN
+# Phase 5). Offline snapshot: ~/backups/memory_harm_data_2026-06-10.tar.zst
 
 # Runtime and generated document artifacts
 *.log

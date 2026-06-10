@@ -68,3 +68,6 @@ Thumbs.db
 credentials.json
 vllm.log
 .codex
+
+# Archives
+*.zip
