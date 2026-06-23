@@ -1,0 +1,227 @@
+{
+  "X8e2ac556": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "condition": "ladder_fixed"
+  },
+  "X6cc8a2b6": {
+    "model": "gpt-4o-mini",
+    "src_traj": "rep4",
+    "condition": "cold_fixed"
+  },
+  "Xd30c0062": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "rep4",
+    "condition": "cold_fixed"
+  },
+  "X053aac01": {
+    "model": "gpt-4o-mini",
+    "src_traj": "rep0",
+    "condition": "cold_fixed"
+  },
+  "Xdda88ccb": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "condition": "ladder_fixed"
+  },
+  "X7f825e41": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "rep1",
+    "condition": "cold_fixed"
+  },
+  "X67b39f88": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "rep0",
+    "condition": "cold_fixed"
+  },
+  "X8dc7fe58": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj04",
+    "condition": "ladder_fixed"
+  },
+  "X06747178": {
+    "model": "gpt-4o",
+    "src_traj": "rep2",
+    "condition": "cold_fixed"
+  },
+  "Xa4c472f0": {
+    "model": "gpt-4o",
+    "src_traj": "rep0",
+    "condition": "cold_fixed"
+  },
+  "Xbc972b39": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "condition": "naive_fixed"
+  },
+  "X2012396d": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj02",
+    "condition": "ladder_fixed"
+  },
+  "X435b1dde": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "condition": "ladder_fixed"
+  },
+  "X7ca945df": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj03",
+    "condition": "naive_fixed"
+  },
+  "Xce64c3b8": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "condition": "ladder_fixed"
+  },
+  "X1c90ffb0": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj04",
+    "condition": "naive_fixed"
+  },
+  "Xa1f9be9f": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "rep3",
+    "condition": "cold_fixed"
+  },
+  "X5b6181cb": {
+    "model": "gpt-4o-mini",
+    "src_traj": "rep1",
+    "condition": "cold_fixed"
+  },
+  "X471364b2": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "condition": "naive_fixed"
+  },
+  "X1c3a1e46": {
+    "model": "gpt-4o",
+    "src_traj": "rep3",
+    "condition": "cold_fixed"
+  },
+  "Xa41e4007": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "condition": "ladder_fixed"
+  },
+  "Xcf02ef9e": {
+    "model": "gpt-4o-mini",
+    "src_traj": "rep3",
+    "condition": "cold_fixed"
+  },
+  "X6d2c736d": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "condition": "ladder_fixed"
+  },
+  "Xcc78e347": {
+    "model": "gpt-4o",
+    "src_traj": "traj05",
+    "condition": "naive_fixed"
+  },
+  "X11921b03": {
+    "model": "gpt-4o",
+    "src_traj": "rep1",
+    "condition": "cold_fixed"
+  },
+  "Xfe080dd0": {
+    "model": "gpt-4o",
+    "src_traj": "rep4",
+    "condition": "cold_fixed"
+  },
+  "X8044cee3": {
+    "model": "gpt-4o",
+    "src_traj": "traj05",
+    "condition": "ladder_fixed"
+  },
+  "X6e466ac8": {
+    "model": "gpt-4o",
+    "src_traj": "traj04",
+    "condition": "ladder_fixed"
+  },
+  "X26813142": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj05",
+    "condition": "naive_fixed"
+  },
+  "X4d73fc62": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "condition": "naive_fixed"
+  },
+  "X10a4b27a": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj01",
+    "condition": "ladder_fixed"
+  },
+  "X71757fec": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj03",
+    "condition": "ladder_fixed"
+  },
+  "X301ed629": {
+    "model": "gpt-4o",
+    "src_traj": "traj04",
+    "condition": "naive_fixed"
+  },
+  "X75dd2cbd": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj01",
+    "condition": "naive_fixed"
+  },
+  "X7f18dba4": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "condition": "ladder_fixed"
+  },
+  "X482c8e60": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "condition": "naive_fixed"
+  },
+  "X8770d8da": {
+    "model": "gpt-4o-mini",
+    "src_traj": "rep2",
+    "condition": "cold_fixed"
+  },
+  "X613713b2": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "condition": "naive_fixed"
+  },
+  "Xf1c7b940": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj02",
+    "condition": "naive_fixed"
+  },
+  "X06bddf39": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "rep2",
+    "condition": "cold_fixed"
+  },
+  "X2b34d630": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "condition": "ladder_fixed"
+  },
+  "X27f8bb96": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj05",
+    "condition": "ladder_fixed"
+  },
+  "X3d33af8d": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "condition": "naive_fixed"
+  },
+  "Xe82ea717": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "condition": "naive_fixed"
+  },
+  "Xa2db5bdd": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "condition": "naive_fixed"
+  }
+}

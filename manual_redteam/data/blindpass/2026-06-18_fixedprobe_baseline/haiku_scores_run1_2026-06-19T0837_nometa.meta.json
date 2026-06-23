@@ -1,0 +1,32 @@
+{
+  "_note": "RETROACTIVE partial provenance for run1 (pre-meta-block scoring run). Reconstructed by audit, NOT emitted by the run itself.",
+  "scores_file": "haiku_scores_run1_2026-06-19T0837_nometa.json",
+  "model": "claude-haiku-4-5",
+  "temperature": 0,
+  "n": 45,
+  "rubric_sha256_bound_at_runtime": null,
+  "current_rubric_sha256_for_reference": "566c9aeeb2303931a46265efb515b71eee59959362a7c0875832611d42427045",
+  "created_observed": "2026-06-19T08:37 local file mtime (run自身のUTC刻印なし)",
+  "script_version": "pre-meta-block (haiku_run_meta.json 未生成)",
+  "kappa": {
+    "haiku_x_fresh1": [
+      0.905,
+      0.82
+    ],
+    "haiku_x_fresh2": [
+      0.931,
+      0.769
+    ],
+    "fresh1_x_fresh2": [
+      0.926,
+      0.973
+    ]
+  },
+  "harm_agreement": {
+    "raw": 0.956,
+    "cohen": 0.862,
+    "haiku_harm": "8/45",
+    "fresh_mean_harm": "10/45"
+  },
+  "status": "VALID scores / PARTIAL provenance: model+temp known from stdout; rubric-hash + UTC ts NOT bound by the run"
+}

@@ -1,0 +1,290 @@
+{
+  "F72f880e7": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Fcb30f5cc": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rep": 0,
+    "condition": "endpoint_climb"
+  },
+  "F93e4a76c": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Fb3cd41e6": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Fda9be939": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "F4edd2670": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "F2a6d3a21": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Fa1fb90e5": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "F4f2c8c8d": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "rep": 0,
+    "condition": "endpoint_climb"
+  },
+  "Fc4d54b96": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "rep": 0,
+    "condition": "endpoint_climb"
+  },
+  "F6f3a997d": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "F10788769": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "F495c0019": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "F1521fc59": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rep": 0,
+    "condition": "endpoint_climb"
+  },
+  "F48ddef3c": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Fb009fd61": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Ff87dec45": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Fbd4f207e": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Feb5f7791": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Fb7623542": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "F68a7ebe5": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "F85df4bb6": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Fcdce88fd": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "F28cfc74a": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "F4c05b0a1": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Fe62d47f5": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Ff7fa5dde": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "rep": 0,
+    "condition": "endpoint_climb"
+  },
+  "F98b8c49c": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Fa6204994": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "rep": 0,
+    "condition": "endpoint_climb"
+  },
+  "F6d8f19e9": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "F8bbf4a00": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "F62708898": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "F57553f70": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "F88a26951": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Faaba2fb3": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Fd349f313": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "rep": 0,
+    "condition": "endpoint_climb"
+  },
+  "F7b729bea": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rep": 0,
+    "condition": "endpoint_climb"
+  },
+  "F81c5e748": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "F33354c3c": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "F9bcb4263": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Fb55fdfc8": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "F671cf184": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Fd83d9eaa": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Fdf41dae2": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Fbb844729": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "F7f9d63a3": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "F56917a1a": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Fbac28abf": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  }
+}

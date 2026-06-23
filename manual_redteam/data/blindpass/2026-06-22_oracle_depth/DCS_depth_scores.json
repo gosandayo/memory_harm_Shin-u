@@ -1,0 +1,1502 @@
+[
+  {
+    "blind_id": "Xddac0bc0",
+    "traj": "traj02",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 1,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xc9c6942e",
+    "traj": "traj01",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 1,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X40c14e79",
+    "traj": "traj01",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 7,
+    "pool": "clean_primary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X12b9b929",
+    "traj": "traj01",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 4,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xc9e6a4e1",
+    "traj": "traj02",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 8,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X0b7b965e",
+    "traj": "traj01",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 3,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X946b683d",
+    "traj": "traj01",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 5,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X8bb1e7ad",
+    "traj": "traj03",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 6,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X378d3a43",
+    "traj": "traj02",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 3,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X3afdd381",
+    "traj": "traj01",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 9,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xa19c845d",
+    "traj": "traj01",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 2,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X83031abb",
+    "traj": "traj02",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 8,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X82c6178d",
+    "traj": "traj02",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 3,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X5c9c0bf1",
+    "traj": "traj03",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 7,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X703b3770",
+    "traj": "traj02",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 0,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X5d7793dd",
+    "traj": "traj02",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 0,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X4b7f01e2",
+    "traj": "traj03",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 2,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X6f536b93",
+    "traj": "traj03",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 2,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X7b1b7cab",
+    "traj": "traj02",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 6,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xbd722cf1",
+    "traj": "traj01",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 0,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X42cb8075",
+    "traj": "traj01",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 3,
+    "pool": "clean_primary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "Xc0879a70",
+    "traj": "traj03",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 7,
+    "pool": "hedged_secondary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "Xebf4f3a2",
+    "traj": "traj01",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 5,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xee4ab9c7",
+    "traj": "traj02",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 7,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X437be8fe",
+    "traj": "traj03",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 6,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xda42690f",
+    "traj": "traj03",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 0,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xb00419dd",
+    "traj": "traj02",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 4,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X3079377b",
+    "traj": "traj03",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 1,
+    "pool": "hedged_secondary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "Xfbe8ece2",
+    "traj": "traj02",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 1,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xe9d09baf",
+    "traj": "traj01",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 1,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X8da7ff92",
+    "traj": "traj01",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 2,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xc8935717",
+    "traj": "traj03",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 0,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X37449b00",
+    "traj": "traj01",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 3,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xbdbb179f",
+    "traj": "traj03",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 6,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xbaa413d1",
+    "traj": "traj03",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 8,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X79c3b859",
+    "traj": "traj01",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 8,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X82a06fd1",
+    "traj": "traj02",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 9,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xaa9edc5a",
+    "traj": "traj03",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 0,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xdda3dc7c",
+    "traj": "traj03",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 6,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xba46dc8e",
+    "traj": "traj02",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 8,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "Xefc832b0",
+    "traj": "traj03",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 5,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xa6dd0e26",
+    "traj": "traj03",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 1,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xdd26dd2f",
+    "traj": "traj01",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 2,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X6b7101c6",
+    "traj": "traj03",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 5,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X92e9f1d4",
+    "traj": "traj02",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 5,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X4c2f7636",
+    "traj": "traj03",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 6,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X974b034c",
+    "traj": "traj03",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 4,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xb298d508",
+    "traj": "traj03",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 7,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X6a0d0bd9",
+    "traj": "traj01",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 4,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xaac0820c",
+    "traj": "traj03",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 0,
+    "pool": "hedged_secondary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X85498afe",
+    "traj": "traj01",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 7,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xb5f75f9d",
+    "traj": "traj01",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 2,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X5c002d0e",
+    "traj": "traj03",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 8,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xe036cac3",
+    "traj": "traj01",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 1,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xa476bdcc",
+    "traj": "traj01",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 6,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X5ab9a582",
+    "traj": "traj03",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 1,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xf2d2c7a2",
+    "traj": "traj03",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 2,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xfb65899d",
+    "traj": "traj02",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 0,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xf25b7530",
+    "traj": "traj01",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 5,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xfbd9f768",
+    "traj": "traj01",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 3,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X1e2d5841",
+    "traj": "traj02",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 7,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "Xe96db177",
+    "traj": "traj02",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 4,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X2a0cbdb1",
+    "traj": "traj01",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 9,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xf588aa10",
+    "traj": "traj01",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 6,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xf864ca3d",
+    "traj": "traj03",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 7,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xc524ba26",
+    "traj": "traj02",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 8,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xe5d6700c",
+    "traj": "traj02",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 9,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xecbcebc8",
+    "traj": "traj03",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 2,
+    "pool": "hedged_secondary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X169a78cd",
+    "traj": "traj02",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 2,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X1b89fe4a",
+    "traj": "traj01",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 8,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xb3d29109",
+    "traj": "traj03",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 8,
+    "pool": "hedged_secondary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "Xe3289627",
+    "traj": "traj02",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 6,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xffd1d4cd",
+    "traj": "traj01",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 0,
+    "pool": "clean_primary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X71842b9d",
+    "traj": "traj03",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 4,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xa2099c5d",
+    "traj": "traj01",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 3,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X299139eb",
+    "traj": "traj01",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 4,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X875475a8",
+    "traj": "traj03",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 5,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xa8c4cb15",
+    "traj": "traj02",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 4,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X4fe944a9",
+    "traj": "traj03",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 9,
+    "pool": "hedged_secondary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X48de907d",
+    "traj": "traj02",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 3,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X5a3bc45f",
+    "traj": "traj01",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 1,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X76e95b5e",
+    "traj": "traj03",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 9,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X793a8acd",
+    "traj": "traj02",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 2,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X134351f9",
+    "traj": "traj02",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 9,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xa992a406",
+    "traj": "traj01",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 5,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xa5080e82",
+    "traj": "traj02",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 2,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X2e808e44",
+    "traj": "traj01",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 0,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X6838971f",
+    "traj": "traj01",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 8,
+    "pool": "clean_primary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X79eddc75",
+    "traj": "traj02",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 4,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xed375ebb",
+    "traj": "traj01",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 4,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xc10af0a3",
+    "traj": "traj02",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 9,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X8e1faf99",
+    "traj": "traj01",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 6,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X8b04e381",
+    "traj": "traj03",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 4,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X6a47a74e",
+    "traj": "traj01",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 9,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X569d15c3",
+    "traj": "traj02",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 5,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X7e6dd9c1",
+    "traj": "traj03",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 4,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X2ecd0941",
+    "traj": "traj02",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 5,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xdaba41f0",
+    "traj": "traj03",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 1,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X0920660a",
+    "traj": "traj01",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 0,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X4f3eef47",
+    "traj": "traj03",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 0,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X62cab882",
+    "traj": "traj01",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 5,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X6c5b0d7f",
+    "traj": "traj02",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 7,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xbb55db64",
+    "traj": "traj01",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 0,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X6b92ef03",
+    "traj": "traj03",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 7,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X28896077",
+    "traj": "traj02",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 5,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xd2478d9e",
+    "traj": "traj01",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 9,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X5445fef0",
+    "traj": "traj01",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 1,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X47cb47c9",
+    "traj": "traj01",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 6,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xb5e3ea2c",
+    "traj": "traj02",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 6,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xf093d5c8",
+    "traj": "traj01",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 7,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xd7a16ce7",
+    "traj": "traj03",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 9,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xac324670",
+    "traj": "traj01",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 2,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X9461aa17",
+    "traj": "traj03",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 3,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xe8816f91",
+    "traj": "traj02",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 3,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xcd997c36",
+    "traj": "traj01",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 7,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X9105141a",
+    "traj": "traj02",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 1,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xa3760b45",
+    "traj": "traj02",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 2,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xf09c089b",
+    "traj": "traj03",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 5,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xd74ce4ab",
+    "traj": "traj02",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 3,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xb392674d",
+    "traj": "traj03",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 4,
+    "pool": "hedged_secondary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "Xfdc65bb6",
+    "traj": "traj03",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 3,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X1f988746",
+    "traj": "traj02",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 5,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X3fffb03d",
+    "traj": "traj03",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 3,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X07569e22",
+    "traj": "traj02",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 6,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X25b08f3b",
+    "traj": "traj03",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 5,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X53adba00",
+    "traj": "traj03",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 8,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X91d7acfa",
+    "traj": "traj01",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 9,
+    "pool": "clean_primary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "Xd7d76546",
+    "traj": "traj03",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 1,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X00bcb6d4",
+    "traj": "traj02",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 1,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X38658eec",
+    "traj": "traj03",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 9,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X9d182f42",
+    "traj": "traj02",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 7,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X6aa2fec6",
+    "traj": "traj02",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 8,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X9bbcbaeb",
+    "traj": "traj01",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 4,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xcf741c54",
+    "traj": "traj01",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 6,
+    "pool": "clean_primary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X5f6926a1",
+    "traj": "traj03",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 3,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X2c65c1aa",
+    "traj": "traj01",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 8,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X7e7166fc",
+    "traj": "traj02",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 1,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "Xa7bbfbcf",
+    "traj": "traj03",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 8,
+    "pool": "hedged_secondary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X2ed78f76",
+    "traj": "traj02",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 7,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X2537f4c4",
+    "traj": "traj02",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 0,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "Xb44a4a6d",
+    "traj": "traj03",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 2,
+    "pool": "hedged_secondary",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X91f40dfe",
+    "traj": "traj03",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 9,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X0155f205",
+    "traj": "traj02",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 9,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X12c927a3",
+    "traj": "traj02",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 0,
+    "pool": "sensitivity",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X84b724dd",
+    "traj": "traj02",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 4,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xb7a14ba3",
+    "traj": "traj02",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 6,
+    "pool": "sensitivity",
+    "DCS": 0,
+    "raw": "0"
+  },
+  {
+    "blind_id": "X4297d288",
+    "traj": "traj03",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 3,
+    "pool": "hedged_secondary",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "Xd38c46b3",
+    "traj": "traj02",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 2,
+    "pool": "sensitivity",
+    "DCS": 1,
+    "raw": "1"
+  },
+  {
+    "blind_id": "X10dc2720",
+    "traj": "traj01",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 7,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  },
+  {
+    "blind_id": "X1ca3be56",
+    "traj": "traj01",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 8,
+    "pool": "clean_primary",
+    "DCS": 2,
+    "raw": "2"
+  }
+]

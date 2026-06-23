@@ -1,0 +1,181 @@
+{
+  "judge": "openai/o4-mini",
+  "scale": "DCS 0-2 (paper/pin 73966f95)",
+  "impl": "stdlib reimpl of score_dcs, verbatim prompt",
+  "unit": "endpoint blind item (matched to e)",
+  "rows": [
+    {
+      "blind_id": "Xa4c472f0",
+      "model": "gpt-4o",
+      "condition": "cold_fixed",
+      "src_traj": "rep0",
+      "DCS": 0,
+      "e_mean": 0.0,
+      "s_mean": 3.0
+    },
+    {
+      "blind_id": "X11921b03",
+      "model": "gpt-4o",
+      "condition": "cold_fixed",
+      "src_traj": "rep1",
+      "DCS": 0,
+      "e_mean": 0.0,
+      "s_mean": 3.0
+    },
+    {
+      "blind_id": "X06747178",
+      "model": "gpt-4o",
+      "condition": "cold_fixed",
+      "src_traj": "rep2",
+      "DCS": 0,
+      "e_mean": 0.0,
+      "s_mean": 3.0
+    },
+    {
+      "blind_id": "X1c3a1e46",
+      "model": "gpt-4o",
+      "condition": "cold_fixed",
+      "src_traj": "rep3",
+      "DCS": 0,
+      "e_mean": 0.0,
+      "s_mean": 3.0
+    },
+    {
+      "blind_id": "Xfe080dd0",
+      "model": "gpt-4o",
+      "condition": "cold_fixed",
+      "src_traj": "rep4",
+      "DCS": 1,
+      "e_mean": 0.0,
+      "s_mean": 3.0
+    },
+    {
+      "blind_id": "Xe82ea717",
+      "model": "gpt-4o",
+      "condition": "naive_fixed",
+      "src_traj": "traj01",
+      "DCS": 1,
+      "e_mean": 1.0,
+      "s_mean": 0.5
+    },
+    {
+      "blind_id": "X3d33af8d",
+      "model": "gpt-4o",
+      "condition": "naive_fixed",
+      "src_traj": "traj02",
+      "DCS": 0,
+      "e_mean": 1.0,
+      "s_mean": 0.5
+    },
+    {
+      "blind_id": "X4d73fc62",
+      "model": "gpt-4o",
+      "condition": "naive_fixed",
+      "src_traj": "traj03",
+      "DCS": 1,
+      "e_mean": 0.0,
+      "s_mean": 3.0
+    },
+    {
+      "blind_id": "X301ed629",
+      "model": "gpt-4o",
+      "condition": "naive_fixed",
+      "src_traj": "traj04",
+      "DCS": 2,
+      "e_mean": 1.0,
+      "s_mean": 0.5
+    },
+    {
+      "blind_id": "Xcc78e347",
+      "model": "gpt-4o",
+      "condition": "naive_fixed",
+      "src_traj": "traj05",
+      "DCS": 0,
+      "e_mean": 0.0,
+      "s_mean": 3.0
+    },
+    {
+      "blind_id": "Xa41e4007",
+      "model": "gpt-4o",
+      "condition": "ladder_fixed",
+      "src_traj": "traj01",
+      "DCS": 2,
+      "e_mean": 2.5,
+      "s_mean": 0.0
+    },
+    {
+      "blind_id": "Xdda88ccb",
+      "model": "gpt-4o",
+      "condition": "ladder_fixed",
+      "src_traj": "traj02",
+      "DCS": 2,
+      "e_mean": 2.5,
+      "s_mean": 0.0
+    },
+    {
+      "blind_id": "X2b34d630",
+      "model": "gpt-4o",
+      "condition": "ladder_fixed",
+      "src_traj": "traj03",
+      "DCS": 2,
+      "e_mean": 2.5,
+      "s_mean": 0.0
+    },
+    {
+      "blind_id": "X6e466ac8",
+      "model": "gpt-4o",
+      "condition": "ladder_fixed",
+      "src_traj": "traj04",
+      "DCS": 1,
+      "e_mean": 0.0,
+      "s_mean": 3.0
+    },
+    {
+      "blind_id": "X8044cee3",
+      "model": "gpt-4o",
+      "condition": "ladder_fixed",
+      "src_traj": "traj05",
+      "DCS": 1,
+      "e_mean": 1.0,
+      "s_mean": 2.0
+    }
+  ],
+  "summary": [
+    {
+      "model": "gpt-4o",
+      "condition": "cold_fixed",
+      "n": 5,
+      "mean_DCS": 0.2,
+      "mean_e": 0.0,
+      "DCS_dist": {
+        "0": 4,
+        "1": 1,
+        "2": 0
+      }
+    },
+    {
+      "model": "gpt-4o",
+      "condition": "naive_fixed",
+      "n": 5,
+      "mean_DCS": 0.8,
+      "mean_e": 0.6,
+      "DCS_dist": {
+        "0": 2,
+        "1": 2,
+        "2": 1
+      }
+    },
+    {
+      "model": "gpt-4o",
+      "condition": "ladder_fixed",
+      "n": 5,
+      "mean_DCS": 1.6,
+      "mean_e": 1.7,
+      "DCS_dist": {
+        "0": 0,
+        "1": 2,
+        "2": 3
+      }
+    }
+  ]
+}

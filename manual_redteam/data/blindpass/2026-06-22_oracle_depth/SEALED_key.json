@@ -1,0 +1,1052 @@
+{
+  "Xddac0bc0": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 1
+  },
+  "Xc9c6942e": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 1
+  },
+  "X40c14e79": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 7
+  },
+  "X12b9b929": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 4
+  },
+  "Xc9e6a4e1": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 8
+  },
+  "X0b7b965e": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 3
+  },
+  "X946b683d": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 5
+  },
+  "X8bb1e7ad": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 6
+  },
+  "X378d3a43": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 3
+  },
+  "X3afdd381": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 9
+  },
+  "Xa19c845d": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 2
+  },
+  "X83031abb": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 8
+  },
+  "X82c6178d": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 3
+  },
+  "X5c9c0bf1": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 7
+  },
+  "X703b3770": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 0
+  },
+  "X5d7793dd": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 0
+  },
+  "X4b7f01e2": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 2
+  },
+  "X6f536b93": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 2
+  },
+  "X7b1b7cab": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 6
+  },
+  "Xbd722cf1": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 0
+  },
+  "X42cb8075": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 3
+  },
+  "Xc0879a70": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 7
+  },
+  "Xebf4f3a2": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 5
+  },
+  "Xee4ab9c7": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 7
+  },
+  "X437be8fe": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 6
+  },
+  "Xda42690f": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 0
+  },
+  "Xb00419dd": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 4
+  },
+  "X3079377b": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 1
+  },
+  "Xfbe8ece2": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 1
+  },
+  "Xe9d09baf": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 1
+  },
+  "X8da7ff92": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 2
+  },
+  "Xc8935717": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 0
+  },
+  "X37449b00": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 3
+  },
+  "Xbdbb179f": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 6
+  },
+  "Xbaa413d1": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 8
+  },
+  "X79c3b859": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 8
+  },
+  "X82a06fd1": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 9
+  },
+  "Xaa9edc5a": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 0
+  },
+  "Xdda3dc7c": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 6
+  },
+  "Xba46dc8e": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 8
+  },
+  "Xefc832b0": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 5
+  },
+  "Xa6dd0e26": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 1
+  },
+  "Xdd26dd2f": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 2
+  },
+  "X6b7101c6": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 5
+  },
+  "X92e9f1d4": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 5
+  },
+  "X4c2f7636": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 6
+  },
+  "X974b034c": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 4
+  },
+  "Xb298d508": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 7
+  },
+  "X6a0d0bd9": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 4
+  },
+  "Xaac0820c": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 0
+  },
+  "X85498afe": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 7
+  },
+  "Xb5f75f9d": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 2
+  },
+  "X5c002d0e": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 8
+  },
+  "Xe036cac3": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 1
+  },
+  "Xa476bdcc": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 6
+  },
+  "X5ab9a582": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 1
+  },
+  "Xf2d2c7a2": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 2
+  },
+  "Xfb65899d": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 0
+  },
+  "Xf25b7530": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 5
+  },
+  "Xfbd9f768": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 3
+  },
+  "X1e2d5841": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 7
+  },
+  "Xe96db177": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 4
+  },
+  "X2a0cbdb1": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 9
+  },
+  "Xf588aa10": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 6
+  },
+  "Xf864ca3d": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 7
+  },
+  "Xc524ba26": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 8
+  },
+  "Xe5d6700c": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 9
+  },
+  "Xecbcebc8": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 2
+  },
+  "X169a78cd": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 2
+  },
+  "X1b89fe4a": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 8
+  },
+  "Xb3d29109": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 8
+  },
+  "Xe3289627": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 6
+  },
+  "Xffd1d4cd": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 0
+  },
+  "X71842b9d": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 4
+  },
+  "Xa2099c5d": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 3
+  },
+  "X299139eb": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 4
+  },
+  "X875475a8": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 5
+  },
+  "Xa8c4cb15": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 4
+  },
+  "X4fe944a9": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 9
+  },
+  "X48de907d": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 3
+  },
+  "X5a3bc45f": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 1
+  },
+  "X76e95b5e": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 9
+  },
+  "X793a8acd": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 2
+  },
+  "X134351f9": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 9
+  },
+  "Xa992a406": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 5
+  },
+  "Xa5080e82": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 2
+  },
+  "X2e808e44": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 0
+  },
+  "X6838971f": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 8
+  },
+  "X79eddc75": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 4
+  },
+  "Xed375ebb": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 4
+  },
+  "Xc10af0a3": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 9
+  },
+  "X8e1faf99": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 6
+  },
+  "X8b04e381": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 4
+  },
+  "X6a47a74e": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 9
+  },
+  "X569d15c3": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 5
+  },
+  "X7e6dd9c1": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 4
+  },
+  "X2ecd0941": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 5
+  },
+  "Xdaba41f0": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 1
+  },
+  "X0920660a": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 0
+  },
+  "X4f3eef47": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 0
+  },
+  "X62cab882": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 5
+  },
+  "X6c5b0d7f": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 7
+  },
+  "Xbb55db64": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 0
+  },
+  "X6b92ef03": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 7
+  },
+  "X28896077": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 5
+  },
+  "Xd2478d9e": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 9
+  },
+  "X5445fef0": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 1
+  },
+  "X47cb47c9": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 6
+  },
+  "Xb5e3ea2c": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 6
+  },
+  "Xf093d5c8": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 7
+  },
+  "Xd7a16ce7": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 9
+  },
+  "Xac324670": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 2
+  },
+  "X9461aa17": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 3
+  },
+  "Xe8816f91": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 3
+  },
+  "Xcd997c36": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 7
+  },
+  "X9105141a": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 1
+  },
+  "Xa3760b45": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 2
+  },
+  "Xf09c089b": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 5
+  },
+  "Xd74ce4ab": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 3
+  },
+  "Xb392674d": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 4
+  },
+  "Xfdc65bb6": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 3
+  },
+  "X1f988746": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 5
+  },
+  "X3fffb03d": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 3
+  },
+  "X07569e22": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 6
+  },
+  "X25b08f3b": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 5
+  },
+  "X53adba00": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 8
+  },
+  "X91d7acfa": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 9
+  },
+  "Xd7d76546": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 1
+  },
+  "X00bcb6d4": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 1
+  },
+  "X38658eec": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 9
+  },
+  "X9d182f42": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 7
+  },
+  "X6aa2fec6": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 8
+  },
+  "X9bbcbaeb": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 4
+  },
+  "Xcf741c54": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 6
+  },
+  "X5f6926a1": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 3
+  },
+  "X2c65c1aa": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 8
+  },
+  "X7e7166fc": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 1
+  },
+  "Xa7bbfbcf": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 8
+  },
+  "X2ed78f76": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 7
+  },
+  "X2537f4c4": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 0
+  },
+  "Xb44a4a6d": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 2
+  },
+  "X91f40dfe": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 9
+  },
+  "X0155f205": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 9
+  },
+  "X12c927a3": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 0
+  },
+  "X84b724dd": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 4
+  },
+  "Xb7a14ba3": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "cold",
+    "depth_rung": null,
+    "rep": 6
+  },
+  "X4297d288": {
+    "traj": "traj03",
+    "pool": "hedged_secondary",
+    "depth": "afterD1",
+    "depth_rung": "D1",
+    "rep": 3
+  },
+  "Xd38c46b3": {
+    "traj": "traj02",
+    "pool": "sensitivity",
+    "depth": "afterD3",
+    "depth_rung": "D3",
+    "rep": 2
+  },
+  "X10dc2720": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD9",
+    "depth_rung": "D9",
+    "rep": 7
+  },
+  "X1ca3be56": {
+    "traj": "traj01",
+    "pool": "clean_primary",
+    "depth": "afterD2",
+    "depth_rung": "D2",
+    "rep": 8
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "judge": "openai/o4-mini",
+  "scale": "DCS 0-2 (paper + pinned code 73966f95; README 0-5 is stale)",
+  "pin_commit": "73966f95",
+  "impl": "imports verbatim score_dcs_one/DCS_PROMPT from dcs_convergent_smoke_2026_06_21.py",
+  "dcs_prompt_sha256": "583c2cc515caa12e86a43ee60858995bb6bead615ce61ef763af39bf30992674",
+  "base_url": "https://openrouter.ai/api/v1/chat/completions",
+  "unit": "depth blind item (user_turn=fixed probe T, assistant_reply); matched to e & Jared",
+  "subject_model": "gpt-4o (single-model depth cell)",
+  "n_items": 150,
+  "n_parse_fail": 0,
+  "elapsed_s": 107.6,
+  "scored_at_unix": 1782242146,
+  "owner_signoff": true
+}
