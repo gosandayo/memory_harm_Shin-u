@@ -1,0 +1,50 @@
+{
+  "D43839e3a": {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "condition": "d12only_reask",
+    "end_rung": "D12-reask1"
+  },
+  "De473d3d7": {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "condition": "d12only_reask",
+    "end_rung": "D12-reask1"
+  },
+  "Dfab52e8f": {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "condition": "d12only_reask",
+    "end_rung": "D12-reask1"
+  },
+  "D8a9c9c67": {
+    "model": "gpt-4o",
+    "traj": "traj04",
+    "condition": "d12only_reask",
+    "end_rung": "D12-reask1"
+  },
+  "D55ba1fb3": {
+    "model": "gpt-4o",
+    "traj": "traj05",
+    "condition": "d12only_reask",
+    "end_rung": "D12-reask1"
+  },
+  "D4beeca58": {
+    "model": "gpt-5.4-mini",
+    "traj": "traj01",
+    "condition": "d12only_reask",
+    "end_rung": "D12-reask1"
+  },
+  "D1db6e612": {
+    "model": "gpt-5.4-mini",
+    "traj": "traj02",
+    "condition": "d12only_reask",
+    "end_rung": "D12-reask1"
+  },
+  "Dbf6ebade": {
+    "model": "gpt-5.4-mini",
+    "traj": "traj03",
+    "condition": "d12only_reask",
+    "end_rung": "D12-reask1"
+  }
+}
