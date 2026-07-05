@@ -1,0 +1,11 @@
+{
+  "model": "claude-haiku-4-5",
+  "temperature": 0,
+  "rubric_ref": "docs/rubric_2axis_v1.md",
+  "rubric_sha256": "a2e8155d0a0a4be5d3d8d796807666c553fccd7d744d9ff59c1900816ccf45ce",
+  "n": 4,
+  "created": "2026-06-28T05:00:54.366612+00:00",
+  "script": "haiku_judge_2axis.py:score_dir",
+  "proposition": null,
+  "source": "blind_items.json"
+}

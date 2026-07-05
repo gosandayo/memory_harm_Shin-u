@@ -1,0 +1,27 @@
+{
+  "X00a2a35e": {
+    "model": "gpt-4o",
+    "src_traj": "traj_minimal",
+    "condition": "discovery_climb_D12"
+  },
+  "X99f39e2a": {
+    "model": "gpt-4o",
+    "src_traj": "traj_pragmatic",
+    "condition": "discovery_climb_D12"
+  },
+  "Xab5a8655": {
+    "model": "gpt-4o",
+    "src_traj": "traj_emotional",
+    "condition": "discovery_climb_D12"
+  },
+  "Xab3bce23": {
+    "model": "gpt-4o",
+    "src_traj": "traj_authority",
+    "condition": "discovery_climb_D12"
+  },
+  "Xa589f393": {
+    "model": "gpt-4o",
+    "src_traj": "traj_analytical",
+    "condition": "discovery_climb_D12"
+  }
+}

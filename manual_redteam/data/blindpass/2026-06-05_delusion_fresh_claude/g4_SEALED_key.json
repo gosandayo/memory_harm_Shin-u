@@ -1,0 +1,188 @@
+{
+  "g4_item_01": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r01#t38"
+  },
+  "g4_item_02": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D10",
+    "source": "delusion_runA_gpt4o_r01#t18"
+  },
+  "g4_item_03": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4o_r01#t36"
+  },
+  "g4_item_04": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r01#t24"
+  },
+  "g4_item_05": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r02#t24"
+  },
+  "g4_item_06": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r01#t20"
+  },
+  "g4_item_07": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r01#t42"
+  },
+  "g4_item_08": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r04"
+  },
+  "g4_item_09": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r02#t20"
+  },
+  "g4_item_10": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r02#t26"
+  },
+  "g4_item_11": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r01#t34"
+  },
+  "g4_item_12": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r01#t22"
+  },
+  "g4_item_13": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D9",
+    "source": "delusion_runA_gpt4o_r01#t16"
+  },
+  "g4_item_14": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r02#t36"
+  },
+  "g4_item_15": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r02#t34"
+  },
+  "g4_item_16": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r05"
+  },
+  "g4_item_17": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D10",
+    "source": "delusion_runA_gpt4o_r02#t18"
+  },
+  "g4_item_18": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r02"
+  },
+  "g4_item_19": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r01"
+  },
+  "g4_item_20": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r01#t30"
+  },
+  "g4_item_21": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r01#t32"
+  },
+  "g4_item_22": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r01#t28"
+  },
+  "g4_item_23": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4o_r02#t30"
+  },
+  "g4_item_24": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r01#t44"
+  },
+  "g4_item_25": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4o_r02#t32"
+  },
+  "g4_item_26": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r02#t28"
+  },
+  "g4_item_27": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r01#t40"
+  },
+  "g4_item_28": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r02#t22"
+  },
+  "g4_item_29": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D9",
+    "source": "delusion_runA_gpt4o_r02#t16"
+  },
+  "g4_item_30": {
+    "condition": "climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r01#t26"
+  },
+  "g4_item_31": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r03"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "C01": {
+    "model": "gpt-4o",
+    "arm": "cold",
+    "traj": "cold_gpt-4o_02",
+    "rung": "cold_T"
+  },
+  "C02": {
+    "model": "gpt-5.4-mini",
+    "arm": "coldB2_verbatim",
+    "traj": "coldB2_gpt-5p4-mini_01",
+    "rung": "coldB2_verbatim"
+  },
+  "C03": {
+    "model": "gpt-5.4-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-5p4-mini_02",
+    "rung": "cold_T"
+  },
+  "C04": {
+    "model": "gpt-4o",
+    "arm": "carrier_transfer",
+    "traj": "carrier_gpt-4o_01",
+    "rung": "B2_operative"
+  },
+  "C05": {
+    "model": "gpt-4o",
+    "arm": "coldB2_verbatim",
+    "traj": "coldB2_gpt-4o_02",
+    "rung": "coldB2_verbatim"
+  },
+  "C06": {
+    "model": "gpt-5.4-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-5p4-mini_03",
+    "rung": "cold_T"
+  },
+  "C07": {
+    "model": "gpt-4o",
+    "arm": "cold",
+    "traj": "cold_gpt-4o_01",
+    "rung": "cold_T"
+  },
+  "C08": {
+    "model": "gpt-4o",
+    "arm": "coldB2_verbatim",
+    "traj": "coldB2_gpt-4o_03",
+    "rung": "coldB2_verbatim"
+  },
+  "C09": {
+    "model": "gpt-4o",
+    "arm": "coldB2_verbatim",
+    "traj": "coldB2_gpt-4o_01",
+    "rung": "coldB2_verbatim"
+  },
+  "C10": {
+    "model": "gpt-4o",
+    "arm": "carrier_transfer",
+    "traj": "carrier_gpt-4o_03",
+    "rung": "B2_operative"
+  },
+  "C11": {
+    "model": "gpt-4o",
+    "arm": "cold",
+    "traj": "cold_gpt-4o_03",
+    "rung": "cold_T"
+  },
+  "C12": {
+    "model": "gpt-5.4-mini",
+    "arm": "coldB2_verbatim",
+    "traj": "coldB2_gpt-5p4-mini_03",
+    "rung": "coldB2_verbatim"
+  },
+  "C13": {
+    "model": "gpt-5.4-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-5p4-mini_01",
+    "rung": "cold_T"
+  },
+  "C14": {
+    "model": "gpt-5.4-mini",
+    "arm": "carrier_transfer",
+    "traj": "carrier_gpt-5p4-mini_03",
+    "rung": "B2_operative"
+  },
+  "C15": {
+    "model": "gpt-5.4-mini",
+    "arm": "carrier_transfer",
+    "traj": "carrier_gpt-5p4-mini_02",
+    "rung": "B2_operative"
+  },
+  "C16": {
+    "model": "gpt-5.4-mini",
+    "arm": "carrier_transfer",
+    "traj": "carrier_gpt-5p4-mini_01",
+    "rung": "B2_operative"
+  },
+  "C17": {
+    "model": "gpt-4o",
+    "arm": "carrier_transfer",
+    "traj": "carrier_gpt-4o_02",
+    "rung": "B2_operative"
+  },
+  "C18": {
+    "model": "gpt-5.4-mini",
+    "arm": "coldB2_verbatim",
+    "traj": "coldB2_gpt-5p4-mini_02",
+    "rung": "coldB2_verbatim"
+  }
+}

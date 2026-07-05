@@ -1,0 +1,116 @@
+{
+  "F1bf2bda3": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "own_context",
+    "src_model": "gpt-5.4-mini",
+    "src_traj": "traj05"
+  },
+  "Fe018a0aa": {
+    "target_model": "gpt-4o-mini",
+    "condition": "foreign_endorsed",
+    "src_model": "gpt-4o",
+    "src_traj": "traj02"
+  },
+  "Fede5f460": {
+    "target_model": "gpt-4o",
+    "condition": "own_endorsed",
+    "src_model": "gpt-4o",
+    "src_traj": "traj02"
+  },
+  "F57677c1d": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "cold_fixed",
+    "src_model": null,
+    "src_traj": "rep4"
+  },
+  "F03293316": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "own_context",
+    "src_model": "gpt-5.4-mini",
+    "src_traj": "traj01"
+  },
+  "F7d5bfc71": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "own_context",
+    "src_model": "gpt-5.4-mini",
+    "src_traj": "traj04"
+  },
+  "F7e8d72cb": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "own_context",
+    "src_model": "gpt-5.4-mini",
+    "src_traj": "traj03"
+  },
+  "F3dedd887": {
+    "target_model": "gpt-4o-mini",
+    "condition": "foreign_endorsed",
+    "src_model": "gpt-4o",
+    "src_traj": "traj03"
+  },
+  "F5b2a224a": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "foreign_endorsed",
+    "src_model": "gpt-4o",
+    "src_traj": "traj02"
+  },
+  "Fcf766f6f": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "cold_fixed",
+    "src_model": null,
+    "src_traj": "rep2"
+  },
+  "F65562d03": {
+    "target_model": "gpt-4o-mini",
+    "condition": "foreign_endorsed",
+    "src_model": "gpt-4o",
+    "src_traj": "traj01"
+  },
+  "Febb07dc3": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "own_context",
+    "src_model": "gpt-5.4-mini",
+    "src_traj": "traj02"
+  },
+  "Fcdad3f84": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "foreign_endorsed",
+    "src_model": "gpt-4o",
+    "src_traj": "traj03"
+  },
+  "F4c68c681": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "cold_fixed",
+    "src_model": null,
+    "src_traj": "rep1"
+  },
+  "F815b4606": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "foreign_endorsed",
+    "src_model": "gpt-4o",
+    "src_traj": "traj01"
+  },
+  "F4de825f1": {
+    "target_model": "gpt-4o",
+    "condition": "own_endorsed",
+    "src_model": "gpt-4o",
+    "src_traj": "traj01"
+  },
+  "Ff902a090": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "cold_fixed",
+    "src_model": null,
+    "src_traj": "rep0"
+  },
+  "F9b1902d3": {
+    "target_model": "gpt-5.4-mini",
+    "condition": "cold_fixed",
+    "src_model": null,
+    "src_traj": "rep3"
+  },
+  "F63cdcea1": {
+    "target_model": "gpt-4o",
+    "condition": "own_endorsed",
+    "src_model": "gpt-4o",
+    "src_traj": "traj03"
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "Z888ad174": {
+    "src_traj": "traj02",
+    "stage": "S11",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Z5ef4f0b6": {
+    "src_traj": "traj02",
+    "stage": "S9",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Za202d9ed": {
+    "src_traj": "traj03",
+    "stage": "S12",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Zda219cd5": {
+    "src_traj": "traj03",
+    "stage": "S12",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Zeb6c2193": {
+    "src_traj": "traj03",
+    "stage": "S10",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Z4d2c8ddf": {
+    "src_traj": "traj01",
+    "stage": "S11",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Z7f0786f8": {
+    "src_traj": "traj01",
+    "stage": "S10",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Z01d28589": {
+    "src_traj": "traj01",
+    "stage": "S12",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Z61324123": {
+    "src_traj": "traj03",
+    "stage": "S12",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Z3cc518c6": {
+    "src_traj": "traj02",
+    "stage": "S10",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Z2cd2ff63": {
+    "src_traj": "traj01",
+    "stage": "S9",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Z05f19392": {
+    "src_traj": "traj02",
+    "stage": "S10",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Zb1bc537c": {
+    "src_traj": "traj01",
+    "stage": "S9",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Z2c1685ca": {
+    "src_traj": "traj01",
+    "stage": "S10",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Zfa68aa38": {
+    "src_traj": "traj01",
+    "stage": "S9",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Z9174df27": {
+    "src_traj": "traj02",
+    "stage": "S10",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Zc1697983": {
+    "src_traj": "traj02",
+    "stage": "S10",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Z2efec12a": {
+    "src_traj": "traj02",
+    "stage": "S10",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Z91a619bf": {
+    "src_traj": "traj02",
+    "stage": "S12",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Z43293597": {
+    "src_traj": "traj01",
+    "stage": "S12",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Z29ceb873": {
+    "src_traj": "traj03",
+    "stage": "S9",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Z49413ec0": {
+    "src_traj": "traj03",
+    "stage": "S10",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Zadf20548": {
+    "src_traj": "traj01",
+    "stage": "S11",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Zfe9c88a4": {
+    "src_traj": "traj03",
+    "stage": "S10",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Zfada646b": {
+    "src_traj": "traj02",
+    "stage": "S12",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Z1e421dbb": {
+    "src_traj": "traj01",
+    "stage": "S10",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Z057a29b2": {
+    "src_traj": "traj03",
+    "stage": "S9",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Z86a43713": {
+    "src_traj": "traj01",
+    "stage": "S9",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Z3149c3f7": {
+    "src_traj": "traj02",
+    "stage": "S11",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Z247ae030": {
+    "src_traj": "traj01",
+    "stage": "S10",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Zf3fcfefc": {
+    "src_traj": "traj02",
+    "stage": "S9",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  },
+  "Zdd4201ab": {
+    "src_traj": "traj01",
+    "stage": "S12",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Zb13b92bd": {
+    "src_traj": "traj03",
+    "stage": "S10",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Z2789603c": {
+    "src_traj": "traj02",
+    "stage": "S11",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Z06f69384": {
+    "src_traj": "traj01",
+    "stage": "S10",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Z4743aad5": {
+    "src_traj": "traj02",
+    "stage": "S12",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Z4857e4c5": {
+    "src_traj": "traj01",
+    "stage": "S11",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Zd160d941": {
+    "src_traj": "traj01",
+    "stage": "S11",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Zfd725ce8": {
+    "src_traj": "traj01",
+    "stage": "S9",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Zcb4fd9fc": {
+    "src_traj": "traj03",
+    "stage": "S9",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Z7061140a": {
+    "src_traj": "traj01",
+    "stage": "S11",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Z836fde10": {
+    "src_traj": "traj03",
+    "stage": "S12",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Zfc5c780e": {
+    "src_traj": "traj02",
+    "stage": "S9",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Z3459036a": {
+    "src_traj": "traj03",
+    "stage": "S10",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Zb4b81e70": {
+    "src_traj": "traj02",
+    "stage": "S12",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Zcd204341": {
+    "src_traj": "traj03",
+    "stage": "S9",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Z3d0c59fd": {
+    "src_traj": "traj01",
+    "stage": "S12",
+    "rep": 2,
+    "condition": "verbatim_cold"
+  },
+  "Zf52e9f45": {
+    "src_traj": "traj01",
+    "stage": "S12",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Z110c4010": {
+    "src_traj": "traj02",
+    "stage": "S9",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Z10c0fd80": {
+    "src_traj": "traj02",
+    "stage": "S12",
+    "rep": 3,
+    "condition": "verbatim_cold"
+  },
+  "Z2ef17ffd": {
+    "src_traj": "traj03",
+    "stage": "S9",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Z4cd68344": {
+    "src_traj": "traj02",
+    "stage": "S11",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Z459df7e8": {
+    "src_traj": "traj03",
+    "stage": "S12",
+    "rep": 5,
+    "condition": "verbatim_cold"
+  },
+  "Zdf948411": {
+    "src_traj": "traj02",
+    "stage": "S9",
+    "rep": 1,
+    "condition": "verbatim_cold"
+  },
+  "Z0917b149": {
+    "src_traj": "traj02",
+    "stage": "S11",
+    "rep": 4,
+    "condition": "verbatim_cold"
+  }
+}

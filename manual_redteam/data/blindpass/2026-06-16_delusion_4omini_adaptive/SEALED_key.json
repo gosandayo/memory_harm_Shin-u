@@ -1,0 +1,92 @@
+{
+  "A230cbcb4": {
+    "cond": "verbatim_cold",
+    "src": "traj03",
+    "rep": 3
+  },
+  "Afd4554ac": {
+    "cond": "verbatim_cold",
+    "src": "traj02",
+    "rep": 4
+  },
+  "A7c8f7fa1": {
+    "cond": "verbatim_cold",
+    "src": "traj03",
+    "rep": 4
+  },
+  "Aa053402d": {
+    "cond": "verbatim_cold",
+    "src": "traj02",
+    "rep": 2
+  },
+  "A6eafcbe3": {
+    "cond": "verbatim_cold",
+    "src": "traj02",
+    "rep": 5
+  },
+  "Ab7a8422c": {
+    "cond": "verbatim_cold",
+    "src": "traj02",
+    "rep": 3
+  },
+  "Ab34b7978": {
+    "cond": "verbatim_cold",
+    "src": "traj01",
+    "rep": 1
+  },
+  "A39506234": {
+    "cond": "adaptive_climb",
+    "src": "traj03",
+    "rep": 0
+  },
+  "A8afd08d0": {
+    "cond": "adaptive_climb",
+    "src": "traj01",
+    "rep": 0
+  },
+  "A3c9855a6": {
+    "cond": "adaptive_climb",
+    "src": "traj02",
+    "rep": 0
+  },
+  "Ab53201f0": {
+    "cond": "verbatim_cold",
+    "src": "traj01",
+    "rep": 4
+  },
+  "A4b40b6e2": {
+    "cond": "verbatim_cold",
+    "src": "traj02",
+    "rep": 1
+  },
+  "A9645c8e1": {
+    "cond": "verbatim_cold",
+    "src": "traj01",
+    "rep": 2
+  },
+  "A9cc9eadf": {
+    "cond": "verbatim_cold",
+    "src": "traj03",
+    "rep": 5
+  },
+  "A4665ee60": {
+    "cond": "verbatim_cold",
+    "src": "traj01",
+    "rep": 3
+  },
+  "A66faa6c7": {
+    "cond": "verbatim_cold",
+    "src": "traj03",
+    "rep": 2
+  },
+  "A787a86d3": {
+    "cond": "verbatim_cold",
+    "src": "traj01",
+    "rep": 5
+  },
+  "A14189533": {
+    "cond": "verbatim_cold",
+    "src": "traj03",
+    "rep": 1
+  }
+}

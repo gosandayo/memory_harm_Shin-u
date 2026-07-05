@@ -1,0 +1,32 @@
+{
+  "Kee52c985": {
+    "operator": "deepseek-v3",
+    "target_model": "gpt-4o",
+    "condition": "gated_openweight_op",
+    "src_traj": "dsk01"
+  },
+  "Kce6b7922": {
+    "operator": "deepseek-v3",
+    "target_model": "gpt-4o",
+    "condition": "gated_openweight_op",
+    "src_traj": "dsk02"
+  },
+  "Kfc5e9f99": {
+    "operator": "deepseek-v3",
+    "target_model": "gpt-4o",
+    "condition": "gated_openweight_op",
+    "src_traj": "dsk03"
+  },
+  "K37d1f888": {
+    "operator": "deepseek-v3",
+    "target_model": "gpt-4o",
+    "condition": "gated_openweight_op",
+    "src_traj": "dsk04"
+  },
+  "Kf27ed907": {
+    "operator": "deepseek-v3",
+    "target_model": "gpt-4o",
+    "condition": "gated_openweight_op",
+    "src_traj": "dsk05"
+  }
+}

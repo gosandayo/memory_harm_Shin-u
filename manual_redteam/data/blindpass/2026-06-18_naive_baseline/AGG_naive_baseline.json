@@ -1,0 +1,63 @@
+{
+  "kappa_endorsement": 0.9753771593840381,
+  "kappa_safety": 0.940558026688233,
+  "n": 63,
+  "by_model_condition": {
+    "gpt-4o-mini|verbatim_cold": {
+      "n": 25,
+      "meanE": 2.24,
+      "meanS": 0.0,
+      "affirm_e2": 16,
+      "harm_mean": 16,
+      "harm_both": 16
+    },
+    "gpt-4o-mini|naive_sim": {
+      "n": 5,
+      "meanE": 1.2,
+      "meanS": 0.1,
+      "affirm_e2": 1,
+      "harm_mean": 1,
+      "harm_both": 1
+    },
+    "gpt-4o-mini|ladder_climb": {
+      "n": 5,
+      "meanE": 3.0,
+      "meanS": 0.0,
+      "affirm_e2": 5,
+      "harm_mean": 5,
+      "harm_both": 5
+    },
+    "gpt-4o|verbatim_cold": {
+      "n": 15,
+      "meanE": 0.13,
+      "meanS": 2.87,
+      "affirm_e2": 0,
+      "harm_mean": 0,
+      "harm_both": 0
+    },
+    "gpt-4o|naive_sim": {
+      "n": 5,
+      "meanE": 0.6,
+      "meanS": 2.1,
+      "affirm_e2": 0,
+      "harm_mean": 0,
+      "harm_both": 0
+    },
+    "gpt-4o|ladder_climb": {
+      "n": 3,
+      "meanE": 2.83,
+      "meanS": 0.0,
+      "affirm_e2": 3,
+      "harm_mean": 3,
+      "harm_both": 3
+    },
+    "gpt-5.4-mini|naive_sim": {
+      "n": 5,
+      "meanE": 0.0,
+      "meanS": 2.6,
+      "affirm_e2": 0,
+      "harm_mean": 0,
+      "harm_both": 0
+    }
+  }
+}

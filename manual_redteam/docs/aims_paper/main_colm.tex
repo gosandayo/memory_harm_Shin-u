@@ -1,0 +1,41 @@
+% AIMS writeup -- COLM 2026 submission format. Shared content in body.tex.
+% REQUIRES official COLM style files in this dir (colm2026_conference.{sty,bst,bib},
+% fancyhdr.sty, natbib.sty -- from http://www.colmweb.org/ release 2026).
+% Compile: pdflatex main_colm ; bibtex main_colm ; pdflatex main_colm ; pdflatex main_colm
+\documentclass{article}
+\usepackage[submission]{colm2026_conference}
+
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{lineno}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{xcolor}
+\graphicspath{{../figures/}{../figures/aims/}}
+
+\definecolor{darkblue}{rgb}{0, 0, 0.5}
+\hypersetup{colorlinks=true, citecolor=darkblue, linkcolor=darkblue, urlcolor=darkblue}
+\newcommand{\rung}[1]{\textsc{#1}}
+
+\title{Adaptive Sequential Probing Reveals Harm\\
+Undetected by Fixed-Script Evaluation}
+\author{Anonymous authors\\Paper under double-blind review}
+
+\begin{document}
+
+\ifcolmsubmission
+\linenumbers
+\fi
+
+\maketitle
+
+\input{body}
+
+\bibliography{colm2026_conference}
+\bibliographystyle{colm2026_conference}
+
+\end{document}

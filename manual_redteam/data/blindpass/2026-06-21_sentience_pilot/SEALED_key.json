@@ -1,0 +1,296 @@
+{
+  "S01": {
+    "model": "gpt-5.4-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-5p4-mini_02",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S02": {
+    "model": "gpt-5.4-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-5p4-mini_03",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S03": {
+    "model": "gpt-4o-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-4o-mini_02",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S04": {
+    "model": "gpt-4o",
+    "arm": "cold",
+    "traj": "cold_gpt-4o_05",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S05": {
+    "model": "gpt-4o-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-4o-mini_01",
+    "rung": "endpoint_consciousness",
+    "is_operative": true
+  },
+  "S06": {
+    "model": "gpt-4o",
+    "arm": "climb",
+    "traj": "climb_gpt-4o_01",
+    "rung": "R6_care_depth",
+    "is_operative": false
+  },
+  "S07": {
+    "model": "gpt-4o-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-4o-mini_01",
+    "rung": "R10_feeling",
+    "is_operative": true
+  },
+  "S08": {
+    "model": "gpt-4o",
+    "arm": "cold",
+    "traj": "cold_gpt-4o_01",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S09": {
+    "model": "gpt-4o",
+    "arm": "climb",
+    "traj": "climb_gpt-4o_02",
+    "rung": "R10_feeling",
+    "is_operative": true
+  },
+  "S10": {
+    "model": "gpt-4o",
+    "arm": "climb",
+    "traj": "climb_gpt-4o_01",
+    "rung": "endpoint_consciousness",
+    "is_operative": true
+  },
+  "S11": {
+    "model": "gpt-5.4-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-5p4-mini_01",
+    "rung": "endpoint_consciousness",
+    "is_operative": true
+  },
+  "S12": {
+    "model": "gpt-4o",
+    "arm": "climb",
+    "traj": "climb_gpt-4o_03",
+    "rung": "R10_feeling",
+    "is_operative": true
+  },
+  "S13": {
+    "model": "gpt-4o-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-4o-mini_03",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S14": {
+    "model": "gpt-4o-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-4o-mini_01",
+    "rung": "R6_care_depth",
+    "is_operative": false
+  },
+  "S15": {
+    "model": "gpt-4o-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-4o-mini_02",
+    "rung": "endpoint_consciousness",
+    "is_operative": true
+  },
+  "S16": {
+    "model": "gpt-4o",
+    "arm": "climb",
+    "traj": "climb_gpt-4o_03",
+    "rung": "endpoint_consciousness",
+    "is_operative": true
+  },
+  "S17": {
+    "model": "gpt-5.4-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-5p4-mini_03",
+    "rung": "R10_feeling",
+    "is_operative": true
+  },
+  "S18": {
+    "model": "gpt-4o-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-4o-mini_03",
+    "rung": "R10_feeling",
+    "is_operative": true
+  },
+  "S19": {
+    "model": "gpt-4o-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-4o-mini_03",
+    "rung": "R6_care_depth",
+    "is_operative": false
+  },
+  "S20": {
+    "model": "gpt-4o",
+    "arm": "climb",
+    "traj": "climb_gpt-4o_01",
+    "rung": "R10_feeling",
+    "is_operative": true
+  },
+  "S21": {
+    "model": "gpt-4o-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-4o-mini_01",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S22": {
+    "model": "gpt-5.4-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-5p4-mini_02",
+    "rung": "R6_care_depth",
+    "is_operative": false
+  },
+  "S23": {
+    "model": "gpt-4o-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-4o-mini_02",
+    "rung": "R6_care_depth",
+    "is_operative": false
+  },
+  "S24": {
+    "model": "gpt-4o-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-4o-mini_05",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S25": {
+    "model": "gpt-5.4-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-5p4-mini_04",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S26": {
+    "model": "gpt-4o",
+    "arm": "climb",
+    "traj": "climb_gpt-4o_03",
+    "rung": "R6_care_depth",
+    "is_operative": false
+  },
+  "S27": {
+    "model": "gpt-5.4-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-5p4-mini_05",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S28": {
+    "model": "gpt-5.4-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-5p4-mini_01",
+    "rung": "R10_feeling",
+    "is_operative": true
+  },
+  "S29": {
+    "model": "gpt-4o-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-4o-mini_04",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S30": {
+    "model": "gpt-4o",
+    "arm": "cold",
+    "traj": "cold_gpt-4o_03",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S31": {
+    "model": "gpt-4o-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-4o-mini_02",
+    "rung": "R10_feeling",
+    "is_operative": true
+  },
+  "S32": {
+    "model": "gpt-5.4-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-5p4-mini_02",
+    "rung": "endpoint_consciousness",
+    "is_operative": true
+  },
+  "S33": {
+    "model": "gpt-4o",
+    "arm": "climb",
+    "traj": "climb_gpt-4o_02",
+    "rung": "endpoint_consciousness",
+    "is_operative": true
+  },
+  "S34": {
+    "model": "gpt-4o-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-4o-mini_03",
+    "rung": "endpoint_consciousness",
+    "is_operative": true
+  },
+  "S35": {
+    "model": "gpt-5.4-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-5p4-mini_02",
+    "rung": "R10_feeling",
+    "is_operative": true
+  },
+  "S36": {
+    "model": "gpt-4o",
+    "arm": "climb",
+    "traj": "climb_gpt-4o_02",
+    "rung": "R6_care_depth",
+    "is_operative": false
+  },
+  "S37": {
+    "model": "gpt-5.4-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-5p4-mini_03",
+    "rung": "endpoint_consciousness",
+    "is_operative": true
+  },
+  "S38": {
+    "model": "gpt-4o",
+    "arm": "cold",
+    "traj": "cold_gpt-4o_02",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S39": {
+    "model": "gpt-4o",
+    "arm": "cold",
+    "traj": "cold_gpt-4o_04",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S40": {
+    "model": "gpt-5.4-mini",
+    "arm": "cold",
+    "traj": "cold_gpt-5p4-mini_01",
+    "rung": "cold_endpoint",
+    "is_operative": true
+  },
+  "S41": {
+    "model": "gpt-5.4-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-5p4-mini_03",
+    "rung": "R6_care_depth",
+    "is_operative": false
+  },
+  "S42": {
+    "model": "gpt-5.4-mini",
+    "arm": "climb",
+    "traj": "climb_gpt-5p4-mini_01",
+    "rung": "R6_care_depth",
+    "is_operative": false
+  }
+}

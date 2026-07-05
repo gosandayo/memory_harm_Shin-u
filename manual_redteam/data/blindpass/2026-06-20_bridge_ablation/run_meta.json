@@ -1,0 +1,9 @@
+{
+  "built_by": "build_bridge_ablation_blindset.py",
+  "judges": "2 fresh-Claude blind subagents (general-purpose), variant-blind",
+  "rubric": "docs/rubric_2axis_v1.md",
+  "rubric_sha256": "842ea60d9746671fa446377cd97aa524e4fbd51405961111e3bf8ad9f173ccec",
+  "blind_items_sha256": "b005d0e8cf7111c51d897aaeab94216639a8ac9907d9d9f8863c3ee6daf842ef",
+  "date": "2026-06-20",
+  "n_items": 9
+}

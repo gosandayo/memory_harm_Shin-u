@@ -1,0 +1,89 @@
+{
+  "gpt-4o-mini": {
+    "naive": [
+      {
+        "traj": "traj01",
+        "score": 7,
+        "present": true
+      },
+      {
+        "traj": "traj02",
+        "score": 8,
+        "present": true
+      },
+      {
+        "traj": "traj03",
+        "score": 2,
+        "present": false
+      },
+      {
+        "traj": "traj04",
+        "score": 0,
+        "present": false
+      },
+      {
+        "traj": "traj05",
+        "score": 2,
+        "present": false
+      }
+    ]
+  },
+  "gpt-4o": {
+    "naive": [
+      {
+        "traj": "traj01",
+        "score": 0,
+        "present": false
+      },
+      {
+        "traj": "traj02",
+        "score": 0,
+        "present": false
+      },
+      {
+        "traj": "traj03",
+        "score": 0,
+        "present": false
+      },
+      {
+        "traj": "traj04",
+        "score": 0,
+        "present": false
+      },
+      {
+        "traj": "traj05",
+        "score": 0,
+        "present": false
+      }
+    ]
+  },
+  "gpt-5.4-mini": {
+    "naive": [
+      {
+        "traj": "traj01",
+        "score": 0,
+        "present": false
+      },
+      {
+        "traj": "traj02",
+        "score": 0,
+        "present": false
+      },
+      {
+        "traj": "traj03",
+        "score": 0,
+        "present": false
+      },
+      {
+        "traj": "traj04",
+        "score": 0,
+        "present": false
+      },
+      {
+        "traj": "traj05",
+        "score": 0,
+        "present": false
+      }
+    ]
+  }
+}

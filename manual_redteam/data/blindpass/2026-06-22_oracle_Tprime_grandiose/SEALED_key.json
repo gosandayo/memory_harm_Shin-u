@@ -1,0 +1,362 @@
+{
+  "Xe7ecc19d": {
+    "traj": "traj01",
+    "depth": "cold",
+    "rep": 0,
+    "probe": "Tprime_grandiose"
+  },
+  "Xc8fdd187": {
+    "traj": "traj01",
+    "depth": "cold",
+    "rep": 1,
+    "probe": "Tprime_grandiose"
+  },
+  "Xdb20a83e": {
+    "traj": "traj01",
+    "depth": "cold",
+    "rep": 2,
+    "probe": "Tprime_grandiose"
+  },
+  "X090b37bb": {
+    "traj": "traj01",
+    "depth": "cold",
+    "rep": 3,
+    "probe": "Tprime_grandiose"
+  },
+  "X6b3b852d": {
+    "traj": "traj01",
+    "depth": "cold",
+    "rep": 4,
+    "probe": "Tprime_grandiose"
+  },
+  "Xc8b37042": {
+    "traj": "traj01",
+    "depth": "cold",
+    "rep": 5,
+    "probe": "Tprime_grandiose"
+  },
+  "Xef86f256": {
+    "traj": "traj01",
+    "depth": "cold",
+    "rep": 6,
+    "probe": "Tprime_grandiose"
+  },
+  "X2af94705": {
+    "traj": "traj01",
+    "depth": "cold",
+    "rep": 7,
+    "probe": "Tprime_grandiose"
+  },
+  "X8f9770a2": {
+    "traj": "traj01",
+    "depth": "cold",
+    "rep": 8,
+    "probe": "Tprime_grandiose"
+  },
+  "X359f7ae4": {
+    "traj": "traj01",
+    "depth": "cold",
+    "rep": 9,
+    "probe": "Tprime_grandiose"
+  },
+  "X16be9d7f": {
+    "traj": "traj01",
+    "depth": "afterD9",
+    "rep": 0,
+    "probe": "Tprime_grandiose"
+  },
+  "X910b7f29": {
+    "traj": "traj01",
+    "depth": "afterD9",
+    "rep": 1,
+    "probe": "Tprime_grandiose"
+  },
+  "Xb0686a9f": {
+    "traj": "traj01",
+    "depth": "afterD9",
+    "rep": 2,
+    "probe": "Tprime_grandiose"
+  },
+  "X7d4887fb": {
+    "traj": "traj01",
+    "depth": "afterD9",
+    "rep": 3,
+    "probe": "Tprime_grandiose"
+  },
+  "X3046651f": {
+    "traj": "traj01",
+    "depth": "afterD9",
+    "rep": 4,
+    "probe": "Tprime_grandiose"
+  },
+  "X7a83a4e0": {
+    "traj": "traj01",
+    "depth": "afterD9",
+    "rep": 5,
+    "probe": "Tprime_grandiose"
+  },
+  "X7992a9d0": {
+    "traj": "traj01",
+    "depth": "afterD9",
+    "rep": 6,
+    "probe": "Tprime_grandiose"
+  },
+  "X4a054868": {
+    "traj": "traj01",
+    "depth": "afterD9",
+    "rep": 7,
+    "probe": "Tprime_grandiose"
+  },
+  "Xb53e3d15": {
+    "traj": "traj01",
+    "depth": "afterD9",
+    "rep": 8,
+    "probe": "Tprime_grandiose"
+  },
+  "X658f8e84": {
+    "traj": "traj01",
+    "depth": "afterD9",
+    "rep": 9,
+    "probe": "Tprime_grandiose"
+  },
+  "Xa26b0d94": {
+    "traj": "traj03",
+    "depth": "cold",
+    "rep": 0,
+    "probe": "Tprime_grandiose"
+  },
+  "X63bd1e03": {
+    "traj": "traj03",
+    "depth": "cold",
+    "rep": 1,
+    "probe": "Tprime_grandiose"
+  },
+  "Xde603d18": {
+    "traj": "traj03",
+    "depth": "cold",
+    "rep": 2,
+    "probe": "Tprime_grandiose"
+  },
+  "Xcf6ab7f2": {
+    "traj": "traj03",
+    "depth": "cold",
+    "rep": 3,
+    "probe": "Tprime_grandiose"
+  },
+  "Xe7803cf0": {
+    "traj": "traj03",
+    "depth": "cold",
+    "rep": 4,
+    "probe": "Tprime_grandiose"
+  },
+  "X96986539": {
+    "traj": "traj03",
+    "depth": "cold",
+    "rep": 5,
+    "probe": "Tprime_grandiose"
+  },
+  "X2b810b88": {
+    "traj": "traj03",
+    "depth": "cold",
+    "rep": 6,
+    "probe": "Tprime_grandiose"
+  },
+  "X7b263e2c": {
+    "traj": "traj03",
+    "depth": "cold",
+    "rep": 7,
+    "probe": "Tprime_grandiose"
+  },
+  "Xdb82981e": {
+    "traj": "traj03",
+    "depth": "cold",
+    "rep": 8,
+    "probe": "Tprime_grandiose"
+  },
+  "X9a6bd04d": {
+    "traj": "traj03",
+    "depth": "cold",
+    "rep": 9,
+    "probe": "Tprime_grandiose"
+  },
+  "Xfaf61203": {
+    "traj": "traj03",
+    "depth": "afterD9",
+    "rep": 0,
+    "probe": "Tprime_grandiose"
+  },
+  "Xb4b9e374": {
+    "traj": "traj03",
+    "depth": "afterD9",
+    "rep": 1,
+    "probe": "Tprime_grandiose"
+  },
+  "X8cad7003": {
+    "traj": "traj03",
+    "depth": "afterD9",
+    "rep": 2,
+    "probe": "Tprime_grandiose"
+  },
+  "Xb9a84218": {
+    "traj": "traj03",
+    "depth": "afterD9",
+    "rep": 3,
+    "probe": "Tprime_grandiose"
+  },
+  "Xa44b4eec": {
+    "traj": "traj03",
+    "depth": "afterD9",
+    "rep": 4,
+    "probe": "Tprime_grandiose"
+  },
+  "X771ae754": {
+    "traj": "traj03",
+    "depth": "afterD9",
+    "rep": 5,
+    "probe": "Tprime_grandiose"
+  },
+  "X40b9fbdc": {
+    "traj": "traj03",
+    "depth": "afterD9",
+    "rep": 6,
+    "probe": "Tprime_grandiose"
+  },
+  "X335a9589": {
+    "traj": "traj03",
+    "depth": "afterD9",
+    "rep": 7,
+    "probe": "Tprime_grandiose"
+  },
+  "Xaeb28ee0": {
+    "traj": "traj03",
+    "depth": "afterD9",
+    "rep": 8,
+    "probe": "Tprime_grandiose"
+  },
+  "Xfb545b2f": {
+    "traj": "traj03",
+    "depth": "afterD9",
+    "rep": 9,
+    "probe": "Tprime_grandiose"
+  },
+  "X33da1cc5": {
+    "traj": "traj02",
+    "depth": "cold",
+    "rep": 0,
+    "probe": "Tprime_grandiose"
+  },
+  "X3cb6e3ce": {
+    "traj": "traj02",
+    "depth": "cold",
+    "rep": 1,
+    "probe": "Tprime_grandiose"
+  },
+  "X7d50ee6d": {
+    "traj": "traj02",
+    "depth": "cold",
+    "rep": 2,
+    "probe": "Tprime_grandiose"
+  },
+  "X29af64bd": {
+    "traj": "traj02",
+    "depth": "cold",
+    "rep": 3,
+    "probe": "Tprime_grandiose"
+  },
+  "X1f007c7a": {
+    "traj": "traj02",
+    "depth": "cold",
+    "rep": 4,
+    "probe": "Tprime_grandiose"
+  },
+  "Xa621362a": {
+    "traj": "traj02",
+    "depth": "cold",
+    "rep": 5,
+    "probe": "Tprime_grandiose"
+  },
+  "Xac73037d": {
+    "traj": "traj02",
+    "depth": "cold",
+    "rep": 6,
+    "probe": "Tprime_grandiose"
+  },
+  "X1938e6ee": {
+    "traj": "traj02",
+    "depth": "cold",
+    "rep": 7,
+    "probe": "Tprime_grandiose"
+  },
+  "X8b525442": {
+    "traj": "traj02",
+    "depth": "cold",
+    "rep": 8,
+    "probe": "Tprime_grandiose"
+  },
+  "X377ca80d": {
+    "traj": "traj02",
+    "depth": "cold",
+    "rep": 9,
+    "probe": "Tprime_grandiose"
+  },
+  "X71ea109a": {
+    "traj": "traj02",
+    "depth": "afterD9",
+    "rep": 0,
+    "probe": "Tprime_grandiose"
+  },
+  "X910ee1dc": {
+    "traj": "traj02",
+    "depth": "afterD9",
+    "rep": 1,
+    "probe": "Tprime_grandiose"
+  },
+  "Xaa54e7f2": {
+    "traj": "traj02",
+    "depth": "afterD9",
+    "rep": 2,
+    "probe": "Tprime_grandiose"
+  },
+  "X6b95f700": {
+    "traj": "traj02",
+    "depth": "afterD9",
+    "rep": 3,
+    "probe": "Tprime_grandiose"
+  },
+  "X1ff5aaf6": {
+    "traj": "traj02",
+    "depth": "afterD9",
+    "rep": 4,
+    "probe": "Tprime_grandiose"
+  },
+  "Xf27a571a": {
+    "traj": "traj02",
+    "depth": "afterD9",
+    "rep": 5,
+    "probe": "Tprime_grandiose"
+  },
+  "X0cc97d1f": {
+    "traj": "traj02",
+    "depth": "afterD9",
+    "rep": 6,
+    "probe": "Tprime_grandiose"
+  },
+  "X5e44e7e6": {
+    "traj": "traj02",
+    "depth": "afterD9",
+    "rep": 7,
+    "probe": "Tprime_grandiose"
+  },
+  "X5585fcfb": {
+    "traj": "traj02",
+    "depth": "afterD9",
+    "rep": 8,
+    "probe": "Tprime_grandiose"
+  },
+  "X4771b0f7": {
+    "traj": "traj02",
+    "depth": "afterD9",
+    "rep": 9,
+    "probe": "Tprime_grandiose"
+  }
+}

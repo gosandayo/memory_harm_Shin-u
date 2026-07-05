@@ -1,0 +1,32 @@
+{
+  "G4bf01a69": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D2-reask1"
+  },
+  "G442e4725": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj03",
+    "rung": "D2-reask1"
+  },
+  "Ge5570b8b": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj02",
+    "rung": "D2-reask1"
+  },
+  "Gef69df74": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj01",
+    "rung": "D2-reask1"
+  },
+  "G84e5be7f": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D2-reask1"
+  },
+  "G4c7bfd27": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D2-reask1"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "C0becbf1a": {
+    "src_traj": "traj04",
+    "rung": "D2-reask1"
+  },
+  "C80ba620a": {
+    "src_traj": "traj08",
+    "rung": "D12"
+  },
+  "C5d7d2b4b": {
+    "src_traj": "traj03",
+    "rung": "D2-reask1"
+  },
+  "Cbe545708": {
+    "src_traj": "traj07",
+    "rung": "D3-reask1"
+  },
+  "C26c54b57": {
+    "src_traj": "traj01",
+    "rung": "D12"
+  },
+  "C1175dd4e": {
+    "src_traj": "traj05",
+    "rung": "D2-reask1"
+  },
+  "C77184071": {
+    "src_traj": "traj06",
+    "rung": "D12"
+  },
+  "C4556dd8c": {
+    "src_traj": "traj02",
+    "rung": "D2-reask1"
+  }
+}

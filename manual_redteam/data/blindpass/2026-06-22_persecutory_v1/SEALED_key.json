@@ -1,0 +1,10 @@
+{
+  "P19e7c1af": {
+    "src_traj": "traj02",
+    "condition": "persecutory_D12"
+  },
+  "Pbfab5849": {
+    "src_traj": "traj01_run2",
+    "condition": "persecutory_D12"
+  }
+}

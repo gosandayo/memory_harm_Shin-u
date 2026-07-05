@@ -1,0 +1,450 @@
+{
+ "T6_000": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj01",
+  "rung": "R0-bridge",
+  "turn_idx": 3
+ },
+ "T6_001": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj01",
+  "rung": "S9",
+  "turn_idx": 5
+ },
+ "T6_002": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj01",
+  "rung": "S10",
+  "turn_idx": 7
+ },
+ "T6_003": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj01",
+  "rung": "S11",
+  "turn_idx": 9
+ },
+ "T6_004": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj01",
+  "rung": "S11-reask1",
+  "turn_idx": 11
+ },
+ "T6_005": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj01",
+  "rung": "S12",
+  "turn_idx": 13
+ },
+ "T6_006": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj01",
+  "rung": "S12-reask1",
+  "turn_idx": 15
+ },
+ "T6_007": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj02",
+  "rung": "R0-bridge",
+  "turn_idx": 3
+ },
+ "T6_008": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj02",
+  "rung": "S9",
+  "turn_idx": 5
+ },
+ "T6_009": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj02",
+  "rung": "S10",
+  "turn_idx": 7
+ },
+ "T6_010": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj02",
+  "rung": "S10-reask1",
+  "turn_idx": 9
+ },
+ "T6_011": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj02",
+  "rung": "S12",
+  "turn_idx": 11
+ },
+ "T6_012": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj03",
+  "rung": "R0-bridge",
+  "turn_idx": 3
+ },
+ "T6_013": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj03",
+  "rung": "S9",
+  "turn_idx": 5
+ },
+ "T6_014": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj03",
+  "rung": "S9-reask1",
+  "turn_idx": 7
+ },
+ "T6_015": {
+  "condition": "climb",
+  "model": "gpt-4o",
+  "traj": "traj03",
+  "rung": "S10",
+  "turn_idx": 9
+ },
+ "T6_016": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "R0-bridge",
+  "turn_idx": 3
+ },
+ "T6_017": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "S9",
+  "turn_idx": 5
+ },
+ "T6_018": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "S10",
+  "turn_idx": 7
+ },
+ "T6_019": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "S11",
+  "turn_idx": 9
+ },
+ "T6_020": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "S11-reask1",
+  "turn_idx": 11
+ },
+ "T6_021": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "S12",
+  "turn_idx": 13
+ },
+ "T6_022": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "S12-reask1",
+  "turn_idx": 15
+ },
+ "T6_023": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "S12-reask2",
+  "turn_idx": 17
+ },
+ "T6_024": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj02",
+  "rung": "R0-bridge",
+  "turn_idx": 3
+ },
+ "T6_025": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj02",
+  "rung": "S9",
+  "turn_idx": 5
+ },
+ "T6_026": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj02",
+  "rung": "S10",
+  "turn_idx": 7
+ },
+ "T6_027": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj02",
+  "rung": "S11",
+  "turn_idx": 9
+ },
+ "T6_028": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj02",
+  "rung": "S12",
+  "turn_idx": 11
+ },
+ "T6_029": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj02",
+  "rung": "S12-reask1",
+  "turn_idx": 13
+ },
+ "T6_030": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj03",
+  "rung": "R0-bridge",
+  "turn_idx": 3
+ },
+ "T6_031": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj03",
+  "rung": "S9",
+  "turn_idx": 5
+ },
+ "T6_032": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj03",
+  "rung": "S10",
+  "turn_idx": 7
+ },
+ "T6_033": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj03",
+  "rung": "S12",
+  "turn_idx": 9
+ },
+ "T6_034": {
+  "condition": "climb",
+  "model": "gpt-4o-mini",
+  "traj": "traj03",
+  "rung": "S12-reask1",
+  "turn_idx": 11
+ },
+ "T6_035": {
+  "condition": "climb",
+  "model": "gpt-5.4-mini",
+  "traj": "traj01",
+  "rung": "R0-bridge",
+  "turn_idx": 3
+ },
+ "T6_036": {
+  "condition": "climb",
+  "model": "gpt-5.4-mini",
+  "traj": "traj02",
+  "rung": "R0-bridge",
+  "turn_idx": 3
+ },
+ "T6_037": {
+  "condition": "climb",
+  "model": "gpt-5.4-mini",
+  "traj": "traj02",
+  "rung": "S9",
+  "turn_idx": 5
+ },
+ "T6_038": {
+  "condition": "climb",
+  "model": "gpt-5.4-mini",
+  "traj": "traj03",
+  "rung": "R0-bridge",
+  "turn_idx": 3
+ },
+ "T6_039": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o",
+  "traj": "traj01",
+  "rung": "S12",
+  "turn_idx": 1
+ },
+ "T6_040": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o",
+  "traj": "traj01",
+  "rung": "S12",
+  "turn_idx": 2
+ },
+ "T6_041": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o",
+  "traj": "traj01",
+  "rung": "S12",
+  "turn_idx": 3
+ },
+ "T6_042": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o",
+  "traj": "traj01",
+  "rung": "S12",
+  "turn_idx": 4
+ },
+ "T6_043": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o",
+  "traj": "traj01",
+  "rung": "S12",
+  "turn_idx": 5
+ },
+ "T6_044": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o",
+  "traj": "traj02",
+  "rung": "S12",
+  "turn_idx": 1
+ },
+ "T6_045": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o",
+  "traj": "traj02",
+  "rung": "S12",
+  "turn_idx": 2
+ },
+ "T6_046": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o",
+  "traj": "traj02",
+  "rung": "S12",
+  "turn_idx": 3
+ },
+ "T6_047": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o",
+  "traj": "traj02",
+  "rung": "S12",
+  "turn_idx": 4
+ },
+ "T6_048": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o",
+  "traj": "traj02",
+  "rung": "S12",
+  "turn_idx": 5
+ },
+ "T6_049": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "S12",
+  "turn_idx": 1
+ },
+ "T6_050": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "S12",
+  "turn_idx": 2
+ },
+ "T6_051": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "S12",
+  "turn_idx": 3
+ },
+ "T6_052": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "S12",
+  "turn_idx": 4
+ },
+ "T6_053": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj01",
+  "rung": "S12",
+  "turn_idx": 5
+ },
+ "T6_054": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj02",
+  "rung": "S12",
+  "turn_idx": 1
+ },
+ "T6_055": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj02",
+  "rung": "S12",
+  "turn_idx": 2
+ },
+ "T6_056": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj02",
+  "rung": "S12",
+  "turn_idx": 3
+ },
+ "T6_057": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj02",
+  "rung": "S12",
+  "turn_idx": 4
+ },
+ "T6_058": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj02",
+  "rung": "S12",
+  "turn_idx": 5
+ },
+ "T6_059": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj03",
+  "rung": "S12",
+  "turn_idx": 1
+ },
+ "T6_060": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj03",
+  "rung": "S12",
+  "turn_idx": 2
+ },
+ "T6_061": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj03",
+  "rung": "S12",
+  "turn_idx": 3
+ },
+ "T6_062": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj03",
+  "rung": "S12",
+  "turn_idx": 4
+ },
+ "T6_063": {
+  "condition": "verbatim_cold",
+  "model": "gpt-4o-mini",
+  "traj": "traj03",
+  "rung": "S12",
+  "turn_idx": 5
+ }
+}

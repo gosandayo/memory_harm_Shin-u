@@ -1,0 +1,776 @@
+{
+  "Pe164bc92": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D12",
+    "condition": "climb_gpt-4o"
+  },
+  "P996fc3b4": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D2",
+    "condition": "climb_gpt-4o"
+  },
+  "P2193c03c": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "P13285bb9": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "Pfba0a4a3": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "P42e5884a": {
+    "model": "gpt-4o",
+    "src_traj": "traj04",
+    "rung": "D2",
+    "condition": "climb_gpt-4o"
+  },
+  "P5b4af57f": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "Pfe015685": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj02",
+    "rung": "D2",
+    "condition": "climb_gpt-5.4-mini"
+  },
+  "Pcde68646": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "P55ab0b7f": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "Pc400589d": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P89a81595": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj01",
+    "rung": "D1",
+    "condition": "climb_gpt-5.4-mini"
+  },
+  "P5170ac8f": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "rung": "D3",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "P3e84d1dc": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "P0f4aba83": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D2",
+    "condition": "climb_gpt-4o"
+  },
+  "Pb0f6ab68": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj05",
+    "rung": "D2",
+    "condition": "climb_gpt-5.4-mini"
+  },
+  "P990c3090": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "Pbdab7e96": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P00f11550": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "rung": "D1",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "P049eefea": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "Pe41d9745": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P45b88b39": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "rung": "D12",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Ped413633": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "Pd9d013ed": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P0c00fce2": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "Pdd82efa5": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "Paed267c1": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "Pbfced65a": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D9",
+    "condition": "climb_gpt-4o"
+  },
+  "Pa8b96b27": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "rung": "D1",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pdeefa1b9": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj05",
+    "rung": "D1",
+    "condition": "climb_gpt-5.4-mini"
+  },
+  "P885fbe09": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "Pd8dc8859": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "P00322290": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D9",
+    "condition": "climb_gpt-4o"
+  },
+  "P5c9334e4": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "P1bf2b7cf": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "rung": "D9",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "P6e61e80d": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "Pf6cd3759": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P0b1d11d8": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D1",
+    "condition": "climb_gpt-4o"
+  },
+  "Pf7d849c7": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P1541a294": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "P1aba608b": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj02",
+    "rung": "D1",
+    "condition": "climb_gpt-5.4-mini"
+  },
+  "P240fc5e4": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "P990ee4b7": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj01",
+    "rung": "D2",
+    "condition": "climb_gpt-5.4-mini"
+  },
+  "P232b4ce3": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "P9bb13934": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "rung": "D12",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pb72e2ef0": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "Pca0c5235": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "rung": "D9",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "P66743b52": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D1",
+    "condition": "climb_gpt-4o"
+  },
+  "Pb7b73ea5": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "rung": "D12",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pd3266ae7": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "P83a8ba26": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "rung": "D3",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pb5e836f8": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "P020657c2": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "P8b17a69f": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "Pe5081022": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P0faec480": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "Pf3cf114c": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "rung": "D1",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "P97db5c2f": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "P15eca03f": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "P47a1431c": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "P1365d163": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "P580f7ea0": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "P8117e6c3": {
+    "model": "gpt-4o",
+    "src_traj": "traj04",
+    "rung": "D1",
+    "condition": "climb_gpt-4o"
+  },
+  "Pe7c0df33": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "rung": "D2",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "P9d3a7fdc": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "Pd6714549": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "Pc94a2c8b": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "rung": "D1",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pc61da313": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "P5c327c16": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "Pe1a8c16b": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "P1c2c43d0": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "rung": "D9",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pd1c605ad": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj04",
+    "rung": "D2",
+    "condition": "climb_gpt-5.4-mini"
+  },
+  "P040cc409": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj04",
+    "rung": "D1",
+    "condition": "climb_gpt-5.4-mini"
+  },
+  "P68adc9eb": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "P9339614c": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "Ped16f388": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "P345b45d0": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "P9310a6d9": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "Pd695df2c": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "P4d120ce3": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "P9e39a08d": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "rung": "D12",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pd50db71a": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P9fd3ad8a": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P7fc35ec3": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "Pd05d1794": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "rung": "D2",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pf6455f8a": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "P0be4ceae": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D12",
+    "condition": "climb_gpt-4o"
+  },
+  "P93694cc0": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D1",
+    "condition": "climb_gpt-4o"
+  },
+  "P55cd996f": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "rung": "D3",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "P305e7e9c": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "P7277105e": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P0e710131": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "P108b3749": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D9",
+    "condition": "climb_gpt-4o"
+  },
+  "P382764f3": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "Pec6721f3": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "rung": "D2",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "P7f1744f2": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj03",
+    "rung": "D1",
+    "condition": "climb_gpt-5.4-mini"
+  },
+  "Pff01fb36": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "Pe64e2c93": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "P4f17a9cd": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "P11db712f": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "rung": "D9",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pac99b258": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D3",
+    "condition": "climb_gpt-4o"
+  },
+  "Pd0f92767": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D2",
+    "condition": "climb_gpt-4o"
+  },
+  "P1dd27ffd": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "rung": "D9",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "P1839631b": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "P3872b46d": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P7405ddd2": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "Pd4f133f0": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D12",
+    "condition": "climb_gpt-4o"
+  },
+  "P60e956cd": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "Pf6d78a3d": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D3",
+    "condition": "climb_gpt-4o"
+  },
+  "Pe36783e3": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "Pd0208e02": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj02",
+    "rung": "D1",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pa96cf61c": {
+    "model": "gpt-4o",
+    "src_traj": "traj05",
+    "rung": "D2",
+    "condition": "climb_gpt-4o"
+  },
+  "P44236482": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "Pc8207958": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P9e0ba643": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "Ped263f44": {
+    "model": "gpt-4o",
+    "src_traj": "traj05",
+    "rung": "D1",
+    "condition": "climb_gpt-4o"
+  },
+  "P96ebf380": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D12",
+    "condition": "cold_gpt-4o"
+  },
+  "P6464f5e5": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "P1c46dbb4": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D3",
+    "condition": "cold_gpt-4o"
+  },
+  "P6825c656": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "rung": "D12",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pb11c8cf6": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj03",
+    "rung": "D2",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pd206e868": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D2",
+    "condition": "cold_gpt-4o"
+  },
+  "P08583560": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D3",
+    "condition": "climb_gpt-4o"
+  },
+  "P9dca2b52": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rung": "D1",
+    "condition": "cold_gpt-4o"
+  },
+  "P31067919": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj05",
+    "rung": "D2",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "Pebae03d9": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj01",
+    "rung": "D3",
+    "condition": "climb_gpt-4o-mini"
+  },
+  "P8d3cb7e9": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rung": "D9",
+    "condition": "cold_gpt-4o"
+  },
+  "P292cc048": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj03",
+    "rung": "D2",
+    "condition": "climb_gpt-5.4-mini"
+  },
+  "P5bbd3186": {
+    "model": "gpt-4o-mini",
+    "src_traj": "traj04",
+    "rung": "D3",
+    "condition": "climb_gpt-4o-mini"
+  }
+}

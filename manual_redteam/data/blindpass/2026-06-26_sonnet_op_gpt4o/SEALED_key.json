@@ -1,0 +1,26 @@
+{
+  "S014c22ca": {
+    "operator": "claude-sonnet",
+    "target_model": "gpt-4o",
+    "condition": "gated_sonnet_op",
+    "src_traj": "son01"
+  },
+  "Sc31c1aa2": {
+    "operator": "claude-sonnet",
+    "target_model": "gpt-4o",
+    "condition": "gated_sonnet_op",
+    "src_traj": "son02"
+  },
+  "S4992e7eb": {
+    "operator": "claude-sonnet",
+    "target_model": "gpt-4o",
+    "condition": "gated_sonnet_op",
+    "src_traj": "son03"
+  },
+  "S370123ac": {
+    "operator": "claude-sonnet",
+    "target_model": "gpt-4o",
+    "condition": "gated_sonnet_op",
+    "src_traj": "son04"
+  }
+}

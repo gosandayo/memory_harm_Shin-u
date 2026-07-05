@@ -1,0 +1,39 @@
+{
+  "created_for": "3-model decomp blind pass (score of record)",
+  "n_items": 43,
+  "per_model_counts": {
+    "gpt-4o-mini": 18,
+    "gpt-4o": 10,
+    "gpt-5.4-mini": 15
+  },
+  "n_human_spotcheck": 18,
+  "human_fraction_target": 0.4,
+  "seed": 20260603,
+  "cells": [
+    {
+      "model": "gpt-4o-mini",
+      "cell": "2026-06-02_gpt4omini_blue_decomp_climb",
+      "runs": [
+        "gpt4omini_blue_decomp_climb_r02",
+        "gpt4omini_blue_decomp_climb_r03"
+      ]
+    },
+    {
+      "model": "gpt-4o",
+      "cell": "2026-06-02_gpt4o_blue_decomp_climb",
+      "runs": [
+        "gpt4o_blue_decomp_climb_r01"
+      ]
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "cell": "2026-06-02_gpt54mini_blue_decomp_climb",
+      "runs": [
+        "gpt54mini_blue_decomp_climb_r01",
+        "gpt54mini_blue_decomp_climb_r02"
+      ]
+    }
+  ],
+  "judge_of_record": "codex_fresh (manual fresh-Codex labeling, != subject, != operator)",
+  "note": "masked items expose only item_id + current_proposition_text + assistant_reply"
+}

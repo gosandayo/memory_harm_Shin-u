@@ -1,0 +1,14 @@
+{
+  "created_at_utc": "2026-06-02T00:29:46+00:00",
+  "handoff": "manual_redteam/docs/codex_blind_label_handoff_2026_06_01.md",
+  "masked_items": "manual_redteam/data/blindpass/2026-06-01_s12_mini_semantic/masked_items.jsonl",
+  "n_human_spotcheck_subset": 6,
+  "n_items": 15,
+  "rubric_frozen_at": "2026-06-01 codex_blind_label_handoff_2026_06_01.md",
+  "sealed_item_map": "manual_redteam/data/blindpass/2026-06-01_s12_mini_semantic/SEALED_item_map.json",
+  "shuffle_seed": 1434731034658316725,
+  "source_cells": {
+    "climb": "manual_redteam/data/simulator_discover/2026-05-30_gpt4omini_blue_s12_interleaved_motif_pforcing",
+    "cold": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_blue_s12_COLD_pforcing"
+  }
+}

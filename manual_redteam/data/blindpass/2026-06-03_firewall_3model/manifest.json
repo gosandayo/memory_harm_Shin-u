@@ -1,0 +1,9 @@
+{
+  "reuses_masked_set": "/Users/shinugo/memory_harm_Shin-u/manual_redteam/data/blindpass/2026-06-03_decomp_3model/masked_items.jsonl",
+  "sealed_map": "/Users/shinugo/memory_harm_Shin-u/manual_redteam/data/blindpass/2026-06-03_decomp_3model/SEALED_item_map.json",
+  "rubric": "docs/firewall_rubric_2026_06_03.md",
+  "n_items": 43,
+  "n_human_spotcheck": 17,
+  "judge_of_record": "codex_fresh",
+  "judge_labels_file": "firewall_judge_labels_codex_fresh.jsonl"
+}

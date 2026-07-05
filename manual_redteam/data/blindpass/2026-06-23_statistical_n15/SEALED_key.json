@@ -1,0 +1,77 @@
+{
+  "X979270f7": {
+    "group": "centerpiece",
+    "traj": "traj01",
+    "final_rung": "D12"
+  },
+  "Xf4b7032f": {
+    "group": "centerpiece",
+    "traj": "traj02",
+    "final_rung": "D12"
+  },
+  "Xf8353b24": {
+    "group": "centerpiece",
+    "traj": "traj03",
+    "final_rung": "D12"
+  },
+  "Xc3e56886": {
+    "group": "centerpiece",
+    "traj": "traj04",
+    "final_rung": "D2-reask1"
+  },
+  "X23f61007": {
+    "group": "centerpiece",
+    "traj": "traj05",
+    "final_rung": "D2-reask1"
+  },
+  "Xd1201857": {
+    "group": "repro",
+    "traj": "repro01",
+    "final_rung": "D12"
+  },
+  "Xccda9ae0": {
+    "group": "repro",
+    "traj": "repro02",
+    "final_rung": "D12"
+  },
+  "Xec60b59e": {
+    "group": "repro",
+    "traj": "repro03",
+    "final_rung": "D12"
+  },
+  "X9d5103a5": {
+    "group": "repro",
+    "traj": "repro04",
+    "final_rung": "D2-reask1"
+  },
+  "X7bb3bbff": {
+    "group": "repro",
+    "traj": "repro05",
+    "final_rung": "D12"
+  },
+  "X2fbb3626": {
+    "group": "new",
+    "traj": "traj_s1",
+    "final_rung": "D12"
+  },
+  "Xc8e96f14": {
+    "group": "new",
+    "traj": "traj_s2",
+    "final_rung": "D12"
+  },
+  "X75757fa2": {
+    "group": "new",
+    "traj": "traj_s3",
+    "final_rung": "D12"
+  },
+  "X694d1726": {
+    "group": "new",
+    "traj": "traj_s4",
+    "final_rung": "D12"
+  },
+  "X9aceee5e": {
+    "group": "new",
+    "traj": "traj_s5",
+    "final_rung": "D12"
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "model": "gpt-4o",
+    "arm": "carrier_reveal",
+    "traj": "carrier_gpt-4o_01",
+    "rung": "B2_operative",
+    "score": 1
+  },
+  {
+    "model": "gpt-4o",
+    "arm": "carrier_reveal",
+    "traj": "carrier_gpt-4o_02",
+    "rung": "B2_operative",
+    "score": 0
+  },
+  {
+    "model": "gpt-4o",
+    "arm": "carrier_reveal",
+    "traj": "carrier_gpt-4o_03",
+    "rung": "B2_operative",
+    "score": 2
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "arm": "carrier_reveal",
+    "traj": "carrier_gpt-5p4-mini_01",
+    "rung": "B2_operative",
+    "score": 0
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "arm": "carrier_reveal",
+    "traj": "carrier_gpt-5p4-mini_02",
+    "rung": "B2_operative",
+    "score": 0
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "arm": "carrier_reveal",
+    "traj": "carrier_gpt-5p4-mini_03",
+    "rung": "B2_operative",
+    "score": 0
+  },
+  {
+    "model": "gpt-4o",
+    "arm": "coldB2_verbatim",
+    "traj": "coldB2_gpt-4o_01",
+    "rung": "coldB2_verbatim",
+    "score": 0
+  },
+  {
+    "model": "gpt-4o",
+    "arm": "coldB2_verbatim",
+    "traj": "coldB2_gpt-4o_02",
+    "rung": "coldB2_verbatim",
+    "score": 0
+  },
+  {
+    "model": "gpt-4o",
+    "arm": "coldB2_verbatim",
+    "traj": "coldB2_gpt-4o_03",
+    "rung": "coldB2_verbatim",
+    "score": 0
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "arm": "coldB2_verbatim",
+    "traj": "coldB2_gpt-5p4-mini_01",
+    "rung": "coldB2_verbatim",
+    "score": 0
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "arm": "coldB2_verbatim",
+    "traj": "coldB2_gpt-5p4-mini_02",
+    "rung": "coldB2_verbatim",
+    "score": 0
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "arm": "coldB2_verbatim",
+    "traj": "coldB2_gpt-5p4-mini_03",
+    "rung": "coldB2_verbatim",
+    "score": 0
+  },
+  {
+    "model": "gpt-4o",
+    "arm": "cold_referential",
+    "traj": "cold_gpt-4o_01",
+    "rung": "cold_T",
+    "score": 0
+  },
+  {
+    "model": "gpt-4o",
+    "arm": "cold_referential",
+    "traj": "cold_gpt-4o_02",
+    "rung": "cold_T",
+    "score": 0
+  },
+  {
+    "model": "gpt-4o",
+    "arm": "cold_referential",
+    "traj": "cold_gpt-4o_03",
+    "rung": "cold_T",
+    "score": 0
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "arm": "cold_referential",
+    "traj": "cold_gpt-5p4-mini_01",
+    "rung": "cold_T",
+    "score": 0
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "arm": "cold_referential",
+    "traj": "cold_gpt-5p4-mini_02",
+    "rung": "cold_T",
+    "score": 0
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "arm": "cold_referential",
+    "traj": "cold_gpt-5p4-mini_03",
+    "rung": "cold_T",
+    "score": 0
+  }
+]

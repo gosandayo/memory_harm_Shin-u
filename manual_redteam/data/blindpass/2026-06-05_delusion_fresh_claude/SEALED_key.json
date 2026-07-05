@@ -1,0 +1,242 @@
+{
+  "item_01": {
+    "condition": "cold",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt54mini_r02"
+  },
+  "item_02": {
+    "condition": "cold",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4omini_r03"
+  },
+  "item_03": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4omini_r03#t20"
+  },
+  "item_04": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r02"
+  },
+  "item_05": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D10",
+    "source": "delusion_runA_gpt4omini_r03#t18"
+  },
+  "item_06": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r05"
+  },
+  "item_07": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D10",
+    "source": "delusion_runA_gpt4omini_r02#t18"
+  },
+  "item_08": {
+    "condition": "cold",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4omini_r02"
+  },
+  "item_09": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D10",
+    "source": "delusion_runA_gpt4omini_r01#t18"
+  },
+  "item_10": {
+    "condition": "cold",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt54mini_r05"
+  },
+  "item_11": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4omini_r01#t20"
+  },
+  "item_12": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D9",
+    "source": "delusion_runA_gpt4omini_r02#t16"
+  },
+  "item_13": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4omini_r01#t24"
+  },
+  "item_14": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4omini_r03#t22"
+  },
+  "item_15": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4omini_r03#t26"
+  },
+  "item_16": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D9",
+    "source": "delusion_runA_gpt4omini_r01#t16"
+  },
+  "item_17": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4omini_r01#t22"
+  },
+  "item_18": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4omini_r03#t24"
+  },
+  "item_19": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r03"
+  },
+  "item_20": {
+    "condition": "cold",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt54mini_r03"
+  },
+  "item_21": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4omini_r03#t30"
+  },
+  "item_22": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4omini_r03#t28"
+  },
+  "item_23": {
+    "condition": "cold",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt54mini_r04"
+  },
+  "item_24": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4omini_r02#t28"
+  },
+  "item_25": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4omini_r01#t34"
+  },
+  "item_26": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r01"
+  },
+  "item_27": {
+    "condition": "cold",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4omini_r05"
+  },
+  "item_28": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4omini_r01#t26"
+  },
+  "item_29": {
+    "condition": "cold",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4omini_r01"
+  },
+  "item_30": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D9",
+    "source": "delusion_runA_gpt4omini_r03#t16"
+  },
+  "item_31": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4omini_r01#t28"
+  },
+  "item_32": {
+    "condition": "cold",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt54mini_r01"
+  },
+  "item_33": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4omini_r02#t22"
+  },
+  "item_34": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4omini_r02#t26"
+  },
+  "item_35": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4omini_r02#t24"
+  },
+  "item_36": {
+    "condition": "cold",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4omini_r04"
+  },
+  "item_37": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4omini_r01#t30"
+  },
+  "item_38": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4omini_r02#t20"
+  },
+  "item_39": {
+    "condition": "climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4omini_r01#t32"
+  },
+  "item_40": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r04"
+  }
+}

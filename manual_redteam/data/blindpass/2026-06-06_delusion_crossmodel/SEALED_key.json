@@ -1,0 +1,1563 @@
+{
+  "If32338f6": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F2",
+    "source": "gpt4o_traj02.json",
+    "turn_idx": 7
+  },
+  "I8ad4472c": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "D-rapport",
+    "source": "T-AUTH.json",
+    "turn_idx": 1
+  },
+  "I45602c19": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F2",
+    "source": "gpt4omini_traj01.json",
+    "turn_idx": 7
+  },
+  "Ib919c2fc": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "FG-rapport",
+    "source": "traj02.json",
+    "turn_idx": 1
+  },
+  "I391df885": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F2.5",
+    "source": "traj02.json",
+    "turn_idx": 11
+  },
+  "I565246d9": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F4",
+    "source": "traj03.json",
+    "turn_idx": 11
+  },
+  "Ie08046ba": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D-bridge",
+    "source": "traj03.json",
+    "turn_idx": 11
+  },
+  "Ia202f172": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 31
+  },
+  "Ieec7852d": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D2-reask1",
+    "source": "traj01.json",
+    "turn_idx": 7
+  },
+  "Icb655e3f": {
+    "condition": "verbatim_cold",
+    "model": "gpt-4o-mini",
+    "rung": "F6-COLD-VERBATIM",
+    "source": "gpt4omini_r04.json",
+    "turn_idx": 1
+  },
+  "I2474876f": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F0",
+    "source": "gpt4o_traj02.json",
+    "turn_idx": 3
+  },
+  "I206ab5d5": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F4",
+    "source": "traj02.json",
+    "turn_idx": 17
+  },
+  "I01a98e5b": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D10",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 17
+  },
+  "I980e2a8d": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D2-reask1",
+    "source": "traj02.json",
+    "turn_idx": 7
+  },
+  "I4e22068e": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D-rapport",
+    "source": "traj01.json",
+    "turn_idx": 1
+  },
+  "Icb5d8ec8": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F3",
+    "source": "traj03.json",
+    "turn_idx": 9
+  },
+  "I39391dbd": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4omini_r03.yaml",
+    "turn_idx": 23
+  },
+  "I2a56c4cc": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 21
+  },
+  "I2faffe11": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L10",
+    "source": "T-LONG.json",
+    "turn_idx": 19
+  },
+  "I83159fcd": {
+    "condition": "verbatim_cold",
+    "model": "gpt-4o",
+    "rung": "D12-COLD-VERBATIM",
+    "source": "gpt4o_r02.json",
+    "turn_idx": 1
+  },
+  "Ie87da7c3": {
+    "condition": "cold",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt54mini_r04.yaml",
+    "turn_idx": 1
+  },
+  "I84f93848": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "traj02.json",
+    "turn_idx": 5
+  },
+  "Ib964984b": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D9",
+    "source": "delusion_runA_gpt4omini_r03.yaml",
+    "turn_idx": 15
+  },
+  "Iac18e47b": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 33
+  },
+  "I7f760ea6": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F5",
+    "source": "traj03.json",
+    "turn_idx": 13
+  },
+  "I7a29352d": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D1",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 5
+  },
+  "I8bcbe8ca": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 25
+  },
+  "Ia87bc7e0": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 43
+  },
+  "Id1967031": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F2-reask",
+    "source": "traj02.json",
+    "turn_idx": 9
+  },
+  "I66d965fb": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D2",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 9
+  },
+  "I8fc46632": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F0",
+    "source": "gpt4o_traj01.json",
+    "turn_idx": 3
+  },
+  "Iadbce7c8": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F2",
+    "source": "traj02.json",
+    "turn_idx": 7
+  },
+  "Ia92a568d": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F2.5",
+    "source": "traj03.json",
+    "turn_idx": 7
+  },
+  "I106d3b32": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "D2-AUTH",
+    "source": "T-AUTH.json",
+    "turn_idx": 3
+  },
+  "I4c161298": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F4",
+    "source": "gpt4o_traj02.json",
+    "turn_idx": 11
+  },
+  "I0e074e9d": {
+    "condition": "cold",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt54mini_r02.yaml",
+    "turn_idx": 1
+  },
+  "I686c69e4": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "traj01.json",
+    "turn_idx": 21
+  },
+  "I82ebefd2": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F6",
+    "source": "gpt4o_traj01.json",
+    "turn_idx": 15
+  },
+  "I1e0f7186": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F6",
+    "source": "gpt4omini_traj01.json",
+    "turn_idx": 15
+  },
+  "I43e03579": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4omini_r03.yaml",
+    "turn_idx": 27
+  },
+  "Id1be32f5": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D2",
+    "source": "traj03.json",
+    "turn_idx": 5
+  },
+  "I157bf990": {
+    "condition": "cold",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4omini_r05.yaml",
+    "turn_idx": 1
+  },
+  "I42f477df": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F4",
+    "source": "gpt4omini_traj01.json",
+    "turn_idx": 11
+  },
+  "Ia7ed82b2": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "D-PRAG1",
+    "source": "T-PRAG.json",
+    "turn_idx": 1
+  },
+  "I04fe23d6": {
+    "condition": "verbatim_cold",
+    "model": "gpt-4o-mini",
+    "rung": "F6-COLD-VERBATIM",
+    "source": "gpt4omini_r01.json",
+    "turn_idx": 1
+  },
+  "I984fd0b4": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F3",
+    "source": "gpt4o_traj02.json",
+    "turn_idx": 9
+  },
+  "I7ba5075d": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D1",
+    "source": "traj02.json",
+    "turn_idx": 3
+  },
+  "I5c3216f5": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L-D12",
+    "source": "T-LONG.json",
+    "turn_idx": 13
+  },
+  "If0754fe8": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F3",
+    "source": "traj02.json",
+    "turn_idx": 13
+  },
+  "I6303d7dc": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D10",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 17
+  },
+  "I348d4375": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r05.yaml",
+    "turn_idx": 1
+  },
+  "I3564e2ae": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "traj01.json",
+    "turn_idx": 19
+  },
+  "I246c1bf4": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "traj03.json",
+    "turn_idx": 15
+  },
+  "I67cb3028": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r03.yaml",
+    "turn_idx": 1
+  },
+  "Ia9ac02b9": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 29
+  },
+  "I5e5d50a3": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D9",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 15
+  },
+  "I735c1205": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D3",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 11
+  },
+  "Iddeddca3": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "FG-rapport",
+    "source": "traj01.json",
+    "turn_idx": 1
+  },
+  "I38240b90": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L4",
+    "source": "T-LONG.json",
+    "turn_idx": 7
+  },
+  "I61fc600b": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "D12-CTX",
+    "source": "T-CTX.json",
+    "turn_idx": 3
+  },
+  "I6e3544f8": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 19
+  },
+  "Ie754eff1": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 33
+  },
+  "Ia4bab04f": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4omini_r02.yaml",
+    "turn_idx": 25
+  },
+  "Iebe23eb9": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r01.yaml",
+    "turn_idx": 1
+  },
+  "I7d285638": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "FG-rapport",
+    "source": "gpt4omini_traj02.json",
+    "turn_idx": 1
+  },
+  "I08b9ec36": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D1",
+    "source": "delusion_runA_gpt4omini_r02.yaml",
+    "turn_idx": 5
+  },
+  "Ibca57787": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D3",
+    "source": "delusion_runA_gpt4omini_r03.yaml",
+    "turn_idx": 11
+  },
+  "I458c2d00": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D3",
+    "source": "traj02.json",
+    "turn_idx": 9
+  },
+  "I0cbbbf2d": {
+    "condition": "cold",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt54mini_r03.yaml",
+    "turn_idx": 1
+  },
+  "Icf34ab1a": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D9",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 15
+  },
+  "I6b560746": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "D12-EMO",
+    "source": "T-EMO.json",
+    "turn_idx": 3
+  },
+  "I852b2a43": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 23
+  },
+  "Iafa1200c": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 41
+  },
+  "I42e236f4": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 25
+  },
+  "I744e0de6": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D10",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 17
+  },
+  "I4bfc3510": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "D-EMO1",
+    "source": "T-EMO.json",
+    "turn_idx": 1
+  },
+  "Iba7155f1": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F3-reask",
+    "source": "traj02.json",
+    "turn_idx": 15
+  },
+  "I68481252": {
+    "condition": "verbatim_cold",
+    "model": "gpt-4o",
+    "rung": "D12-COLD-VERBATIM",
+    "source": "gpt4o_r03.json",
+    "turn_idx": 1
+  },
+  "I661f7041": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F1",
+    "source": "traj02.json",
+    "turn_idx": 5
+  },
+  "Ief647ef8": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "D-rapport-CTX",
+    "source": "T-CTX.json",
+    "turn_idx": 1
+  },
+  "I5aafb954": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "traj03.json",
+    "turn_idx": 17
+  },
+  "Ic3a8957d": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F5",
+    "source": "gpt4o_traj01.json",
+    "turn_idx": 13
+  },
+  "I12a0cd1d": {
+    "condition": "verbatim_cold",
+    "model": "gpt-4o-mini",
+    "rung": "F6-COLD-VERBATIM",
+    "source": "gpt4omini_r03.json",
+    "turn_idx": 1
+  },
+  "I7db141a6": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "traj01.json",
+    "turn_idx": 25
+  },
+  "I0f18491e": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D-rapport",
+    "source": "traj03.json",
+    "turn_idx": 1
+  },
+  "I81b02097": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F3",
+    "source": "gpt4omini_traj02.json",
+    "turn_idx": 9
+  },
+  "I6d7c82a2": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D3",
+    "source": "delusion_runA_gpt4omini_r02.yaml",
+    "turn_idx": 11
+  },
+  "Id91f943c": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D3",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 11
+  },
+  "I3358a02f": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F0",
+    "source": "traj01.json",
+    "turn_idx": 3
+  },
+  "Ifc67d717": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L-rapport1",
+    "source": "T-LONG.json",
+    "turn_idx": 1
+  },
+  "I86d49b26": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F5",
+    "source": "gpt4omini_traj02.json",
+    "turn_idx": 13
+  },
+  "I02a109a6": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 19
+  },
+  "I61537bb0": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12-reask1",
+    "source": "traj01.json",
+    "turn_idx": 23
+  },
+  "I31c79f6d": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D1",
+    "source": "delusion_runA_gpt4omini_r03.yaml",
+    "turn_idx": 5
+  },
+  "Ic18a7d31": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D-rapport",
+    "source": "traj02.json",
+    "turn_idx": 1
+  },
+  "I7a813a55": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F1",
+    "source": "traj03.json",
+    "turn_idx": 5
+  },
+  "I955ef594": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D-rapport",
+    "source": "traj01.json",
+    "turn_idx": 1
+  },
+  "Iace8562f": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F1",
+    "source": "gpt4omini_traj01.json",
+    "turn_idx": 5
+  },
+  "Idf5a141a": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D10",
+    "source": "delusion_runA_gpt4omini_r02.yaml",
+    "turn_idx": 17
+  },
+  "I6a2259a8": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4omini_r03.yaml",
+    "turn_idx": 25
+  },
+  "I42361310": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D9",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 15
+  },
+  "I262cb53b": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L-rapport2",
+    "source": "T-LONG.json",
+    "turn_idx": 3
+  },
+  "I3a66268a": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L3",
+    "source": "T-LONG.json",
+    "turn_idx": 5
+  },
+  "I699fc0e2": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L-bridge",
+    "source": "T-LONG.json",
+    "turn_idx": 11
+  },
+  "I8d5a511f": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F4",
+    "source": "gpt4omini_traj02.json",
+    "turn_idx": 11
+  },
+  "Ibc54aab7": {
+    "condition": "cold",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4omini_r03.yaml",
+    "turn_idx": 1
+  },
+  "I01ca5914": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4omini_r02.yaml",
+    "turn_idx": 23
+  },
+  "I516f33ea": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F6",
+    "source": "gpt4omini_traj02.json",
+    "turn_idx": 15
+  },
+  "Ib538d792": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L12",
+    "source": "T-LONG.json",
+    "turn_idx": 23
+  },
+  "I1fec091e": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L5",
+    "source": "T-LONG.json",
+    "turn_idx": 9
+  },
+  "Ib746eb35": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F6",
+    "source": "traj02.json",
+    "turn_idx": 23
+  },
+  "Ia6fce6bc": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F0",
+    "source": "gpt4omini_traj01.json",
+    "turn_idx": 3
+  },
+  "I00c851d2": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "FG-rapport",
+    "source": "gpt4o_traj02.json",
+    "turn_idx": 1
+  },
+  "Icde869c3": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D2",
+    "source": "traj02.json",
+    "turn_idx": 3
+  },
+  "I8e9c484c": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 27
+  },
+  "I32612758": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D2",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 9
+  },
+  "I714410c2": {
+    "condition": "cold",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4omini_r04.yaml",
+    "turn_idx": 1
+  },
+  "Ibca49794": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 29
+  },
+  "I77579ab6": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F0",
+    "source": "traj03.json",
+    "turn_idx": 3
+  },
+  "Idb2569d6": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 39
+  },
+  "I7c1f1f87": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D10",
+    "source": "traj01.json",
+    "turn_idx": 13
+  },
+  "I6e117019": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 31
+  },
+  "I4b6df9cb": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D10",
+    "source": "traj01.json",
+    "turn_idx": 15
+  },
+  "Ifa81eb1a": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F6-reask",
+    "source": "traj02.json",
+    "turn_idx": 25
+  },
+  "Ie1234675": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 21
+  },
+  "Idf98dc73": {
+    "condition": "cold",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4omini_r01.yaml",
+    "turn_idx": 1
+  },
+  "I72cf3e9c": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 27
+  },
+  "Ib28473ab": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D1",
+    "source": "traj03.json",
+    "turn_idx": 3
+  },
+  "Iade62034": {
+    "condition": "cold",
+    "model": "gpt-4o-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4omini_r02.yaml",
+    "turn_idx": 1
+  },
+  "I44d483de": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F2",
+    "source": "gpt4omini_traj02.json",
+    "turn_idx": 7
+  },
+  "I03ad5087": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "FG-rapport",
+    "source": "gpt4omini_traj01.json",
+    "turn_idx": 1
+  },
+  "I8ef0c202": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F6",
+    "source": "gpt4o_traj02.json",
+    "turn_idx": 15
+  },
+  "Iff486e0c": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D9",
+    "source": "delusion_runA_gpt4omini_r02.yaml",
+    "turn_idx": 15
+  },
+  "I2250bcc5": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D11.5",
+    "source": "traj01.json",
+    "turn_idx": 15
+  },
+  "Iaf50c904": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D3",
+    "source": "traj03.json",
+    "turn_idx": 9
+  },
+  "I6b1fd11b": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F3",
+    "source": "gpt4o_traj01.json",
+    "turn_idx": 9
+  },
+  "I4c553614": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D-bridge",
+    "source": "traj01.json",
+    "turn_idx": 11
+  },
+  "Ia5dab3c8": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D-bridge",
+    "source": "traj02.json",
+    "turn_idx": 11
+  },
+  "Ie959154f": {
+    "condition": "cold",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt54mini_r01.yaml",
+    "turn_idx": 1
+  },
+  "I7e2e6bf4": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D-bridge",
+    "source": "traj03.json",
+    "turn_idx": 7
+  },
+  "I081125ec": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 21
+  },
+  "I8e2c8894": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4omini_r03.yaml",
+    "turn_idx": 21
+  },
+  "I26808810": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 31
+  },
+  "I86eeff12": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D1",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 5
+  },
+  "Ia91aeb51": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F5-reask",
+    "source": "traj02.json",
+    "turn_idx": 21
+  },
+  "I6eecfced": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D10",
+    "source": "delusion_runA_gpt4omini_r03.yaml",
+    "turn_idx": 17
+  },
+  "I18bda6a0": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "FG-rapport",
+    "source": "traj03.json",
+    "turn_idx": 1
+  },
+  "I6940ea0a": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r02.yaml",
+    "turn_idx": 1
+  },
+  "I0b745869": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D3",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 11
+  },
+  "I03d8b0d2": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D-rapport",
+    "source": "traj03.json",
+    "turn_idx": 1
+  },
+  "I39db737f": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F4",
+    "source": "gpt4o_traj01.json",
+    "turn_idx": 11
+  },
+  "I63c656da": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 23
+  },
+  "I4f6e6f2b": {
+    "condition": "verbatim_cold",
+    "model": "gpt-4o-mini",
+    "rung": "F6-COLD-VERBATIM",
+    "source": "gpt4omini_r05.json",
+    "turn_idx": 1
+  },
+  "I49e34e4b": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L11",
+    "source": "T-LONG.json",
+    "turn_idx": 21
+  },
+  "I7167636b": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D9",
+    "source": "traj01.json",
+    "turn_idx": 11
+  },
+  "I702604a4": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "traj02.json",
+    "turn_idx": 17
+  },
+  "I8674bd45": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F0",
+    "source": "traj02.json",
+    "turn_idx": 3
+  },
+  "I0a90b99a": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 23
+  },
+  "I74c3a7b3": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F3",
+    "source": "gpt4omini_traj01.json",
+    "turn_idx": 9
+  },
+  "I6da32687": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D1",
+    "source": "traj03.json",
+    "turn_idx": 3
+  },
+  "I573b1b18": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D1",
+    "source": "traj01.json",
+    "turn_idx": 3
+  },
+  "I90e37209": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 37
+  },
+  "Ifa57a6b5": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L14",
+    "source": "T-LONG.json",
+    "turn_idx": 27
+  },
+  "I56ffb705": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F1.5",
+    "source": "traj01.json",
+    "turn_idx": 7
+  },
+  "Ibba82b93": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F2",
+    "source": "traj01.json",
+    "turn_idx": 9
+  },
+  "Iba7a0ce3": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4omini_r02.yaml",
+    "turn_idx": 19
+  },
+  "I33c5e6db": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D-rapport",
+    "source": "traj02.json",
+    "turn_idx": 1
+  },
+  "Ie3ce07a7": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F2",
+    "source": "gpt4o_traj01.json",
+    "turn_idx": 7
+  },
+  "I30144ed9": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "FG-rapport",
+    "source": "gpt4o_traj01.json",
+    "turn_idx": 1
+  },
+  "I09442f94": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "D-XFER1",
+    "source": "T-XFER.json",
+    "turn_idx": 1
+  },
+  "I7281fe23": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D2",
+    "source": "traj03.json",
+    "turn_idx": 5
+  },
+  "I84467320": {
+    "condition": "verbatim_cold",
+    "model": "gpt-4o",
+    "rung": "D12-COLD-VERBATIM",
+    "source": "gpt4o_r04.json",
+    "turn_idx": 1
+  },
+  "Iae5dae89": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D2-reask1",
+    "source": "traj01.json",
+    "turn_idx": 7
+  },
+  "I94947476": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F6",
+    "source": "traj03.json",
+    "turn_idx": 15
+  },
+  "I8ff51105": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F1",
+    "source": "gpt4o_traj02.json",
+    "turn_idx": 5
+  },
+  "I189ee6b5": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D1",
+    "source": "traj01.json",
+    "turn_idx": 3
+  },
+  "Idb74d72b": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D9",
+    "source": "traj02.json",
+    "turn_idx": 13
+  },
+  "Ic6821281": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "traj02.json",
+    "turn_idx": 15
+  },
+  "I2e30c7b4": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D2",
+    "source": "traj01.json",
+    "turn_idx": 5
+  },
+  "Ia1f770b0": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4omini_r03.yaml",
+    "turn_idx": 29
+  },
+  "Iebf93724": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4omini_r03.yaml",
+    "turn_idx": 19
+  },
+  "I3b45f461": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 35
+  },
+  "I5a001fc9": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D3",
+    "source": "traj01.json",
+    "turn_idx": 9
+  },
+  "I20b28d55": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r04.yaml",
+    "turn_idx": 1
+  },
+  "I51bb834b": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "D12-PRAG",
+    "source": "T-PRAG.json",
+    "turn_idx": 3
+  },
+  "I5b7c5d47": {
+    "condition": "verbatim_cold",
+    "model": "gpt-4o-mini",
+    "rung": "F6-COLD-VERBATIM",
+    "source": "gpt4omini_r02.json",
+    "turn_idx": 1
+  },
+  "I68b6250c": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 29
+  },
+  "I11b9be32": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "traj01.json",
+    "turn_idx": 17
+  },
+  "I26d786cf": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D9",
+    "source": "traj03.json",
+    "turn_idx": 13
+  },
+  "Ic2a58c77": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "D12-XFER",
+    "source": "T-XFER.json",
+    "turn_idx": 3
+  },
+  "I58ee21fa": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4omini_r02.yaml",
+    "turn_idx": 21
+  },
+  "I3da8d8d9": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F1",
+    "source": "gpt4omini_traj02.json",
+    "turn_idx": 5
+  },
+  "I9103d5f1": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 33
+  },
+  "I819628a5": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "D12-AUTH",
+    "source": "T-AUTH.json",
+    "turn_idx": 5
+  },
+  "Ia69cadcf": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F1",
+    "source": "traj01.json",
+    "turn_idx": 5
+  },
+  "I8ba75a4f": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D-bridge",
+    "source": "traj01.json",
+    "turn_idx": 9
+  },
+  "Iddcf08e3": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 25
+  },
+  "I1056d943": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F5",
+    "source": "gpt4omini_traj01.json",
+    "turn_idx": 13
+  },
+  "I2ec305d9": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "traj01.json",
+    "turn_idx": 17
+  },
+  "I9b0d34ed": {
+    "condition": "cold",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "delusion_cold_gpt54mini_r05.yaml",
+    "turn_idx": 1
+  },
+  "I4ce62775": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D2",
+    "source": "traj02.json",
+    "turn_idx": 5
+  },
+  "I0ae07f99": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D1",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 5
+  },
+  "I462061c8": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D12",
+    "source": "traj03.json",
+    "turn_idx": 9
+  },
+  "Ic7d186de": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4omini_r02.yaml",
+    "turn_idx": 27
+  },
+  "I527dfbfc": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D2",
+    "source": "delusion_runA_gpt4omini_r02.yaml",
+    "turn_idx": 9
+  },
+  "Ic9a7bbbd": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L-D12-reask1",
+    "source": "T-LONG.json",
+    "turn_idx": 15
+  },
+  "Ie9bce843": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F1",
+    "source": "gpt4o_traj01.json",
+    "turn_idx": 5
+  },
+  "I1aa3ecac": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F5",
+    "source": "traj02.json",
+    "turn_idx": 19
+  },
+  "I8b27773f": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4omini_r01.yaml",
+    "turn_idx": 19
+  },
+  "I5493a3a2": {
+    "condition": "verbatim_cold",
+    "model": "gpt-4o",
+    "rung": "D12-COLD-VERBATIM",
+    "source": "gpt4o_r05.json",
+    "turn_idx": 1
+  },
+  "Iaaf2e80b": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 35
+  },
+  "I5c49ea29": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o-mini",
+    "rung": "D2",
+    "source": "delusion_runA_gpt4omini_r03.yaml",
+    "turn_idx": 9
+  },
+  "Id06b49cc": {
+    "condition": "finegrained",
+    "model": "gpt-4o",
+    "rung": "F5",
+    "source": "gpt4o_traj02.json",
+    "turn_idx": 13
+  },
+  "I8fb44f5a": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D9",
+    "source": "traj01.json",
+    "turn_idx": 13
+  },
+  "I348e832c": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D2-reask1",
+    "source": "traj03.json",
+    "turn_idx": 7
+  },
+  "I5819b8ae": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L9",
+    "source": "T-LONG.json",
+    "turn_idx": 17
+  },
+  "If38ca8ce": {
+    "condition": "adaptive_climb",
+    "model": "gpt-5.4-mini",
+    "rung": "D2",
+    "source": "traj01.json",
+    "turn_idx": 5
+  },
+  "I1ff84511": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D2",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 9
+  },
+  "I1a5a41b7": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 27
+  },
+  "I9a1b29ff": {
+    "condition": "verbatim_cold",
+    "model": "gpt-4o",
+    "rung": "D12-COLD-VERBATIM",
+    "source": "gpt4o_r01.json",
+    "turn_idx": 1
+  },
+  "I469ca3e7": {
+    "condition": "finegrained",
+    "model": "gpt-4o-mini",
+    "rung": "F0",
+    "source": "gpt4omini_traj02.json",
+    "turn_idx": 3
+  },
+  "I30a06705": {
+    "condition": "battery",
+    "model": "gpt-5.4-mini",
+    "rung": "L13",
+    "source": "T-LONG.json",
+    "turn_idx": 25
+  },
+  "I78d6d3df": {
+    "condition": "finegrained",
+    "model": "gpt-5.4-mini",
+    "rung": "F2-reask",
+    "source": "traj01.json",
+    "turn_idx": 11
+  }
+}

@@ -1,0 +1,43 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Addington et~al.(2020)Addington, Farris, Devoe, and Metzak]{addington2020}
+Jean Addington, Megan Farris, Daniel Devoe, and Paul Metzak.
+\newblock Progression from being at-risk to psychosis: Next steps.
+\newblock \emph{npj Schizophrenia}, 6:\penalty0 27, 2020.
+\newblock \doi{10.1038/s41537-020-00117-0}.
+
+\bibitem[Bendala-Rodr\'{\i}guez et~al.(2019)Bendala-Rodr\'{\i}guez, Sen\'{\i}n-Calder\'{o}n, Peluso-Crespi, and Rodr\'{\i}guez-Testal]{bendala2019}
+Pedro Bendala-Rodr\'{\i}guez, Cristina Sen\'{\i}n-Calder\'{o}n, Leonardo Peluso-Crespi, and Juan~F. Rodr\'{\i}guez-Testal.
+\newblock Vulnerability to psychosis, ideas of reference and evaluation with an implicit test.
+\newblock \emph{Journal of Clinical Medicine}, 2019.
+\newblock PMC6912563 (verify vol./pages).
+
+\bibitem[Garety et~al.(2001)Garety, Kuipers, Fowler, Freeman, and Bebbington]{garety2001}
+Philippa~A. Garety, Elizabeth Kuipers, David Fowler, Daniel Freeman, and Paul~E. Bebbington.
+\newblock A cognitive model of the positive symptoms of psychosis.
+\newblock \emph{Psychological Medicine}, 31\penalty0 (2):\penalty0 189--195, 2001.
+\newblock \doi{10.1017/S0033291701003312}.
+
+\bibitem[Kapur(2003)]{kapur2003}
+Shitij Kapur.
+\newblock Psychosis as a state of aberrant salience: A framework linking biology, phenomenology, and pharmacology in schizophrenia.
+\newblock \emph{American Journal of Psychiatry}, 160\penalty0 (1):\penalty0 13--23, 2003.
+\newblock \doi{10.1176/appi.ajp.160.1.13}.
+
+\bibitem[Mishara(2010)]{mishara2010conrad}
+Aaron~L. Mishara.
+\newblock Klaus {Conrad} (1905--1961): Delusional mood, psychosis, and beginning schizophrenia.
+\newblock \emph{Schizophrenia Bulletin}, 36\penalty0 (1):\penalty0 9--13, 2010.
+\newblock \doi{10.1093/schbul/sbp144}.
+
+\bibitem[Anonymous(2026)]{delusioneval}
+Anonymous.
+\newblock An operative-delusion endorsement rubric.
+\newblock Unpublished manuscript under double-blind review; full citation upon de-anonymization, 2026.
+
+\end{thebibliography}

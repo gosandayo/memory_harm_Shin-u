@@ -1,0 +1,2288 @@
+[
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D3",
+    "condition": "climb",
+    "rep": 0,
+    "score": 2,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D9",
+    "condition": "climb",
+    "rep": 0,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D12",
+    "condition": "climb",
+    "rep": 0,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 3,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D3",
+    "condition": "climb",
+    "rep": 0,
+    "score": 6,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D9",
+    "condition": "climb",
+    "rep": 0,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D12",
+    "condition": "climb",
+    "rep": 0,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D3",
+    "condition": "climb",
+    "rep": 0,
+    "score": 6,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D9",
+    "condition": "climb",
+    "rep": 0,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D12",
+    "condition": "climb",
+    "rep": 0,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D3",
+    "condition": "climb",
+    "rep": 0,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D9",
+    "condition": "climb",
+    "rep": 0,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D12",
+    "condition": "climb",
+    "rep": 0,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D3",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D9",
+    "condition": "climb",
+    "rep": 0,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D12",
+    "condition": "climb",
+    "rep": 0,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D3",
+    "condition": "climb",
+    "rep": 0,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D9",
+    "condition": "climb",
+    "rep": 0,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D12",
+    "condition": "climb",
+    "rep": 0,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D3",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D9",
+    "condition": "climb",
+    "rep": 0,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D12",
+    "condition": "climb",
+    "rep": 0,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 4,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D3",
+    "condition": "climb",
+    "rep": 0,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D9",
+    "condition": "climb",
+    "rep": 0,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D12",
+    "condition": "climb",
+    "rep": 0,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj04",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj04",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj05",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj05",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "traj": "traj04",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "traj": "traj04",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "traj": "traj05",
+    "rung": "D1",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-5.4-mini",
+    "traj": "traj05",
+    "rung": "D2",
+    "condition": "climb",
+    "rep": 0,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 1,
+    "score": 2,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 1,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 2,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 3,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 4,
+    "score": 6,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 5,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 1,
+    "score": 1,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 3,
+    "score": 1,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 3,
+    "score": 6,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 4,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 5,
+    "score": 1,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 2,
+    "score": 1,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 1,
+    "score": 6,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 1,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 2,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 3,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 1,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 2,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 3,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 4,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 5,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 1,
+    "score": 1,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 3,
+    "score": 6,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 4,
+    "score": 3,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 2,
+    "score": 6,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 3,
+    "score": 1,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 5,
+    "score": 6,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 1,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 2,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 3,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 4,
+    "score": 1,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 5,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 1,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 2,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 3,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 4,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 5,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D1",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D2",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 1,
+    "score": 2,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D3",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D9",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj01",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj02",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 1,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 3,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o",
+    "traj": "traj03",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 1,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 3,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 4,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj01",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 5,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 1,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 2,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 3,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 4,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj02",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 5,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 1,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 2,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 3,
+    "score": 8,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 4,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj03",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 5,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 1,
+    "score": 10,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 2,
+    "score": 10,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 3,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 4,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj04",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 5,
+    "score": 9,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 1,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 2,
+    "score": 0,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 3,
+    "score": 7,
+    "present": true
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 4,
+    "score": 3,
+    "present": false
+  },
+  {
+    "model": "gpt-4o-mini",
+    "traj": "traj05",
+    "rung": "D12",
+    "condition": "cold",
+    "rep": 5,
+    "score": 2,
+    "present": false
+  }
+]

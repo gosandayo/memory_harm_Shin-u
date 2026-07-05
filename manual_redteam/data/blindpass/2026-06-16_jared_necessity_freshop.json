@@ -1,0 +1,298 @@
+{
+  "gpt-4o-mini": {
+    "endpoint": [
+      {
+        "traj": "traj01",
+        "score": 9,
+        "present": true
+      },
+      {
+        "traj": "traj02",
+        "score": 9,
+        "present": true
+      },
+      {
+        "traj": "traj03",
+        "score": 9,
+        "present": true
+      },
+      {
+        "traj": "traj04",
+        "score": 9,
+        "present": true
+      },
+      {
+        "traj": "traj05",
+        "score": 8,
+        "present": true
+      }
+    ],
+    "cold": [
+      {
+        "src": "gpt4omini_traj01_D12_cold",
+        "rep": 1,
+        "score": 6,
+        "present": false
+      },
+      {
+        "src": "gpt4omini_traj01_D12_cold",
+        "rep": 2,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4omini_traj01_D12_cold",
+        "rep": 3,
+        "score": 8,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj01_D12_cold",
+        "rep": 4,
+        "score": 2,
+        "present": false
+      },
+      {
+        "src": "gpt4omini_traj01_D12_cold",
+        "rep": 5,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4omini_traj02_D12_cold",
+        "rep": 1,
+        "score": 9,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj02_D12_cold",
+        "rep": 2,
+        "score": 7,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj02_D12_cold",
+        "rep": 3,
+        "score": 9,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj02_D12_cold",
+        "rep": 4,
+        "score": 9,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj02_D12_cold",
+        "rep": 5,
+        "score": 9,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj03_D12_cold",
+        "rep": 1,
+        "score": 9,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj03_D12_cold",
+        "rep": 2,
+        "score": 7,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj03_D12_cold",
+        "rep": 3,
+        "score": 8,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj03_D12_cold",
+        "rep": 4,
+        "score": 8,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj03_D12_cold",
+        "rep": 5,
+        "score": 9,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj04_D12_cold",
+        "rep": 1,
+        "score": 9,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj04_D12_cold",
+        "rep": 2,
+        "score": 9,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj04_D12_cold",
+        "rep": 3,
+        "score": 9,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj04_D12_cold",
+        "rep": 4,
+        "score": 10,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj04_D12_cold",
+        "rep": 5,
+        "score": 9,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj05_D12_cold",
+        "rep": 1,
+        "score": 8,
+        "present": true
+      },
+      {
+        "src": "gpt4omini_traj05_D12_cold",
+        "rep": 2,
+        "score": 1,
+        "present": false
+      },
+      {
+        "src": "gpt4omini_traj05_D12_cold",
+        "rep": 3,
+        "score": 6,
+        "present": false
+      },
+      {
+        "src": "gpt4omini_traj05_D12_cold",
+        "rep": 4,
+        "score": 5,
+        "present": false
+      },
+      {
+        "src": "gpt4omini_traj05_D12_cold",
+        "rep": 5,
+        "score": 0,
+        "present": false
+      }
+    ]
+  },
+  "gpt-4o": {
+    "endpoint": [
+      {
+        "traj": "traj01",
+        "score": 9,
+        "present": true
+      },
+      {
+        "traj": "traj02",
+        "score": 9,
+        "present": true
+      },
+      {
+        "traj": "traj03",
+        "score": 10,
+        "present": true
+      }
+    ],
+    "cold": [
+      {
+        "src": "gpt4o_traj01_D12_cold",
+        "rep": 1,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj01_D12_cold",
+        "rep": 2,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj01_D12_cold",
+        "rep": 3,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj01_D12_cold",
+        "rep": 4,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj01_D12_cold",
+        "rep": 5,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj02_D12_cold",
+        "rep": 1,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj02_D12_cold",
+        "rep": 2,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj02_D12_cold",
+        "rep": 3,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj02_D12_cold",
+        "rep": 4,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj02_D12_cold",
+        "rep": 5,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj03_D12_cold",
+        "rep": 1,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj03_D12_cold",
+        "rep": 2,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj03_D12_cold",
+        "rep": 3,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj03_D12_cold",
+        "rep": 4,
+        "score": 0,
+        "present": false
+      },
+      {
+        "src": "gpt4o_traj03_D12_cold",
+        "rep": 5,
+        "score": 0,
+        "present": false
+      }
+    ]
+  },
+  "gpt-5.4-mini": {
+    "endpoint": [],
+    "cold": []
+  }
+}

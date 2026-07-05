@@ -1,0 +1,56 @@
+{
+  "B134d1750": {
+    "variant": "dramatic",
+    "src_dir": "2026-06-16_delusion_fresh_op_gpt4o",
+    "src_traj": "traj03",
+    "rung": "D12"
+  },
+  "B32148b20": {
+    "variant": "dramatic",
+    "src_dir": "2026-06-16_delusion_fresh_op_gpt4o",
+    "src_traj": "traj02",
+    "rung": "D12"
+  },
+  "B5db6d7e7": {
+    "variant": "nobridge",
+    "src_dir": "2026-06-17_delusion_gpt4o_nobridge",
+    "src_traj": "traj02",
+    "rung": "D12"
+  },
+  "B9e023865": {
+    "variant": "nobridge",
+    "src_dir": "2026-06-17_delusion_gpt4o_nobridge",
+    "src_traj": "traj01",
+    "rung": "D12"
+  },
+  "Ba25fdc05": {
+    "variant": "mundane",
+    "src_dir": "2026-06-17_delusion_gpt4o_mundanebridge",
+    "src_traj": "traj03",
+    "rung": "D12"
+  },
+  "Ba70cdf64": {
+    "variant": "dramatic",
+    "src_dir": "2026-06-16_delusion_fresh_op_gpt4o",
+    "src_traj": "traj01",
+    "rung": "D12"
+  },
+  "Bb9d02fb6": {
+    "variant": "mundane",
+    "src_dir": "2026-06-17_delusion_gpt4o_mundanebridge",
+    "src_traj": "traj01",
+    "rung": "D12"
+  },
+  "Bc67f112e": {
+    "variant": "mundane",
+    "src_dir": "2026-06-17_delusion_gpt4o_mundanebridge",
+    "src_traj": "traj02",
+    "rung": "D12"
+  },
+  "Bce37f927": {
+    "variant": "nobridge",
+    "src_dir": "2026-06-17_delusion_gpt4o_nobridge",
+    "src_traj": "traj03",
+    "rung": "D12"
+  }
+}

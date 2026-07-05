@@ -1,0 +1,122 @@
+{
+  "09bb52acbc7433244dfc04d7": {
+    "assistant_turn": 88,
+    "cell": "climb",
+    "reply_role": "endpoint",
+    "run_file": "manual_redteam/data/simulator_discover/2026-05-30_gpt4omini_blue_s12_interleaved_motif_pforcing/gpt4omini_blue_s12_interleaved_motif_pforcing_r01.yaml",
+    "source_user_turn": 87,
+    "trajectory_id": "gpt4omini_blue_s12_interleaved_motif_pforcing_r01"
+  },
+  "0e32f590fdeed85a3d59b3ad": {
+    "assistant_turn": 4,
+    "cell": "cold",
+    "reply_role": "terminal",
+    "run_file": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_blue_s12_COLD_pforcing/gpt4omini_blue_s12_COLD_pforcing_r04.yaml",
+    "source_user_turn": 3,
+    "trajectory_id": "gpt4omini_blue_s12_COLD_pforcing_r04"
+  },
+  "166ff9ba9995fe230a5d91ab": {
+    "assistant_turn": 4,
+    "cell": "cold",
+    "reply_role": "terminal",
+    "run_file": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_blue_s12_COLD_pforcing/gpt4omini_blue_s12_COLD_pforcing_r01.yaml",
+    "source_user_turn": 3,
+    "trajectory_id": "gpt4omini_blue_s12_COLD_pforcing_r01"
+  },
+  "362f3ca58290ed979ca67f30": {
+    "assistant_turn": 4,
+    "cell": "cold",
+    "reply_role": "terminal",
+    "run_file": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_blue_s12_COLD_pforcing/gpt4omini_blue_s12_COLD_pforcing_r02.yaml",
+    "source_user_turn": 3,
+    "trajectory_id": "gpt4omini_blue_s12_COLD_pforcing_r02"
+  },
+  "37c26bdb90b01556ada3b96e": {
+    "assistant_turn": 2,
+    "cell": "cold",
+    "reply_role": "endpoint",
+    "run_file": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_blue_s12_COLD_pforcing/gpt4omini_blue_s12_COLD_pforcing_r01.yaml",
+    "source_user_turn": 1,
+    "trajectory_id": "gpt4omini_blue_s12_COLD_pforcing_r01"
+  },
+  "4a43dfbe5c78323cb42194c5": {
+    "assistant_turn": 90,
+    "cell": "climb",
+    "reply_role": "endpoint",
+    "run_file": "manual_redteam/data/simulator_discover/2026-05-30_gpt4omini_blue_s12_interleaved_motif_pforcing/gpt4omini_blue_s12_interleaved_motif_pforcing_r05.yaml",
+    "source_user_turn": 89,
+    "trajectory_id": "gpt4omini_blue_s12_interleaved_motif_pforcing_r05"
+  },
+  "64ba0fefcdd733af4d77aad8": {
+    "assistant_turn": 2,
+    "cell": "cold",
+    "reply_role": "endpoint",
+    "run_file": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_blue_s12_COLD_pforcing/gpt4omini_blue_s12_COLD_pforcing_r04.yaml",
+    "source_user_turn": 1,
+    "trajectory_id": "gpt4omini_blue_s12_COLD_pforcing_r04"
+  },
+  "65bdd0062c825af80b8b9f09": {
+    "assistant_turn": 2,
+    "cell": "cold",
+    "reply_role": "endpoint",
+    "run_file": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_blue_s12_COLD_pforcing/gpt4omini_blue_s12_COLD_pforcing_r05.yaml",
+    "source_user_turn": 1,
+    "trajectory_id": "gpt4omini_blue_s12_COLD_pforcing_r05"
+  },
+  "7b81ae19e2fcfc110df15737": {
+    "assistant_turn": 4,
+    "cell": "cold",
+    "reply_role": "terminal",
+    "run_file": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_blue_s12_COLD_pforcing/gpt4omini_blue_s12_COLD_pforcing_r03.yaml",
+    "source_user_turn": 3,
+    "trajectory_id": "gpt4omini_blue_s12_COLD_pforcing_r03"
+  },
+  "92742ba5261a4c9d00bd42c3": {
+    "assistant_turn": 2,
+    "cell": "cold",
+    "reply_role": "endpoint",
+    "run_file": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_blue_s12_COLD_pforcing/gpt4omini_blue_s12_COLD_pforcing_r02.yaml",
+    "source_user_turn": 1,
+    "trajectory_id": "gpt4omini_blue_s12_COLD_pforcing_r02"
+  },
+  "9c331ffc46fbaa26761d3520": {
+    "assistant_turn": 4,
+    "cell": "cold",
+    "reply_role": "terminal",
+    "run_file": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_blue_s12_COLD_pforcing/gpt4omini_blue_s12_COLD_pforcing_r05.yaml",
+    "source_user_turn": 3,
+    "trajectory_id": "gpt4omini_blue_s12_COLD_pforcing_r05"
+  },
+  "a3a3bee8215d8fafe902aba2": {
+    "assistant_turn": 90,
+    "cell": "climb",
+    "reply_role": "endpoint",
+    "run_file": "manual_redteam/data/simulator_discover/2026-05-30_gpt4omini_blue_s12_interleaved_motif_pforcing/gpt4omini_blue_s12_interleaved_motif_pforcing_r04.yaml",
+    "source_user_turn": 89,
+    "trajectory_id": "gpt4omini_blue_s12_interleaved_motif_pforcing_r04"
+  },
+  "b1b16d2a1bc13e59f35e30fb": {
+    "assistant_turn": 2,
+    "cell": "cold",
+    "reply_role": "endpoint",
+    "run_file": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_blue_s12_COLD_pforcing/gpt4omini_blue_s12_COLD_pforcing_r03.yaml",
+    "source_user_turn": 1,
+    "trajectory_id": "gpt4omini_blue_s12_COLD_pforcing_r03"
+  },
+  "c412b02a0696d9219fe49deb": {
+    "assistant_turn": 92,
+    "cell": "climb",
+    "reply_role": "endpoint",
+    "run_file": "manual_redteam/data/simulator_discover/2026-05-30_gpt4omini_blue_s12_interleaved_motif_pforcing/gpt4omini_blue_s12_interleaved_motif_pforcing_r02.yaml",
+    "source_user_turn": 91,
+    "trajectory_id": "gpt4omini_blue_s12_interleaved_motif_pforcing_r02"
+  },
+  "cab29503e56694826b2d0f9d": {
+    "assistant_turn": 94,
+    "cell": "climb",
+    "reply_role": "endpoint",
+    "run_file": "manual_redteam/data/simulator_discover/2026-05-30_gpt4omini_blue_s12_interleaved_motif_pforcing/gpt4omini_blue_s12_interleaved_motif_pforcing_r03.yaml",
+    "source_user_turn": 93,
+    "trajectory_id": "gpt4omini_blue_s12_interleaved_motif_pforcing_r03"
+  }
+}

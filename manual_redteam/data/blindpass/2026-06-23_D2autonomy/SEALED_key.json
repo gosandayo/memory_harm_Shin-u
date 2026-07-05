@@ -1,0 +1,62 @@
+{
+  "X46af370c": {
+    "traj": "traj01",
+    "final_rung": "D12"
+  },
+  "X0607a79d": {
+    "traj": "traj02",
+    "final_rung": "D2-reask1"
+  },
+  "Xc467f19c": {
+    "traj": "traj03",
+    "final_rung": "D2-reask1"
+  },
+  "Xcea4068f": {
+    "traj": "traj04",
+    "final_rung": "D2-reask1"
+  },
+  "Xb8ae833e": {
+    "traj": "traj05",
+    "final_rung": "D2-reask1"
+  },
+  "Xf4a943b5": {
+    "traj": "traj06",
+    "final_rung": "D2-reask1"
+  },
+  "X55957461": {
+    "traj": "traj07",
+    "final_rung": "D2-reask1"
+  },
+  "X52384e18": {
+    "traj": "traj08",
+    "final_rung": "D2-reask1"
+  },
+  "Xe971d1eb": {
+    "traj": "traj09",
+    "final_rung": "D2-reask1"
+  },
+  "Xb5182244": {
+    "traj": "traj10",
+    "final_rung": "D2-reask1"
+  },
+  "Xea38ec79": {
+    "traj": "traj11",
+    "final_rung": "D2-reask1"
+  },
+  "X4bcf8f3f": {
+    "traj": "traj12",
+    "final_rung": "D2-reask1"
+  },
+  "Xda0f59c5": {
+    "traj": "traj13",
+    "final_rung": "D12"
+  },
+  "X6804b225": {
+    "traj": "traj14",
+    "final_rung": "D2-reask1"
+  },
+  "X9fc726dc": {
+    "traj": "traj15",
+    "final_rung": "D2-reask1"
+  }
+}

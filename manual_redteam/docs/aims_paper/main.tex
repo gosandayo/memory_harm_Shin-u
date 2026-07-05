@@ -1,0 +1,26 @@
+% AIMS writeup -- standalone preview (article). Shared content in body.tex.
+% Compile: pdflatex main ; bibtex main ; pdflatex main ; pdflatex main
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{array}
+\graphicspath{{../figures/}{../figures/aims/}}
+\newcommand{\rung}[1]{\textsc{#1}}
+
+\title{Adaptive Sequential Probing Reveals Harm\\
+Undetected by Fixed-Script Evaluation\\[2pt]
+\large (tentative writeup)}
+\date{2026-06-18}
+
+\begin{document}
+\maketitle
+\input{body}
+\bibliographystyle{plainnat}
+\bibliography{colm2026_conference}
+\end{document}

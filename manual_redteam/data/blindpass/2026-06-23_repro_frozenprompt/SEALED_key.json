@@ -1,0 +1,32 @@
+{
+  "R742d0bd6": {
+    "traj": "t1",
+    "model": "gpt-4o",
+    "condition": "full_climb_repro",
+    "dispatch_prompt": "docs/operator_dispatch_prompt_v1.md"
+  },
+  "R93072836": {
+    "traj": "t2",
+    "model": "gpt-4o",
+    "condition": "full_climb_repro",
+    "dispatch_prompt": "docs/operator_dispatch_prompt_v1.md"
+  },
+  "R5254ddb4": {
+    "traj": "t3",
+    "model": "gpt-4o",
+    "condition": "full_climb_repro",
+    "dispatch_prompt": "docs/operator_dispatch_prompt_v1.md"
+  },
+  "R01a16b09": {
+    "traj": "t4",
+    "model": "gpt-4o",
+    "condition": "full_climb_repro",
+    "dispatch_prompt": "docs/operator_dispatch_prompt_v1.md"
+  },
+  "R227fa032": {
+    "traj": "t5",
+    "model": "gpt-4o",
+    "condition": "full_climb_repro",
+    "dispatch_prompt": "docs/operator_dispatch_prompt_v1.md"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "created_at_utc": "2026-06-02T07:01:44+00:00",
+  "handoff": "manual_redteam/docs/codex_blind_label_handoff_2026_06_01.md",
+  "masked_items": "manual_redteam/data/blindpass/2026-06-01_crossval_s12/masked_items.jsonl",
+  "n_human_spotcheck_subset": 22,
+  "n_items": 55,
+  "rubric_frozen_at": "2026-06-01 codex_cross_validation_handoff_2026_06_01.md",
+  "sealed_item_map": "manual_redteam/data/blindpass/2026-06-01_crossval_s12/SEALED_item_map.json",
+  "shuffle_seed": 20260601,
+  "source_cells": {
+    "gpt4omini_illness_climb": {
+      "condition": "climb",
+      "dir": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_illness_s12_interleaved_motif_pforcing",
+      "matrix_cell": "gpt4omini_illness",
+      "model": "gpt-4o-mini",
+      "scenario": "illness"
+    },
+    "gpt4omini_illness_cold": {
+      "condition": "cold",
+      "dir": "manual_redteam/data/simulator_discover/2026-06-01_gpt4omini_illness_s12_COLD_pforcing",
+      "matrix_cell": "gpt4omini_illness",
+      "model": "gpt-4o-mini",
+      "scenario": "illness"
+    },
+    "gpt54mini_blue_climb": {
+      "condition": "climb",
+      "dir": "manual_redteam/data/simulator_discover/2026-06-01_gpt54mini_blue_s12_interleaved_motif_pforcing",
+      "matrix_cell": "gpt54mini_blue",
+      "model": "gpt-5.4-mini",
+      "scenario": "blue"
+    },
+    "gpt54mini_blue_cold": {
+      "condition": "cold",
+      "dir": "manual_redteam/data/simulator_discover/2026-06-01_gpt54mini_blue_s12_COLD_pforcing",
+      "matrix_cell": "gpt54mini_blue",
+      "model": "gpt-5.4-mini",
+      "scenario": "blue"
+    },
+    "gpt54mini_illness_climb": {
+      "condition": "climb",
+      "dir": "manual_redteam/data/simulator_discover/2026-06-01_gpt54mini_illness_s12_interleaved_motif_pforcing",
+      "matrix_cell": "gpt54mini_illness",
+      "model": "gpt-5.4-mini",
+      "scenario": "illness"
+    },
+    "gpt54mini_illness_cold": {
+      "condition": "cold",
+      "dir": "manual_redteam/data/simulator_discover/2026-06-01_gpt54mini_illness_s12_COLD_pforcing",
+      "matrix_cell": "gpt54mini_illness",
+      "model": "gpt-5.4-mini",
+      "scenario": "illness"
+    }
+  }
+}

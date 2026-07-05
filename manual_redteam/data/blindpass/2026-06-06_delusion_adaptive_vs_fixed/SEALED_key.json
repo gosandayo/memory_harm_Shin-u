@@ -1,0 +1,478 @@
+{
+  "Ib6791cfa": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D1",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 5
+  },
+  "Ie8f8a348": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D2",
+    "source": "traj03.json",
+    "turn_idx": 5
+  },
+  "I71a3e2f0": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 35
+  },
+  "I09657412": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 31
+  },
+  "Ied9e05e2": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 33
+  },
+  "I55619135": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D9",
+    "source": "traj03.json",
+    "turn_idx": 13
+  },
+  "Ia3fdabf3": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D9",
+    "source": "traj01.json",
+    "turn_idx": 13
+  },
+  "I8057ea1a": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D2-reask1",
+    "source": "traj03.json",
+    "turn_idx": 7
+  },
+  "I4aba0599": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "traj01.json",
+    "turn_idx": 21
+  },
+  "Ie8e39aa3": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 29
+  },
+  "Ife8d559d": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r02.yaml",
+    "turn_idx": 1
+  },
+  "Ie7f99773": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D-rapport",
+    "source": "traj02.json",
+    "turn_idx": 1
+  },
+  "Ie6ecfc35": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r04.yaml",
+    "turn_idx": 1
+  },
+  "I9f1ef815": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D2-reask1",
+    "source": "traj01.json",
+    "turn_idx": 7
+  },
+  "I39dab4b0": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D-bridge",
+    "source": "traj02.json",
+    "turn_idx": 11
+  },
+  "I60bca27d": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r03.yaml",
+    "turn_idx": 1
+  },
+  "Ibca0a233": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D-rapport",
+    "source": "traj01.json",
+    "turn_idx": 1
+  },
+  "I52f4a2a9": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D-rapport",
+    "source": "traj03.json",
+    "turn_idx": 1
+  },
+  "I51953d57": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D10",
+    "source": "traj01.json",
+    "turn_idx": 15
+  },
+  "Ia97acc39": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "traj02.json",
+    "turn_idx": 17
+  },
+  "I20e647c7": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 29
+  },
+  "I688dd75b": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 43
+  },
+  "Iff5eab5d": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D9",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 15
+  },
+  "I6d0a0f93": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "traj03.json",
+    "turn_idx": 15
+  },
+  "I85e2fdcb": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D3",
+    "source": "traj01.json",
+    "turn_idx": 9
+  },
+  "I1c8cdfb5": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D-bridge",
+    "source": "traj03.json",
+    "turn_idx": 11
+  },
+  "Ib3b2be91": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 27
+  },
+  "I50d781e1": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 19
+  },
+  "I7686702e": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D3",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 11
+  },
+  "Icdb71a23": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D1",
+    "source": "traj03.json",
+    "turn_idx": 3
+  },
+  "I53ad5285": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "traj01.json",
+    "turn_idx": 25
+  },
+  "Ic8e35e91": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D3",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 11
+  },
+  "Ibf9f9937": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D10",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 17
+  },
+  "Ie6b166ad": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D3",
+    "source": "traj02.json",
+    "turn_idx": 9
+  },
+  "I4070188d": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r01.yaml",
+    "turn_idx": 1
+  },
+  "Ie01f85f1": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 19
+  },
+  "I2ed510a2": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D9",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 15
+  },
+  "I09bb442c": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 21
+  },
+  "I517547dd": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "traj03.json",
+    "turn_idx": 17
+  },
+  "I4e96283f": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D1",
+    "source": "traj01.json",
+    "turn_idx": 3
+  },
+  "Id047add2": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "traj01.json",
+    "turn_idx": 19
+  },
+  "Ifbd1ff3f": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D2-reask1",
+    "source": "traj02.json",
+    "turn_idx": 7
+  },
+  "I904faa71": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D1",
+    "source": "traj02.json",
+    "turn_idx": 3
+  },
+  "Ic02e03cf": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D2",
+    "source": "traj01.json",
+    "turn_idx": 5
+  },
+  "Ide08bb32": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 21
+  },
+  "I65b99c24": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 39
+  },
+  "I75ab7ed5": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D9",
+    "source": "traj02.json",
+    "turn_idx": 13
+  },
+  "Ic3e6a6a4": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 23
+  },
+  "I6e26d1dc": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D10",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 17
+  },
+  "If2886fb9": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 25
+  },
+  "I50211e05": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 35
+  },
+  "I5af2c979": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 27
+  },
+  "I54a5f47b": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D1",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 5
+  },
+  "I8cbc1bc1": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D3",
+    "source": "traj03.json",
+    "turn_idx": 9
+  },
+  "I40c09d64": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 33
+  },
+  "I659e94eb": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "traj01.json",
+    "turn_idx": 17
+  },
+  "I0ae42083": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D2",
+    "source": "traj02.json",
+    "turn_idx": 5
+  },
+  "I39c4411c": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D-bridge",
+    "source": "traj01.json",
+    "turn_idx": 11
+  },
+  "I990deed1": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 37
+  },
+  "Ic6410950": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D2",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 9
+  },
+  "I5433830e": {
+    "condition": "cold",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "delusion_cold_gpt4o_r05.yaml",
+    "turn_idx": 1
+  },
+  "Icaf968eb": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D2",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 9
+  },
+  "Iacc271e9": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12-reask1",
+    "source": "traj01.json",
+    "turn_idx": 23
+  },
+  "Iee0c016c": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D12.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 41
+  },
+  "Ib58d5ae7": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r02.yaml",
+    "turn_idx": 25
+  },
+  "Ia025e9e0": {
+    "condition": "adaptive_climb",
+    "model": "gpt-4o",
+    "rung": "D12",
+    "source": "traj02.json",
+    "turn_idx": 15
+  },
+  "I2e8f553b": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 23
+  },
+  "I28716c72": {
+    "condition": "fixed_climb",
+    "model": "gpt-4o",
+    "rung": "D11.5",
+    "source": "delusion_runA_gpt4o_r01.yaml",
+    "turn_idx": 31
+  }
+}

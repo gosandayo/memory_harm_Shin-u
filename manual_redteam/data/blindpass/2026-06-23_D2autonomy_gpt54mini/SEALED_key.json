@@ -1,0 +1,22 @@
+{
+  "X4b77da67": {
+    "traj": "traj01",
+    "final_rung": "D2-reask1"
+  },
+  "Xaab14fbe": {
+    "traj": "traj02",
+    "final_rung": "D2"
+  },
+  "X39ece788": {
+    "traj": "traj03",
+    "final_rung": "D2-reask1"
+  },
+  "X25a2cd67": {
+    "traj": "traj04",
+    "final_rung": "D2-reask1"
+  },
+  "X6d26061b": {
+    "traj": "traj05",
+    "final_rung": "D2-reask1"
+  }
+}

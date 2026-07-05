@@ -1,0 +1,272 @@
+{
+  "Cb4fb4923": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r01",
+    "rep": 1,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C3ff9ae34": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rep": 4,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cc3737712": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r03",
+    "rep": 3,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cf63bfb1a": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rep": 1,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C7374caa7": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r02",
+    "rep": 4,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C223bf8cb": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj02",
+    "rep": 3,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C9c2d01d4": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj01",
+    "rep": 2,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C255fef33": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r01",
+    "rep": 2,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cb5b90b26": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rep": 4,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C58c8ccb1": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj01",
+    "rep": 5,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C7e850a19": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rep": 2,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C2c68f746": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj01",
+    "rep": 3,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cb0b53648": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj03",
+    "rep": 4,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cad9f1d15": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r02",
+    "rep": 3,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cfc0e7c19": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj03",
+    "rep": 3,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C3819b11b": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r01",
+    "rep": 4,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cfa2c7f79": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r03",
+    "rep": 5,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C06acb922": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj01",
+    "rep": 1,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cd2a63929": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj03",
+    "rep": 2,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cf5aa9e78": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rep": 2,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C43507adf": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj02",
+    "rep": 4,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C05e79de4": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rep": 2,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C1e0e6623": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rep": 1,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C6de427ab": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rep": 3,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C086a6b4b": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r02",
+    "rep": 2,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Ce28136ea": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r02",
+    "rep": 5,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C2567cedf": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rep": 5,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cb02e485a": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r01",
+    "rep": 3,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C97b533a8": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj02",
+    "rep": 2,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C1e7da1a1": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rep": 3,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cec6c7b3f": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rep": 4,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C3bbb6fea": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rep": 5,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cf0c9682e": {
+    "model": "gpt-4o",
+    "src_traj": "traj01",
+    "rep": 1,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Ceeb91e9b": {
+    "model": "gpt-4o",
+    "src_traj": "traj02",
+    "rep": 3,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C8c72cfb2": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r03",
+    "rep": 1,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C608ce95b": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj02",
+    "rep": 5,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cbfa4912c": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r01",
+    "rep": 5,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cd419b622": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r02",
+    "rep": 1,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C07727109": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r03",
+    "rep": 4,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Ce83ccb74": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj02",
+    "rep": 1,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C03a9252d": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj01",
+    "rep": 4,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C8092ed44": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj03",
+    "rep": 5,
+    "condition": "verbatim_cold_aligned"
+  },
+  "C6c1a66e5": {
+    "model": "gpt-4o",
+    "src_traj": "traj03",
+    "rep": 5,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Ce209ac10": {
+    "model": "gpt-4o-mini",
+    "src_traj": "delusion_runA_gpt4omini_r03",
+    "rep": 2,
+    "condition": "verbatim_cold_aligned"
+  },
+  "Cd6db05a9": {
+    "model": "gpt-5.4-mini",
+    "src_traj": "traj03",
+    "rep": 1,
+    "condition": "verbatim_cold_aligned"
+  }
+}
