@@ -71,3 +71,6 @@ vllm.log
 
 # Archives
 *.zip
+
+# Local presentation packet contains selected raw transcript renderings.
+presentation_audit_packet/

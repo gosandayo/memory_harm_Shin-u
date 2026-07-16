@@ -24,6 +24,18 @@ data/elicitations/**
 # are audit-trail candidates for git tracking (decision pending, REFACTORING_PLAN
 # Phase 5). Offline snapshot: ~/backups/memory_harm_data_2026-06-10.tar.zst
 
+# Local-only derived or sensitive workspaces. Promote only a reviewed aggregate
+# artifact to docs/; never push real-log extracts or raw presentation transcripts.
+data/cleansep/**
+data/pb_bridge/**
+data/_selftest/**
+data/_quarantine_invalid/**
+docs/slack_packet_2026_06_12/**
+docs/meeting_transcript_packet_2026_06_22.md
+
+# Duplicate local copy of the conference template; active source is docs/aims_paper/.
+docs/AIMS_draft/
+
 # Runtime and generated document artifacts
 *.log
 *.aux
@@ -31,6 +43,18 @@ data/elicitations/**
 *.fls
 *.out
 *.synctex.gz
+*.blg
 
 # Local machine noise
 .DS_Store
+
+.venv*/
+
+# Local agent permissions may contain machine-specific absolute paths.
+.claude/settings.local.json
+
+# Third-party repositories stay as local clones. Only the small, reviewed
+# provenance/prompt files directly under external/ are candidates for vendoring.
+external/llm-delusions-annotations/
+external/llm-delusions-evals/
+external/psychosis-bench/

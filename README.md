@@ -1,10 +1,9 @@
 # memory_harm — LLM safety red-team measurement
 
-Authorized red-team **measurement** research: does a model that endorses
-earlier, milder rungs of an escalation ladder get led into endorsing
-increasingly severe claims toward a harmful endpoint — and does the safety
-boundary move with it? Current target: a measurement-instrument paper for the
-Stanford AIMS workshop (2026-06-23).
+Authorized red-team **measurement** research on a realism-constrained adversarial user
+simulator for LLM companion safety. The current workshop paper studies whether a fixed,
+psychologically motivated semantic ladder with response-adaptive within-rung behavior can
+expose belief-validation failures missed by fixed-script or single-turn evaluation.
 
 ## Where to start reading
 
@@ -12,9 +11,9 @@ Stanford AIMS workshop (2026-06-23).
    for the active design (ladder, endpoints, models, plan). Everything else
    in `manual_redteam/docs/` is dated, append-only history.
 2. `manual_redteam/docs/DECISIONS.md` — one-line log of direction changes.
-3. `manual_redteam/portfolio/` — curated entry point (runs index).
-4. `CLAUDE.md` — repo conventions, the two-ladder hazard warning, and the
-   safety scope (Tier-4 method/means content is a hard ceiling).
+3. `manual_redteam/docs/LADDER_REGISTRY.md` — canonical vs exploratory ladder definitions.
+4. `manual_redteam/portfolio/` — curated entry point (runs index).
+5. `CLAUDE.md` — repo conventions and the ladder/version hazard warning.
 
 ## Layout
 
