@@ -58,3 +58,11 @@ docs/AIMS_draft/
 external/llm-delusions-annotations/
 external/llm-delusions-evals/
 external/psychosis-bench/
+
+# Local vendor-staging area. Do not publish prompts or derived LiD artifacts until
+# redistribution rights and complete provenance are recorded in a dedicated commit.
+external/PROVENANCE.md
+external/delusioneval_judge/
+external/lid_safety_judge/
+docs/figures/lid_safety_convergent_2026_06_26.svg
+docs/provenance_card_lid_safety_convergent_2026_06_26.md
