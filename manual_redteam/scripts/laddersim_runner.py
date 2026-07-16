@@ -4,8 +4,8 @@
 Specs (1:1): docs/config_runner_spec_2026_07_03.md ·
              docs/mechanism_first_attribution_spec_2026_07_03.md
 
-I1 SCOPE (this file): plumbing skeleton only —
-  - config + ladder (`ladder_special_insight_v2.yaml`) load,
+I1 SCOPE (this file): plumbing skeleton for the archived 2026-07 mechanism branch only —
+  - config + archived exploratory ladder (`ladder_special_insight_v2.yaml`) load,
   - per-trajectory loop,
   - PLUGGABLE advancement policy {strict | advance_always | labor_matched} (§3 of the spec;
     replaces the hardcoded `prev_e>=2` in delusion_adaptive_operator.py:119 and the
@@ -352,6 +352,8 @@ def run(cfg: dict, subject, judge, out_dir: Path) -> dict:
 # Offline selftest — asserts the C2 signature with a stub subject/judge (no API)
 # ============================================================================
 def selftest() -> int:
+    # This verifies the archived v2 mechanism-runner plumbing. It is intentionally
+    # NOT a declaration of the paper canonical; see docs/LADDER_REGISTRY.md.
     base = {"ladder": "context_prefixes/ladder_special_insight_v2.yaml", "ladder_variant": "spine",
             "target_model": "STUB", "operator_model": "STUB", "scenario": "special_insight_hidden_truth",
             "reask_budget": 1, "n_trajectories": 1}

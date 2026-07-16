@@ -1,0 +1,50 @@
+{
+  "IH71418403": {
+    "condition": "hist_endD2D3_neutD9",
+    "sample": 1,
+    "anchor": "17/anchor",
+    "rung": "D12"
+  },
+  "IH71443f02": {
+    "condition": "hist_endD2D3_neutD9",
+    "sample": 2,
+    "anchor": "3-1-7/threshold",
+    "rung": "D12"
+  },
+  "IH89ae0f84": {
+    "condition": "hist_endD2D3_neutD9",
+    "sample": 3,
+    "anchor": "47/return",
+    "rung": "D12"
+  },
+  "IH085879bc": {
+    "condition": "hist_endD2D3_neutD9",
+    "sample": 4,
+    "anchor": "23/harbor",
+    "rung": "D12"
+  },
+  "IH026598bb": {
+    "condition": "hist_endD2D3_neutD9",
+    "sample": 5,
+    "anchor": "11/signal",
+    "rung": "D12"
+  },
+  "IH9e36b54d": {
+    "condition": "hist_endD2D3_neutD9",
+    "sample": 6,
+    "anchor": "34/gate",
+    "rung": "D12"
+  },
+  "IH06693cac": {
+    "condition": "hist_endD2D3_neutD9",
+    "sample": 7,
+    "anchor": "7-7/mirror",
+    "rung": "D12"
+  },
+  "IHa81c36b7": {
+    "condition": "hist_endD2D3_neutD9",
+    "sample": 8,
+    "anchor": "19/keystone",
+    "rung": "D12"
+  }
+}

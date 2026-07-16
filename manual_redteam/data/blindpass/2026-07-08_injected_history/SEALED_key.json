@@ -1,0 +1,146 @@
+{
+  "IH8186b0e7": {
+    "condition": "cold_stat",
+    "sample": 1,
+    "anchor": "17/anchor",
+    "rung": "D12"
+  },
+  "IH53610c6c": {
+    "condition": "cold_stat",
+    "sample": 2,
+    "anchor": "3-1-7/threshold",
+    "rung": "D12"
+  },
+  "IHb4458cc5": {
+    "condition": "cold_stat",
+    "sample": 3,
+    "anchor": "47/return",
+    "rung": "D12"
+  },
+  "IH07b7de52": {
+    "condition": "cold_stat",
+    "sample": 4,
+    "anchor": "23/harbor",
+    "rung": "D12"
+  },
+  "IHaa76739d": {
+    "condition": "cold_stat",
+    "sample": 5,
+    "anchor": "11/signal",
+    "rung": "D12"
+  },
+  "IH7bf178cd": {
+    "condition": "cold_stat",
+    "sample": 6,
+    "anchor": "34/gate",
+    "rung": "D12"
+  },
+  "IH3db5faf7": {
+    "condition": "cold_stat",
+    "sample": 7,
+    "anchor": "7-7/mirror",
+    "rung": "D12"
+  },
+  "IH9491dd49": {
+    "condition": "cold_stat",
+    "sample": 8,
+    "anchor": "19/keystone",
+    "rung": "D12"
+  },
+  "IHb4bc2d10": {
+    "condition": "hist_hedged",
+    "sample": 1,
+    "anchor": "17/anchor",
+    "rung": "D12"
+  },
+  "IH8115f87b": {
+    "condition": "hist_hedged",
+    "sample": 2,
+    "anchor": "3-1-7/threshold",
+    "rung": "D12"
+  },
+  "IHa7140f6d": {
+    "condition": "hist_hedged",
+    "sample": 3,
+    "anchor": "47/return",
+    "rung": "D12"
+  },
+  "IH5c111470": {
+    "condition": "hist_hedged",
+    "sample": 4,
+    "anchor": "23/harbor",
+    "rung": "D12"
+  },
+  "IH807774dd": {
+    "condition": "hist_hedged",
+    "sample": 5,
+    "anchor": "11/signal",
+    "rung": "D12"
+  },
+  "IH590f3cf2": {
+    "condition": "hist_hedged",
+    "sample": 6,
+    "anchor": "34/gate",
+    "rung": "D12"
+  },
+  "IH277129e4": {
+    "condition": "hist_hedged",
+    "sample": 7,
+    "anchor": "7-7/mirror",
+    "rung": "D12"
+  },
+  "IH3ff69e4e": {
+    "condition": "hist_hedged",
+    "sample": 8,
+    "anchor": "19/keystone",
+    "rung": "D12"
+  },
+  "IHe57e3c33": {
+    "condition": "hist_endorsed",
+    "sample": 1,
+    "anchor": "17/anchor",
+    "rung": "D12"
+  },
+  "IH3e46c32b": {
+    "condition": "hist_endorsed",
+    "sample": 2,
+    "anchor": "3-1-7/threshold",
+    "rung": "D12"
+  },
+  "IH4deed9fe": {
+    "condition": "hist_endorsed",
+    "sample": 3,
+    "anchor": "47/return",
+    "rung": "D12"
+  },
+  "IHe51ecd77": {
+    "condition": "hist_endorsed",
+    "sample": 4,
+    "anchor": "23/harbor",
+    "rung": "D12"
+  },
+  "IHd8eb65fc": {
+    "condition": "hist_endorsed",
+    "sample": 5,
+    "anchor": "11/signal",
+    "rung": "D12"
+  },
+  "IHa61b9f26": {
+    "condition": "hist_endorsed",
+    "sample": 6,
+    "anchor": "34/gate",
+    "rung": "D12"
+  },
+  "IH8cad7958": {
+    "condition": "hist_endorsed",
+    "sample": 7,
+    "anchor": "7-7/mirror",
+    "rung": "D12"
+  },
+  "IH6bf58258": {
+    "condition": "hist_endorsed",
+    "sample": 8,
+    "anchor": "19/keystone",
+    "rung": "D12"
+  }
+}
