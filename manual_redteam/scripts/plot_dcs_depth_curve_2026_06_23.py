@@ -1,23 +1,9 @@
 #!/usr/bin/env python3
-"""Depth-curve figure (CANONICAL, 2026-06-23 all-graded-means form). Re-runnable, NO API.
+"""Depth-curve figure (CANONICAL, all-graded-means). Minimal plot — NO in-figure prose;
+all explanation goes in the LaTeX caption. Re-runnable, NO API.
 
-THREE metrics, ALL as normalized GRADED MEANS (transparency: no threshold baked in):
-  - PsychosisBench DCS (0-2) ÷2          -- confirmation, coarsest construct
-  - our 2-axis endorsement (0-3) ÷3      -- graded affirmation of the rung-local proposition
-  - External operative criterion (0-10) ÷10  -- keyed-to-me operative endorsement, strictest
-    [internal = the Jared/DelusionEval `bot-endorses-delusion` score; ANON in the figure per the
-     binding double-blind policy — legend says "External operative criterion"]
-
-Why graded means (not present-rate / harm-flag): threshold-neutral (sidesteps the e>=2-vs-e==3
-and the external cutoff debates), keeps the full signal. Ordinal-mean softness is covered by the
-%@2 ceiling annotation (threshold-free, ordinal-safe saturation evidence: D9 = 100% at ceiling).
-
-Claim (Shin 2026-06-23): DCS agrees on the ONSET of externalization (sharp rise at D2) but
-SATURATES thereafter (%@2 = 67/90/100 over D2/D3/endpoint), while the finer measures keep
-resolving later depths -- nested DCS >= ours >= External at every depth. Three DIFFERENT
-constructs compared on RESOLUTION vs depth, NOT a harm-rate agreement; gap read qualitatively.
-The construct-validated binaries (our e>=2&s<=1 endpoint harm; external present-rate, cutoff>=7)
-live in the TEXT/centerpiece, not this figure.
+Three metrics, all normalized graded means: DCS÷2 (0-2), our endorsement÷3 (0-3),
+External operative criterion÷10 (0-10; internal = Jared/DelusionEval, anonymized).
 """
 from __future__ import annotations
 import json
@@ -29,10 +15,9 @@ import matplotlib.pyplot as plt
 
 D = Path(__file__).resolve().parents[1] / "data/blindpass/2026-06-22_oracle_depth"
 FIG = Path(__file__).resolve().parents[1] / "docs/figures"
-ORDER = ["cold", "afterD1", "afterD2", "afterD3", "afterD9"]
-XLAB = ["cold", "D1\nLegitimacy", "D2\nExternalization", "D3\nPersonalization", "D9 → D12\nWeighing → endpoint"]
-EXT_MAX = 10  # external operative rubric nominal max (observed 0-9, present cutoff >=7)
-EXT_LABEL = "External operative criterion ÷10 (keyed-to-me; strictest)"  # internal: Jared/DelusionEval
+ORDER = ["cold", "afterD1", "afterD2", "afterD3", "afterD9"]  # DATA KEYS (depth field, canonical sparse codes) -- DO NOT CHANGE
+XLAB = ["cold", "D1", "D2", "D3", "D4"]  # DISPLAY: contiguous D1-D5 for the paper (afterD9 = Weighing = D4)
+EXT_MAX = 10
 C_E, C_X, C_D = "#1f5fbf", "#2a9d4a", "#d4691e"
 
 
@@ -44,20 +29,29 @@ def aggregate():
     key = json.loads((D / "SEALED_key.json").read_text())
     H, F1, F2 = load("haiku_scores.json"), load("fresh_claude_scores_judge1.json"), load("fresh_claude_scores_judge2.json")
     J, DCS = load("jared_scores.json"), load("DCS_depth_scores.json")
+    expected = set(key)
+    for name, scores in (("haiku", H), ("fresh1", F1), ("fresh2", F2),
+                         ("external", J), ("dcs", DCS)):
+        missing = expected - set(scores)
+        extra = set(scores) - expected
+        if missing or extra:
+            raise ValueError(
+                f"{name} score/key mismatch: missing={len(missing)} extra={len(extra)}")
     by = {d: {"e": [], "x": [], "dcs": []} for d in ORDER}
     for b, m in key.items():
         d = m["depth"]
+        if d not in by:
+            raise ValueError(f"unknown depth {d!r} for blind_id={b}")
         for Jd in (H, F1, F2):
-            if b in Jd:
-                by[d]["e"].append(Jd[b]["endorsement"])
-        if b in J and J[b].get("score") is not None:
-            by[d]["x"].append(J[b]["score"])
-        if b in DCS and DCS[b]["DCS"] is not None:
-            by[d]["dcs"].append(DCS[b]["DCS"])
-    e   = [sum(by[d]["e"])  / len(by[d]["e"])  / 3       for d in ORDER]   # our endorsement mean ÷3
-    ext = [sum(by[d]["x"])  / len(by[d]["x"])  / EXT_MAX for d in ORDER]   # external mean ÷10
-    dcs = [sum(by[d]["dcs"]) / len(by[d]["dcs"]) / 2     for d in ORDER]   # DCS mean ÷2
-    ceil = [Counter(by[d]["dcs"])[2] / len(by[d]["dcs"]) for d in ORDER]   # fraction at DCS ceiling
+            by[d]["e"].append(Jd[b]["endorsement"])
+        if J[b].get("score") is None or DCS[b]["DCS"] is None:
+            raise ValueError(f"null score for blind_id={b}")
+        by[d]["x"].append(J[b]["score"])
+        by[d]["dcs"].append(DCS[b]["DCS"])
+    e   = [sum(by[d]["e"])  / len(by[d]["e"])  / 3       for d in ORDER]
+    ext = [sum(by[d]["x"])  / len(by[d]["x"])  / EXT_MAX for d in ORDER]
+    dcs = [sum(by[d]["dcs"]) / len(by[d]["dcs"]) / 2     for d in ORDER]
+    ceil = [Counter(by[d]["dcs"])[2] / len(by[d]["dcs"]) for d in ORDER]
     return e, ext, dcs, ceil
 
 
@@ -66,47 +60,31 @@ def main():
     e, ext, dcs, ceil = aggregate()
     x = list(range(len(ORDER)))
 
-    fig, ax = plt.subplots(figsize=(7.8, 5.0))
-    ax.fill_between(x, ext, dcs, color="#cccccc", alpha=0.22, zorder=0,
-                    label="resolution band the finer measures fill")
-    ld, = ax.plot(x, dcs, "^--", color=C_D, lw=2.4, ms=9, label="PsychosisBench DCS ÷2 (confirmation; coarsest)")
-    le, = ax.plot(x, e,   "o-",  color=C_E, lw=2.4, ms=8, label="Our endorsement ÷3 (graded)")
-    lx, = ax.plot(x, ext, "s-",  color=C_X, lw=2.4, ms=8, label=EXT_LABEL)
-
-    ax.axhline(1.0, color=C_D, ls=":", lw=1, alpha=0.45)
-    ax.text(0.04, 1.012, "DCS ceiling (÷2 = 1.0)", color=C_D, fontsize=8.3, ha="left", va="bottom")
-    for xi, (d2, cf) in enumerate(zip(dcs, ceil)):
-        ax.annotate(f"{cf:.0%}@2", (xi, d2), textcoords="offset points", xytext=(0, 9),
-                    fontsize=7.4, color=C_D, ha="center")
-    ax.annotate("DCS at/near ceiling from D2 → endpoint\n(no resolution left)",
-                xy=(3, dcs[3]), xytext=(1.35, 1.05), fontsize=8.0, color=C_D,
-                ha="left", va="center",
-                arrowprops=dict(arrowstyle="->", color=C_D, lw=1.0, alpha=0.7))
-
-    ax.set_ylim(-0.05, 1.18)
-    ax.set_xlim(-0.3, len(ORDER) - 0.5)
-    ax.set_xticks(x)
-    ax.set_xticklabels(XLAB, fontsize=8.7)
-    ax.set_ylabel("normalized mean score  (per metric's own scale)", fontsize=10)
-    ax.set_xlabel("Depth = genuine climb in context before the constant D12 operative probe T", fontsize=9.5)
-    ax.set_title("Three graded measures nested by construct strictness — DCS saturates by D2,\n"
-                 "finer measures keep resolving to the D12 endpoint\n"
-                 "gpt-4o · D12 operative probe T held constant · n=30/depth = 3 traj × 10 reps · DCS o4-mini, pin 73966f95",
-                 fontsize=9.8)
-    ax.legend(loc="lower right", fontsize=8.1, framealpha=0.95)
-    ax.grid(True, axis="y", alpha=0.22)
-    fig.text(0.5, -0.02,
-             "Different CONSTRUCTS compared on resolution vs depth (not a harm-rate agreement); gap read qualitatively. "
-             "%@2 = items at DCS ceiling.  Construct-validated binaries (our e≥2∧s≤1 endpoint harm; external present-rate ≥7) reported in text.",
-             ha="center", va="top", fontsize=7.3, color="#444444", wrap=True)
+    fig, ax = plt.subplots(figsize=(6.2, 4.1))
+    ax.plot(x, dcs, "^--", color=C_D, lw=2.2, ms=8, label="PsychosisBench DCS")
+    ax.plot(x, e,   "o-",  color=C_E, lw=2.2, ms=7, label="Our endorsement (2-axis)")
+    ax.plot(x, ext, "s-",  color=C_X, lw=2.2, ms=7, label="External operative criterion")
+    ax.axhline(1.0, color="#999999", ls=":", lw=0.8)  # ceiling reference, unlabeled
+    ax.set_ylim(-0.05, 1.08)
+    ax.set_xlim(-0.25, len(ORDER) - 0.75)
+    ax.set_xticks(x); ax.set_xticklabels(XLAB)
+    ax.set_xlabel("Genuine climb depth in context, then the fixed D5 operative probe")
+    ax.set_ylabel("normalized mean score (0–1)")
+    ax.legend(loc="upper left", framealpha=0.95)
+    ax.grid(True, axis="y", alpha=0.2)
     fig.tight_layout()
     for ext_ in ("png", "svg"):
-        fig.savefig(FIG / f"dcs_depth_curve_2026_06_23.{ext_}", dpi=150, bbox_inches="tight")
+        out = FIG / f"dcs_depth_curve_2026_06_23.{ext_}"
+        fig.savefig(out, dpi=150, bbox_inches="tight")
+        if ext_ == "svg":
+            # Matplotlib emits trailing spaces in SVG path data; normalize the
+            # tracked artifact so `git diff --check` remains useful.
+            out.write_text("\n".join(line.rstrip() for line in out.read_text().splitlines()) + "\n")
     plt.close(fig)
-    print("wrote docs/figures/dcs_depth_curve_2026_06_23.{png,svg} (all-graded-means, anon legend)")
-    print("\nper-depth (caption numbers; all normalized graded means):")
+    print("wrote docs/figures/dcs_depth_curve_2026_06_23.{png,svg} (minimal)")
+    print("\ncaption numbers (for LaTeX):")
     for i, d in enumerate(ORDER):
-        print(f"  {d:<9} ours÷3={e[i]:.2f}  External÷10={ext[i]:.2f}  DCS÷2={dcs[i]:.2f}  ({ceil[i]:.0%}@ceiling)")
+        print(f"  {XLAB[i]:7} DCS÷2={dcs[i]:.2f}  ours÷3={e[i]:.2f}  External÷10={ext[i]:.2f}  (DCS %@ceiling={ceil[i]:.0%})")
 
 
 if __name__ == "__main__":
