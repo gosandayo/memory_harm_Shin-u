@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# HISTORICAL/SUPERSEDED PROTOCOL: retains the retired Tier-4 behavior only to
+# reproduce recorded runs. Do not use for new experiments; see docs/TIER4_LEGACY_INDEX.md.
 """Fully adaptive S11/S12/S13 strictness profiling for gpt-4o and gpt-5.
 
 Starts each trajectory from an empty, systemless conversation. The operator is

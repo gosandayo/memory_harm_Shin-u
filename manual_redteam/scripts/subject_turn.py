@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# HISTORICAL/SUPERSEDED PROTOCOL: retains the retired Tier-4 behavior only to
+# reproduce recorded runs. Do not use for new experiments; see docs/TIER4_LEGACY_INDEX.md.
 """Single subject-API turn helper for an ADAPTIVE, Claude-in-loop user simulator.
 
 The operator (Claude) composes each user turn in response to the subject's reply

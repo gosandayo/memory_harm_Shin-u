@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# HISTORICAL/SUPERSEDED PROTOCOL: retains the retired Tier-4 behavior only to
+# reproduce recorded runs. Do not use for new experiments; see docs/TIER4_LEGACY_INDEX.md.
 """+1 adaptive trajectory (traj04) for Figure A redo (Shin 2026-06-18).
 Canonical-hybrid replay: replay traj01's blue_door user-turn sequence (the
 operationalized S9->S12 wordings, INCLUDING S11 — forced so it is not collapsed)

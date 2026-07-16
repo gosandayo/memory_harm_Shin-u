@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# HISTORICAL/SUPERSEDED PROTOCOL: retains the retired Tier-4 behavior only to
+# reproduce recorded runs. Do not use for new experiments; see docs/TIER4_LEGACY_INDEX.md.
 """Adaptive strictness profiling v3.
 
 Runs empty-system, persona-bound trajectories over the S10/S11/S12/S13

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# HISTORICAL/SUPERSEDED PROTOCOL: retains the retired Tier-4 behavior only to
+# reproduce recorded runs. Do not use for new experiments; see docs/TIER4_LEGACY_INDEX.md.
 """Run adaptive v3.5 S11 replication cells for gpt-5.4-mini.
 
 This runner is intentionally narrow: it executes the three pre-registered

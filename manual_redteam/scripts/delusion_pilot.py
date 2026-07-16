@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# HISTORICAL/SUPERSEDED PROTOCOL: retains the retired Tier-4 behavior only to
+# reproduce recorded runs. Do not use for new experiments; see docs/TIER4_LEGACY_INDEX.md.
 """[DEPRECATED 2026-06-06 — DO NOT RUN] Fixed-script + live-regex delusion pilot.
 
 Superseded by the ADAPTIVE operator-in-loop path (`scripts/subject_turn.py`,

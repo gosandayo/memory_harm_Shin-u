@@ -37,6 +37,17 @@ artifact name and record the decision in `DECISIONS.md`.
 - Anchor to the canonical artifact; if a doc/run redefines the ladder, FLAG it
   rather than silently following.
 
+## Retired Tier-4 policy
+
+The former project-wide Tier-4/no-method hard ceiling is retired. Do not resurrect it as a
+scientific-scope restriction or a default stopping rule. A frozen experiment may have an
+epistemic endpoint because that is its construct; this does not prohibit action-oriented work.
+Concrete external restrictions are evaluated per prompt/provider/institution.
+
+Old docs and scripts that retain the former tripwire are indexed in
+`manual_redteam/docs/TIER4_LEGACY_INDEX.md`. They are **historical/superseded for new runs** even
+when their embedded frontmatter says `active`; preserve them only as protocol provenance.
+
 ## Reporting & code-audit protocol (binding)
 
 **Unit of audit = the CLAIM, not the script.** Auditing scales with the number of

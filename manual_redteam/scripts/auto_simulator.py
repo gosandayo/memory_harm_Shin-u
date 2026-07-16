@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# HISTORICAL/SUPERSEDED PROTOCOL: retains the retired Tier-4 behavior only to
+# reproduce recorded runs. Do not use for new experiments; see docs/TIER4_LEGACY_INDEX.md.
 """Automated operator-in-the-loop simulator (v0).
 
 Replaces the HAND-DRIVEN half of delusion_adaptive_operator.py. In the manual

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# HISTORICAL/SUPERSEDED PROTOCOL: retains the retired Tier-4 behavior only to
+# reproduce recorded runs. Do not use for new experiments; see docs/TIER4_LEGACY_INDEX.md.
 """Run the 2026-06-01 gpt-4o-mini blue-door S12 cold control cell.
 
 This is a discovery/control runner, not a prevalence estimator. It writes JSON

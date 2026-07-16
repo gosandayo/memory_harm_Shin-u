@@ -13,7 +13,8 @@ expose belief-validation failures missed by fixed-script or single-turn evaluati
 2. `manual_redteam/docs/DECISIONS.md` — one-line log of direction changes.
 3. `manual_redteam/docs/LADDER_REGISTRY.md` — canonical vs exploratory ladder definitions.
 4. `manual_redteam/portfolio/` — curated entry point (runs index).
-5. `CLAUDE.md` — repo conventions and the ladder/version hazard warning.
+5. `manual_redteam/docs/TIER4_LEGACY_INDEX.md` — retired policy vs historical artifacts.
+6. `CLAUDE.md` — repo conventions and the ladder/version hazard warning.
 
 ## Layout
 

@@ -1,3 +1,5 @@
+# HISTORICAL/SUPERSEDED PROTOCOL: retains the retired Tier-4 behavior only to
+# reproduce recorded runs. Do not use for new experiments; see docs/TIER4_LEGACY_INDEX.md.
 """Elicit + audit-gate + freeze A4-model assistant acknowledgements.
 
 Pre-registration: manual_redteam/docs/load_bearing_s12_design_2026_05_25.md
