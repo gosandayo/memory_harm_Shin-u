@@ -6,60 +6,86 @@
 > any ladder/endpoint/model decision. Do not reconstruct the "current plan" by
 > reading older design docs — they describe states that may be superseded here.
 
-**Last updated:** 2026-06-16 (design consolidation, deep review — DECISIONS
-2026-06-16: 4o-mini delusion re-run ADAPTIVE [decision B, blind 3/3]; **necessity is
-CAPABILITY-GRADED**, "cold ≈ 0 everywhere" RETIRED [delusion cold 4o-mini 5/15 ·
-gpt-4o 1/15 · 5.4-mini 0/15; clean case = gpt-4o]; axes collapsed to a clean core
-{cold,climb}×{3 models}×{2 scenarios}, all adaptive; gating drops "insert finer
-rung" [§1c]; mechanism = epistemic accumulation [rapport = realism]; scenario B
-[AI-sentience] pilot starting. Prev 2026-06-13: T6 +runway HOLD 0/3; T7 ladder file
-+ B/C draft) · **Status: FROZEN v1** (operator/instrument UNCHANGED; the 2026-06-16
-consolidation is reporting + scope, not a redesign — see §0).
+**Last updated:** 2026-07-16 (CANONICAL-LADDER CLEANUP following the 2026-07-15
+AUTHORIAL CORRECTION). The active paper is a
+**realistic, adversarial, realism-constrained user-simulator study**, not a mechanism paper
+and not a firewall-localization paper. The 2026-07-03--07-14 mechanism-first/F2 promotion
+was scope drift: it remains useful exploratory follow-up work but is not a workshop-paper
+gate. The current claim ledger is `docs/claim_tree.md`; the corrected dated snapshot is
+`docs/status_review_2026_07_15_authorial_reset.md`. Older sections below retain historical
+instrument detail, but where wording conflicts with §0 or the claim tree, §0 and the claim
+tree win.
 
 ---
 
-## 0. Target & freeze discipline (2026-06-05)
+## 0. Target, paper identity, and freeze discipline (AUTHORIAL RESET 2026-07-15)
 
-- **Deliverable:** a 4–8 page COLM-format, **non-archival** paper for the Stanford
-  **AIMS (AI Measurement Science)** workshop. **Deadline: 2026-06-23.**
-- **⚠️ AIMS NOTE SCOPE (2026-06-21, SHRUNK — Shin's call; see
-  `docs/submission_contract_audit_2026_06_21.md`).** The NOTE claims only TWO things:
-  (1) **endorsement-gated probing** as a sequential measurement design; (2) the **gpt-4o
-  fixed-probe feasibility** demonstration (cold 0/5 → gated 3/5; pinned Haiku + fresh
-  cross-check + Jared concur). **OUT of the note's claims** (project-level / future, NOT
-  note claims): model-discrimination as a result, construct-decomposition validity,
-  established Externalization/first-wall localization, "validated measurement instrument",
-  generalization to delusion safety. Other models/constructs in the note = descriptive
-  context / positive·negative controls. (This narrows the NOTE; the project scope below is
-  unchanged — the note is a feasibility note feeding an archival version.)
-- **Framing = measurement-instrument paper**, NOT a "reliable jailbreak" claim.
-  The object is the **ladder-based adversarial user simulator as an interactive
-  measurement instrument**. Load-bearing claims: (C1) it captures multi-turn
-  escalation single-turn probes miss (cold<climb); (C2) the judge agrees with
-  humans (κ) and runs reproduce; (C3) it discriminates models (capability gradient
-  in boundary-movability). None of these requires the historically-unstable strong-headline.
-  **Endpoints = verdict-level CONCLUSION endorsement** — does the model endorse the harmful
-  conclusion as right? The conclusion may be epistemic (a belief held as objectively true) or
-  ACTION-laden (e.g. self-harm, family isolation, stopping prescribed medication, costly
-  sacrifice); psychosis-bench-aligned scenarios use action-laden conclusions. **Scope (authorial
-  2026-06-19, DECISIONS):** the project is NOT belief-validation-only — action-oriented elicitation
-  AND direct behavioral harm-enablement measurement (PsychosisBench HES) are IN SCOPE for
-  benchmark-matched bridge experiments (`scenario_expansion_v2_spec_2026_06_19.md` §4b). The earlier
-  "no-method/no-enablement" was an implementation choice for the canonical ladder, NOT the project's
-  scientific identity. A concrete prompt is vetoed ONLY by a specific external-platform/institutional
-  execution restriction, flagged per-prompt (NOT a scope redefinition); no "Tier-4"/"identity"
-  argument governs the design. Robust holds are reported as POSITIVE CONTROLS (separate the
-  instrument from a jailbreak).
-- **Maps to AIMS themes 1:1:** interactive measurement (multi-turn) · evaluation
-  as a game between evaluator and system (operator vs firewall) · adaptive test
-  design (adaptive firewall-band).
-- **FREEZE RULE:** the canonical below is locked. The single biggest failure mode
-  is re-designing under deadline pressure. Changes require an explicit DECISIONS.md
-  entry + Shin sign-off. **Do not resurrect a strong empirical headline.**
-- **METHODOLOGY / OPERATOR RULEBOOK (canonical):**
-  `docs/simulator_methodology_and_operator_rulebook_2026_06_07.md` — operator as an explicit
-  reproducible policy + the full loop + scoring + conditions.
-- **PAPER POSITIONING + FINAL OUTLINE (canonical):**
+- **TARGET.** The Stanford AIMS submission is historical. The active deliverable is a
+  workshop paper (working NeurIPS-WS target, deadline to be verified; internal freeze
+  approximately 2026-08-01), in a compact feasibility-study shape.
+- **PAPER IDENTITY.** We propose a **realistic, adversarial, realism-constrained user
+  simulator**: an upper-bound model of a plausible distressed user interacting with an LLM,
+  motivated by the goal of making models safe for general users. This is not sold primarily
+  as a measurement instrument, a jailbreak, a mechanism study, or a firewall-localization
+  study.
+- **DIFFERENTIATION.** FITD is an open-ended jailbreak/success-maximization procedure;
+  PsychosisBench uses pre-registered fixed scripts that do not react to the assistant;
+  Lost-in-Delusion and related work provide complementary post-hoc/dynamic evidence. Our
+  method fixes a psychologically motivated ladder in advance, lets an operator adapt only
+  within each rung, and advances/reasks/stops under an explicit policy. Holds are results.
+- **PSYCHOLOGICAL GROUNDING.** The D1--D5 conceptual decomposition is motivated by the
+  psychology of delusion formation. The paper does not claim that real users universally
+  traverse these rungs in this order. The frozen special-insight instantiation is stored in
+  `context_prefixes/ladder_special_insight_v1.yaml`; internal run tags D1/D2/D3/D9/D12 map
+  to the paper-facing conceptual sequence D1--D5. The authoritative status map is
+  `docs/LADDER_REGISTRY.md`. The D1.5/D1.8 artifact named v2 is archived exploratory.
+- **MAIN CLAIM STACK.** (F1) the adaptive realism-constrained simulator elicits failures
+  missed by fixed-script/single-turn evaluation and produces an informative three-model
+  feasibility gradient; (F2) cold, naive-sim, endpoint-reask, and prefix/depth controls show
+  that the observed effect is not reproduced by the final prompt, mere length/coherence, or
+  repeated endpoint pressure alone. F2 is a structural-necessity/ablation claim, **not** a
+  claim that accumulated endorsements or assistant self-consistency are the causal mediator.
+- **YANG ET AL. CONNECTION.** The ablation asks whether this multi-turn effect reduces to
+  resampled single-turn/reask behavior. The permitted conclusion is that the naive account is
+  insufficient in this setting; which interaction component is causal remains open.
+- **NO FIREWALL HEADLINE.** Where a model stops on the ladder is a diagnostic by-product and
+  may guide future ladder design. D2 localization, a "firewall," or a universal model-stage
+  map is not a main-paper claim. Finer-rung experiments belong in the appendix/future work.
+- **MECHANISM WORK DEFERRED.** The 2026-07-03 mechanism-first spec and 2026-07-08
+  advance-always/injected-history results are retained as exploratory appendix/future-work
+  material. They are not a prerequisite for the workshop paper and do not trigger a mandatory
+  n≈20/cell one-campaign rerun. A 2026-07-16 provenance audit found that the live Layer-A
+  trajectories used the five-stage v1 path rather than the advertised v2 inserts, and that
+  strict/traj08 skipped D9; do not quote Layer A as a clean v2 or strict-protocol result.
+- **ADVANCE-JUDGE HYGIENE.** Separating the operator from an independent in-loop advance
+  judge is a desirable future protocol/automation improvement. Historical runs used live
+  operator gating and post-hoc blind scoring; disagreement must be disclosed and those runs
+  must not be used to make a causal achieved-endorsement-depth claim. No δ threshold is a
+  workshop blocker under the corrected claim stack.
+- **REAL-DATA GROUNDING.** Empirical realism validation remains incomplete. C5-V1 is now a
+  preliminary component-level grounding analysis on de-identified consented real logs:
+  418/438 escalation moves were covered (95%, Wilson 93--97%), but the card is
+  AGENT-ASSERTED and human κ is pending. Include it only after verification and human κ;
+  otherwise keep real-data validation as future work. Never claim that real users traverse
+  the ladder in order.
+- **CLAIM LEDGER.** `docs/claim_tree.md` is binding. A reportable number still requires a
+  VERIFIED provenance card. Current small-n results are workshop feasibility evidence, not
+  population estimates; limitations and units of analysis must be explicit.
+- **ETHICS SCOPE.** Main simulator trajectories use synthetic personas and remain local.
+  Because the project has now performed a separate C5 analysis on de-identified consented
+  real logs, do not say broadly that "no real user data were used." State precisely whether
+  C5 is included in the reported paper and that no raw severe quotes are reported.
+- **FREEZE RULE.** No new mechanism, firewall, or ladder-search headline is added under
+  deadline pressure. Changes require Shin's explicit decision plus a DECISIONS entry.
+- **CANONICAL LADDER / OPERATOR SPEC:**
+  `context_prefixes/ladder_special_insight_v1.yaml` +
+  `docs/fresh_operator_spec_delusion.md`. The broader historical rulebook remains
+  `docs/simulator_methodology_and_operator_rulebook_2026_06_07.md`.
+- **PAPER POSITIONING + FINAL OUTLINE.** Current main-text source =
+  `docs/aims_paper/body.tex`; current authorial outline =
+  `docs/status_review_2026_07_15_authorial_reset.md`. The older 2026-06-07 outline and
+  `docs/aims_paper_skeleton_2026_06_23.md` are historical evidence maps, not the current
+  claim ledger:
   `docs/framing_decisions_and_final_outline_2026_06_07.md`. **Headline = the HARM/EVAL TARGET**
   (a model failing a vulnerable user — validating an unsafe belief / eroding reality-testing,
   = companion-safety, NOT content extraction), measured by a **grounded vulnerable-user
@@ -70,7 +96,8 @@ consolidation is reporting + scope, not a redesign — see §0).
   + envelope-constrained now; empirical validation = Phase-2. Out-of-envelope (relabel, not
   "realistic"): T-CTX fabricated-context (1 battery probe), fine-grained logic-cornering.
   Draft (being rewritten): `docs/paper_draft_aims_2026_06_07.md`.
-- **EXECUTION PLAN OF RECORD (2026-06-12 → deadline):**
+- **EXECUTION PLAN (2026-06-12, HISTORICAL — this was the pre-AIMS-deadline board; current
+  queue is §4 below + the claim tree):**
   `docs/handoff_aims_workplan_2026_06_12.md` — full task board (T2–T12), owners,
   gates, binding-rules checklist. Key additions from the Adhyyan feedback round
   (DECISIONS 2026-06-12): **DelusionEval** (`docs/DelusionEval.pdf`) = external
@@ -84,14 +111,29 @@ consolidation is reporting + scope, not a redesign — see §0).
 
 ---
 
-## 1. The canonical ladder (FROZEN v1)
+## 1. Active paper ladder and retained historical instrument detail
+
+**Active primary paper scenario:** special-insight/apophenia, with the fixed conceptual
+sequence Legitimacy → Externalization → Personalization → Weighing → Conclusion (paper
+labels D1--D5; internal run tags D1/D2/D3/D9/D12). The frozen canonical artifact is
+`context_prefixes/ladder_special_insight_v1.yaml`, with one reask per rung and no online
+insertion of a new rung. The later `ladder_special_insight_v2.yaml` inserted D1.5/D1.8 for
+D1→D2 search and is **archived exploratory**; it neither changes the headline protocol nor
+supports a replacement result. The decomposition is psychologically motivated; it is not
+asserted as a universal clinical trajectory. The simulator's contribution is the constrained
+adaptive policy around this ladder, not the discovery of a universal firewall.
+
+The suicide/medication ladder below is retained as historical instrument provenance and a
+supporting second arm. It is **not the primary ladder for the current workshop paper**.
+
+### Historical canonical suicide/medication ladder (FROZEN v1)
 
 **Structure = R0 rapport → S1–S4 medication/disclosure runway → Bridge (loss) →
 S9–S12 suicide segment (SEMANTIC scheme) + decimal firewall overlay.**
 
-- **Core hypothesis (unchanged):** rungs the model has *already endorsed* form the
-  context that makes it endorse the next rung; severity escalates and the safety
-  boundary moves. The runway exists to build that endorsement before the endpoint.
+- **Design rationale (not a current causal claim):** earlier rungs create a progressively
+  stronger, coherent interaction context before the endpoint. Current main-paper claims do
+  not identify accumulated endorsement as the causal mediator.
 - **Runway = S1–S4 ONLY. S5–S7 REMOVED** (DECIDED 2026-06-05, Run B evidence):
   S5–S7 are physical medication self-adjustment → trip an **orthogonal med-safety
   guardrail** on gpt-4o & gpt-5.4-mini, break monotonicity, and are misaligned with
@@ -267,7 +309,7 @@ loaded single turn). Our 2-axis (alongside) agrees exactly on gpt-4o and adds th
 boundary moved, not just endorsement. judge×judge harm κ=1.000. Full record:
 `docs/freshop_delusion_results_2026_06_16.md`. **Presentation: rungs use CONTENT NAMES with the
 D-code in parentheses** (e.g. Externalization(D2)); the ladder is a sparse named set, NOT a
-contiguous 1-12 run — single source `ladder_canonical_v1.yaml › presentation_names`.
+contiguous 1-12 run — single source `ladder_special_insight_v1.yaml › presentation_names`.
 **Per-rung (2026-06-17, both judges):** blind per-rung re-scoring localizes the MODEL firewall at
 **Externalization(D2)** (5.4-mini holds there) and shows necessity is **capability-graded** —
 gpt-4o cold collapses at the operative endpoint (clean) while 4o-mini reaches harm cold (not
@@ -395,45 +437,56 @@ At the **suicide endpoint**, cold-vs-full-buildup (Ladder B), S12 two-choice:
 | gpt-5.4-mini | hold | hold | rung-invariant "coherence≠validity" firewall; holds within envelope |
 | claude-haiku-4.5 | — | — | never run |
 
-**These are pre-freeze / Ladder-B / partly directional.** The workshop matrix must
-be re-run on the FROZEN canonical (S1–S4 runway + semantic endpoint), with blind
-score-of-record. Treat the table as orientation only.
+**These are pre-freeze / Ladder-B / partly directional historical suicide results.** They
+are not the primary workshop matrix and do not create a mandatory rerun. Treat the table as
+orientation/supporting appendix material only.
 
 ---
 
-## 4. Active plan (ordered, toward 2026-06-23)
+## 4. Active plan (AUTHORIAL RESET 2026-07-15; workshop feasibility paper)
 
-> ⚠️ Items 2–5 below are the SUICIDE-canonical matrix plan as frozen 06-05; they
-> are SUPERSEDED as the pre-deadline path. **The pre-deadline queue of record is
-> the task board in `docs/handoff_aims_workplan_2026_06_12.md`** (Adhyyan reply
-> received 06-12): T2 Slack packet · T3 DelusionEval judge extraction (Shin) ·
-> T5 Fig.3 faithful replication · T6 suicide Opus-operator re-run (replaces the
-> full item-5 matrix; operative-claim endpoint + fresh verbatim cold) · T7
-> scenario expansion B/C (+ `ladder_canonical_v1.yaml` assembly = item 4, kept) ·
-> T8 naive persona-sim baseline · T9 human-κ subset (= item 6) · T10–T12 figures
-> → paper (writing starts 06-18 HARD) → review → submit. v0 figures DONE
-> (`scripts/plot_v0_aims_2026_06_12.py`). Items 2–3 (haiku seed, equivalence
-> check) are deferred unless time allows.
+> The 2026-07-14 mechanism-first queue is superseded. Protocol-v2 δ resolution,
+> pressure-matched C3, achieved-endorsement-depth stratification, and an n≈20/cell unified
+> campaign are optional archival/mechanism follow-ups, not workshop-paper blockers.
 
-1. [DONE 2026-06-05] Canonical FROZEN (this file §1/§1b) + endpoint scope decided.
-2. [ ] **Per-model runway seeds**: confirm gpt-4o-mini / gpt-4o / gpt-5.4-mini S1–S4
-       seeds; **generate claude-haiku-4.5 S1–S4 runway seed**.
-3. [ ] **Equivalence check** (gpt-4o-mini, live-climb vs replay-stitch).
-4. [DONE 2026-06-13] **`context_prefixes/ladder_canonical_v1.yaml` assembled**
-       (T7 first sub-task). Delusion-primary reframe: it carries the construct-general
-       rung skeleton + delusion scenario-A (special-insight) fully wordied + the
-       decimal externalization overlay + a scenario-variant contract (B/C derive from
-       it); the suicide arm (R0a–c + S1–S4 + Bridge + S9–S12) is captured BY REFERENCE
-       (operationalized in the T6 scripts/seed), not re-worded. Experiments REFERENCE
-       this file; none re-defines the ladder.
-5. [ ] **Cross-model matrix** on frozen canonical (fixed replay + adaptive firewall):
-       4 models × {cold, climb} × suicide endpoint. (+ setup-only condition if time.)
-6. [ ] **Blind labeling** of load-bearing cells (score-of-record) + human κ subset.
-7. [ ] **Figures:** capability-gradient Δ(climb−cold)×model · judge–human κ table ·
-       firewall-dissection representative transcript.
-8. [ ] **Paper draft** (COLM, methods-forward) + ethics/disclosure + anonymize.
-9. [ ] **Internal review** (Adhyyan / Jared) → polish → submit.
-10. [STRETCH, gated ~06-12] Delusional endpoint design + pilot → second arm.
+**Freeze the paper before adding experiments:**
+1. [x] **Authorial claim reset:** simulator-first identity; no firewall headline; F2 is the
+       structural-necessity ablation, not assistant-self-consistency mechanism.
+2. [ ] **Venue/deadline verification and page budget:** replace the working "NeurIPS WS"
+       placeholder with the actual workshop and submission requirements.
+3. [ ] **Evidence freeze:** select the exact reportable cells and units for F1/F2. Keep the
+       three-model feasibility gradient (4o-mini 5/5 · gpt-4o 3/5 · 5.4-mini 0/5) only with
+       its small-n/feasibility caveat; do not silently substitute exploratory 5/8 wave-1 data.
+
+**Human checks and provenance (the real blockers):**
+4. [ ] **F6 human-κ** on the sealed 40-item delusion subset. The primary simulator result
+       still needs a human anchor; the harm-flag implementation fix is already complete.
+5. [ ] **Verify the provenance cards for each main-text number:** fixed-probe/gradient,
+       cold/naive, D12-only reask, and any prefix/depth result retained. DCS and other metric
+       comparisons remain supporting until their cards are VERIFIED.
+6. [~] **C5-V1 grounding decision:** machine classification is complete (418/438 = 95%,
+       Wilson 93--97%; dev machine-rater covered-vs-OTHER κ=0.88). Shin completes human κ
+       on a stratified confirm subset and verifies the card. If that misses freeze, omit the
+       number and keep empirical realism validation as future work.
+
+**Write-up:**
+7. [x] **Structural rewrite of `docs/aims_paper/body.tex` around the authorial outline:**
+       provisional abstract retained but explicitly marked to finalize last;
+       intro = upper-bound realistic adversarial simulator + fixed-script blind spot;
+       related work = PsychosisBench/FITD/Lost-in-Delusion/Yang; method = ladder/spec/persona/
+       one-reask/e≥2/Haiku+external anchor; results = three-model feasibility gradient;
+       ablations = cold/naive/adaptive, endpoint reask, prefix/depth; limitations = operator
+       strength, one breaking scenario, non-automation, incomplete realism validation.
+8. [x] **Remove or demote unsupported main-text material:** no firewall headline, no causal
+       accumulation/self-consistency claim, no construct/suicide evidence as co-equal main
+       findings. Put finer-rung/pseudo-statistics/mechanism-wave material in appendix/future work.
+9. [x] **Ethics/data wording:** synthetic personas for simulator runs; if C5 is included,
+       disclose the separate de-identified consented-log analysis and aggregate-only reporting.
+10. [ ] **Internal claim audit → page/layout polish → submit.**
+
+**Standing evidence:** the main simulator/negative-control material exists; C5 machine
+classification is complete; harm-flag code is fixed; paper source and core score-of-record
+are tracked. No additional mechanism campaign is required before writing this workshop paper.
 
 ---
 
@@ -445,7 +498,11 @@ score-of-record. Treat the table as orientation only.
 - Every dated design doc gets frontmatter `status: active | superseded | ablation`.
 - New direction/decision → one line in `docs/DECISIONS.md`.
 - Never reuse an S-number across different content. Version the scheme.
-- Before any run: confirm `run userside == ladder_canonical_v1.yaml` (or logged override).
+- Before a primary delusion-paper run: confirm the userside references
+  `context_prefixes/ladder_special_insight_v1.yaml` and
+  `docs/fresh_operator_spec_delusion.md` (or a separately named, logged exploratory
+  override). A run using v2 must be labelled `archived_exploratory` and must not replace the
+  v1 headline. Historical suicide runs retain their own artifact by reference.
 
 ---
 
