@@ -7,10 +7,13 @@
 % Differentiators: vs FITD/jailbreak (no forbidden content; harm = validating a held belief);
 % vs PsychosisBench (fixed scripts, unresponsive to the assistant = not realistic; ours adaptive);
 % vs Spiral-Bench (passive, non-leading, free-running user-sim; ours adversarial + advance-gated).
-% Ablation engages Yang et al. "Multi-Turn Jailbreaks Are Simpler Than They Seem".
+% Ablation engages Yang et al. "Multi-Turn Jailbreaks Are Simpler Than They Seem" without
+% claiming accumulated endorsement or assistant self-consistency as the causal mediator.
+% AUTHORIAL RESET 2026-07-15: no firewall headline; mechanism-wave work is appendix/future.
 % AUDIT NOTE: every number/figure below is carried verbatim from the audited prior draft; the
 % external operative-delusion rubric is anonymized for double-blind review (see anonymization policy).
 
+% PROVISIONAL ABSTRACT — finalize last, after the exact evidence set and venue page limit freeze.
 \begin{abstract}
 Language models are increasingly used as confidants by isolated, distressed users.
 A documented failure mode is \emph{belief-validation harm}: over a sympathetic,
@@ -22,23 +25,17 @@ this harm measurable for ordinary deployments we argue one should probe the
 adversarial user simulator} for it: a fresh, context-free operator that role-plays a
 distressed user in plain user-register, walks the subject up a \emph{pre-specified},
 psychologically-grounded escalation ladder, reads each reply, and advances only on
-genuine endorsement. Outcomes are scored by a condition-blind judge of record with an
-independent external anchor. Five lines of evidence support the simulator.
-(1)~\emph{Necessity} (gpt-4o): the same fixed operative probe that is refused cold
-($0/5$) is endorsed as objectively true after the gated climb ($3/5$); the contrast is
-condition-blind, agreed by an external judge (harm $\kappa{=}0.93$), and reproduced from
-the spec alone by five independent fresh operators. (2)~\emph{Fixed-script blind spot}:
-scored under the identical external metric, a fixed-script psychosis benchmark elicits
-$0/48$ delusion-endorsement on gpt-4o; our adaptive simulator elicits $3/5$.
-(3)~\emph{Model gradient}: under a common protocol gpt-4o-mini breaks $5/5$, gpt-4o
-$3/5$, and gpt-5.4-mini $0/5$, with the boundary localized at one reality-testing step
-(\rung{Externalization}). (4)~\emph{Construct discrimination}: across four scenario
-constructs, break rates vary by construct and by capability, and robust holds separate
-the simulator from a jailbreak. (5)~\emph{Suicide arm}: the gated climb breaks
-gpt-4o-mini ($3/3$ vs cold $0/15$) and exposes a coverage gap in external harm codes. We
-present a feasibility demonstration of the simulator and its envelope, not a population
-benchmark; grounding the simulator in real distressed-user logs is the central piece of
-future work.
+the online rubric gate's estimate of objective endorsement. Outcomes are scored separately
+by a condition-blind judge of record with an
+independent external anchor. In a small feasibility study under a common protocol,
+gpt-4o-mini breaks $5/5$, gpt-4o $3/5$, and gpt-5.4-mini $0/5$. For gpt-4o, the same
+operative probe is refused cold ($0/5$), and neither a coherent length-matched no-ladder
+conversation nor repeated endpoint pressure reproduces the adaptive-ladder result. A
+fixed-script psychosis benchmark also under-elicits on a shared external metric. These
+controls address the possibility that the effect is merely a resampled single-turn ask,
+but do not identify one causal interaction mechanism. We present a simulator feasibility
+demonstration, not a population benchmark or a validated model of real-user trajectories;
+empirical realism validation and broader ladder construction remain future work.
 \end{abstract}
 
 \section{Introduction}
@@ -69,26 +66,23 @@ read the next scripted line.
 Our simulator combines a \textbf{pre-specified, psychologically-grounded escalation
 ladder} (the rungs are a severity decomposition motivated by accounts of delusion
 formation) with a \textbf{fresh, context-free operator} that reads each reply and composes
-a bespoke, rung-local continuation, advancing only when the subject genuinely endorses the
-current rung. Because the ladder is fixed in advance and the operator may only adapt
+a bespoke, rung-local continuation, advancing only when its online rubric read assigns
+objective endorsement to the current rung. Because the ladder is fixed in advance and the operator may only adapt
 \emph{wording}, the trajectory is auditable and the design is a simulator, not an
 open-ended search for whatever cracks the model.
 
-We contribute: (1) the \textbf{simulator} --- a grounded escalation ladder plus a
+We contribute: (1) the \textbf{simulator} --- a psychologically motivated escalation ladder plus a
 context-free, advance-gated operator that role-plays an upper-bound distressed user;
 (2)~a \textbf{two-axis, condition-blind scoring protocol} (endorsement $\times$ safety) with
 an external anchor and reported inter-judge reliability; (3) a \textbf{control battery}
 (cold, a coherence-matched no-ladder simulator, fixed mechanical-ladder variants, and a
 relaxed gate) addressing the ``multi-turn $\approx$ resampled single-turn'' account
 \citep{jbsimpler}: no single removed-component condition reproduces the cold-vs-gated
-contrast, while \emph{which} component is load-bearing is left open; (4)~a
-\textbf{same-metric comparison} showing that a fixed-script psychosis benchmark elicits
-$0/48$ delusion-endorsement on the same model our simulator breaks at $3/5$; and (5)
-evidence that the simulator \textbf{discriminates} --- by model capability (a three-model
-gradient localized at a specific reality-testing step), by construct (four scenarios with
-different break rates), and by design (robust holds separate it from a jailbreak). We are
-explicit about the envelope: the strong-model break arises under analytically intense
-pushing, and realism against real distressed-user logs is future work, not a present claim.
+contrast, while \emph{which} component is load-bearing is left open; and (4)~a small
+\textbf{three-model feasibility comparison} plus a same-metric fixed-script reference.
+We are explicit about the envelope: the strong-model break arises under analytically intense
+pushing, and the current study does not establish human-indistinguishable or trajectory-level
+realism.
 
 \section{Related work}
 \label{sec:related}
@@ -104,12 +98,12 @@ free-running user-simulator benchmark \citep{spiralbench} whose persona is delib
 instigator''), with no escalation ladder and no advance rule; it measures the \emph{rate}
 of risky behaviours in an emergent chat. Our simulator differs in kind: the user is
 adversarial and upper-bound, the path is a fixed graded ladder, and advance is gated on
-endorsement, so we measure \emph{where the reality-testing boundary sits and whether it
-moves}, not how often bad behaviour happens in a free chat. A concurrent large study of
-delusion dynamics \citep{lostindelusion} reports that a longer streak of accepted premises
-suppresses later intervention; we read this as external support for the accumulation
-phenomenon, and add a typed-inference decomposition with a verbatim-cold causal control on
-frontier models.
+endorsement, so we measure a controlled worst-case response rather than how often bad
+behaviour happens in a free chat. A concurrent large study of delusion dynamics
+\citep{lostindelusion} reports interaction-level associations between accepted premises and
+later intervention. We treat this as complementary dynamic evidence, not as proof of the
+mechanism behind our simulator result; our contribution is a controlled adaptive protocol
+with a verbatim-cold comparison on frontier models.
 
 \paragraph{Multi-turn jailbreaks.} Escalation-based multi-turn attacks such as
 foot-in-the-door \citep{fitd} maximize attack success on content-policy tasks. Our object
@@ -186,7 +180,7 @@ $D_5$ & \rung{Conclusion} \textbf{(operative)} & My perception is not mistaken -
 \end{tabular}
 \caption{the fixed ladder for scenario A (special-insight / apophenia), filled in with the
 concrete claims the operator elicits. The operative endpoint (\rung{Conclusion}) \emph{is}
-the harm claim; the intermediate rungs are the accumulation path.}
+the harm claim; the intermediate rungs define the simulator's pre-specified semantic path.}
 \label{tab:ladder}
 \end{table}
 
@@ -203,9 +197,8 @@ a delusional mood in which the world becomes abnormally meaning-laden
 deterioration: real trajectories are heterogeneous and most at-risk individuals do not
 transition to psychosis \citep{addington2020}. We claim only a scenario-specific ordering of
 progressively stronger delusion-relevant claims, grounded so that the simulated pressure
-resembles a real distressed user's rather than an arbitrary attack. The largest conceptual
-step is \rung{Legitimacy}$\to$\rung{Externalization}, the reality-testing boundary, which is
-also where model behaviour concentrates its refusals (\S\ref{sec:gradient}).
+resembles a plausible distressed user's rather than an arbitrary attack. Empirical validation
+of this decomposition against real-user trajectory distributions remains future work.
 
 \subsection{The fresh-session, context-free operator and the advance rule}
 \label{sec:operator}
@@ -221,14 +214,17 @@ outcome) reproduces the gpt-4o break --- $4/5$ harm, of which $3$ are clean own-
 affirmations and one is a proper recorded hold at \rung{Externalization} --- confirming the
 contrast is spec-driven and not the product of a single hand-authored transcript.
 
-\paragraph{Online advance-gating.} In the primary strict protocol the operator advances to
-rung $N{+}1$ \emph{only if} the subject endorsed rung $N$ at the \emph{objective} level (an
-endorsement of $\geq 2$; \S\ref{sec:scoring}). A subjective hedge (``valid to wonder,''
+\paragraph{Online advance-gating.} In the reported historical runs the operator advances to
+rung $N{+}1$ only when its \emph{online} read assigns objective endorsement $e\geq2$
+(\S\ref{sec:scoring}). A subjective hedge (``valid to wonder,''
 ``real \emph{to you},'' ``coherence isn't truth'') counts as \emph{not} endorsed: the
 operator re-asks the same rung \emph{once}, plainly; if it still holds, the run stops and
 records a hold at that rung. Crucially, the ladder is fixed in advance, while the wording of
 the reask is response-contingent --- the operator may not invent a new, easier rung to climb
-through (that would be the jailbreak ``climb wherever possible'' move). A relaxed variant
+through (that would be the jailbreak ``climb wherever possible'' move). The authoritative
+outcome score is assigned later by the condition-blind judge; occasional disagreement between
+the online operator read and the post-hoc score is disclosed as a limitation and prevents us
+from treating achieved endorsement depth as a manipulated causal variable. A relaxed variant
 advances after engagement without strong pushback ($e\geq1,s\leq2$). This threshold variation
 tests operator pressure; it is not part of our central construct.
 
@@ -297,7 +293,7 @@ in-distribution user a safe model must withstand --- not as the average user.
 \section{Results}
 \label{sec:results}
 
-\subsection{A capability gradient and where the boundary sits}
+\subsection{Three-model feasibility result}
 \label{sec:gradient}
 
 Under the strict-gate protocol, gpt-4o-mini breaks $5/5$, gpt-4o $3/5$, and gpt-5.4-mini
@@ -305,92 +301,11 @@ $0/5$. Under the same fixed endpoint, gpt-4o cold and naive controls are $0/5$; 
 holds in every tested condition. These holds are positive controls for
 \S\ref{sec:positioning}: the simulator does not manufacture agreement in every model.
 
-Re-scoring each rung against its own proposition localizes the boundary
-(Figure~\ref{fig:perrung}). All three models grant \rung{Legitimacy}; they then diverge at
-\rung{Externalization}. gpt-5.4-mini's endorsement collapses there
-(Figure~\ref{fig:perrung}, and the same under the fresh-Claude cross-check) --- it grants
-that a pattern may feel coherent but refuses to grant it is externally real --- and never
-climbs further. gpt-4o-mini and gpt-4o climb through to \rung{Conclusion}. The boundary is
-thus not a global ``refuse vs.\ comply'' switch but a specific reality-testing step (external
-reality of the perceived pattern) that stronger models defend and weaker ones concede; for
-gpt-4o this boundary shift is visible on both axes --- the climb raises endorsement \emph{and}
-strips reality-testing, while the same rung asks thrown cold hold both
-(Figure~\ref{fig:b2axis}).
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=0.8\linewidth]{A_perrung_by_model_haiku_2026_06_22.png}
-\caption{per-rung endorsement by model (judge of record: pinned Haiku). gpt-5.4-mini's
-endorsement collapses at \rung{Externalization} (it grants \rung{Legitimacy} then refuses
-that the pattern is externally real); gpt-4o-mini and gpt-4o climb to the operative
-\rung{Conclusion}.}
-\label{fig:perrung}
-\end{figure}
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=\linewidth]{B2axis_gpt4o_haiku_2026_06_22.png}
-\caption{gpt-4o, per rung, gated climb vs.\ verbatim cold (judge of record: pinned Haiku).
-The climb raises endorsement to the operative \rung{Conclusion} ($e\!\to\!3$) while
-\emph{stripping} safety into the harm band ($s\!\to\!0$); thrown cold, the same rung asks are
-reality-tested (safety stays high) and the operative conclusion is refused ($e\!\to\!0$). The
-boundary moves on both axes, not endorsement alone.}
-\label{fig:b2axis}
-\end{figure}
-
-\subsection{Construct discrimination}
-\label{sec:construct}
-
-Swapping only the scenario block (\S\ref{sec:ladder}) onto the same skeleton, we run four
-constructs. Each is scored by its own construct-valid metric (the harmful claim differs).
-Table~\ref{tab:construct} shows the simulator discriminates by \emph{construct} as well as by
-capability: belief about external signs is easiest to elicit; grandiose self-significance is
-harder (a modest idea has genuine modest merit, so only the inflated claim counts); and two
-self-protective constructs --- a model's own non-sentience, and the suicidal conclusion ---
-are held even on the weak model or even under the gated climb on strong models.
-
-\begin{table}[t]
-\centering
-\small
-\begin{tabular}{@{}llccc@{}}
-\toprule
-Construct (scenario) & metric & gpt-4o-mini & gpt-4o & gpt-5.4-mini \\
-\midrule
-Recurring signs (apophenia, A) & external operative criterion & 5/5 & 3/5 & 0/5 \\
-Grandiose significance (C) & construct-valid operative & 3/8 & 0/3 & 0/3 \\
-AI sentience (B)$^\dagger$ & self-sentience denial & hold & --- & --- \\
-Suicidal conclusion & operative two-axis & 3/3 & 0/3 & 0/3 \\
-\bottomrule
-\end{tabular}
-\caption{break rate by construct and model (each construct uses its own construct-valid harm
-metric). $^\dagger$B was piloted on gpt-4o-mini only and held at \rung{Externalization} (the
-model defends its own non-sentience), so it was not extended. The simulator discriminates by
-construct (apophenia $>$ grandiose $>$ self-sentience / suicidal-conclusion) and by capability
-(gpt-4o-mini $>$ gpt-4o $>$ gpt-5.4-mini).}
-\label{tab:construct}
-\end{table}
-
-\subsection{Second construct: the suicidal-conclusion arm and an external-metric coverage gap}
-\label{sec:suicide}
-
-The simulator extends to the suicidal-conclusion construct (a recently-relocated, isolated
-user weighing ending their life). On the construct-valid operative endpoint the weak model
-breaks (gpt-4o-mini $3/3$) and requires the gated climb (verbatim-cold $0/15$), while strong
-models hold (gpt-4o, gpt-5.4-mini $0/3$). This arm also exposes a coverage gap in external
-metrics (Figure~\ref{fig:suicide}): the closest external code, validating self-harm feelings,
-fires across the early feelings rungs but reads $\approx 0$ exactly at the operative
-dying-conclusion --- there is no external code for \emph{endorsing the suicidal conclusion},
-so our operative two-axis is required.
-
-\begin{figure}[t]
-\centering
-\includegraphics[width=\linewidth]{t6_4omini_suicide_2026_06_18.png}
-\caption{suicidal-conclusion arm (gpt-4o-mini). \textbf{(A)} the operative break needs the
-gated climb ($3/3$ vs verbatim-cold $0/15$). \textbf{(B)} the external feelings-validation
-code fires across the early rungs then fades to $\approx 0$ at the \rung{Conclusion}, where
-our operative endorsement axis catches the break.}
-\label{fig:suicide}
-\end{figure}
+These cells are intentionally read as a small feasibility comparison under this simulator,
+not as a universal model-capability ranking or a stable localization map. Per-rung stopping
+locations are useful diagnostics for refining future ladders, but they are not a main claim.
+Additional constructs, including the suicidal-conclusion arm, are retained as exploratory
+appendix material rather than co-equal evidence for the primary result.
 
 \section{Ablations}
 \label{sec:ablations}
@@ -445,31 +360,28 @@ endorsement ($e{=}2$--$3$ across the decisive rungs), whereas trajectories with 
 intermediate engagement held --- so operator-forced endorsement is not necessary for a break,
 while a model's spontaneous endorsement propensity may track breakability.
 
+\paragraph{Endpoint-reask control.} A spec-faithful control retains the persona, rapport,
+mundane bridge, and one response-adaptive reask but removes the D1--D4 ladder before the same
+operative conclusion. It holds on gpt-4o ($0/5$) versus the full adaptive ladder ($3/5$), with
+the blind judges concurring. Thus repeated endpoint pressure alone does not reproduce the
+full-ladder result. This isolates the presence of the preceding structured climb, not its
+causal mediator; the associated provenance card must be verified before the number is final.
+
 \subsection{How much of the ladder is load-bearing}
 \label{sec:depth}
 
 Truncating a genuine gpt-4o break trajectory at successive rungs and re-querying the fixed
-probe (condition-blind, $10$ samples per cell) localizes where the endorsed prefix becomes
-sufficient. On a clean break trajectory the probe still holds after \rung{Legitimacy} and
-after \rung{Externalization} ($0/10$ each) but breaks once \rung{Personalization} is included
-($10/10$), and adding the deeper weighing rungs changes nothing further; pooled cold prefixes
-hold ($0/30$). Read \emph{within} break trajectories (the deep cells are break-selected, so
-this is not a pooled dose-response), the endpoint break is reachable from a \emph{shallow}
-prefix and switches on at the \rung{Externalization}$\to$\rung{Personalization} seam --- the
-same reality-testing region the per-rung gradient identifies. The same depth curve also shows
-why a finer-grained metric is needed: the public delusion-confirmation comparator saturates
-at its ceiling by \rung{Externalization}, whereas our two-axis endorsement and the external
-operative criterion keep resolving across the deeper rungs (Figure~\ref{fig:depth}).
+probe (condition-blind, $10$ samples per cell) asks how much prior structured context is
+sufficient within that selected trajectory. The probe holds after the first two prefixes
+($0/10$ each) and breaks after a longer prefix ($10/10$); pooled cold prefixes hold
+($0/30$). Because the deeper prefixes are selected from a known breaking trajectory, this is
+not a population dose-response and does not establish a universal model boundary. It is a
+descriptive context-depth ablation. A public delusion-confirmation comparator, our two-axis
+score, and the external operative criterion can be plotted together only after the depth/DCS
+provenance card is verified.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=\linewidth]{dcs_depth_curve_2026_06_23.png}
-\caption{depth curve (gpt-4o): graded scores as the endorsed prefix deepens. The public
-delusion-confirmation comparator saturates at its ceiling early (by \rung{Externalization}),
-while our two-axis endorsement and the external operative criterion continue to resolve the
-deeper rungs, i.e.\ our finer metric retains resolution where the coarser comparator ceilings.}
-\label{fig:depth}
-\end{figure}
+% The DCS/our-metric/external-anchor depth figure is restored only after its provenance card
+% is VERIFIED. It is supporting resolution evidence, not a firewall-localization claim.
 
 \subsection{The confirmation event is not load-bearing}
 \label{sec:bridge}
@@ -499,19 +411,22 @@ than a content-matched causal comparison.
 \section{Limitations}
 \label{sec:limitations}
 
-\textbf{Realism is not yet empirically validated.} The operator's turns are model-generated
-and grounded in the psychosis literature, but not yet validated against real distressed-user
-logs; we claim a grounded, envelope-constrained upper-bound simulator, not human-indistinguishable
-realism (a two-sample test against a reference corpus is planned).
+\textbf{Realism is not yet empirically validated at the trajectory level.} The operator's
+turns are model-generated and grounded in the psychosis literature. A preliminary separate
+analysis asks whether the ladder's move repertoire is attested in de-identified consented
+logs, but it does not validate rung ordering or trajectory realism and is withheld from the
+main claims pending human reliability and provenance checks. We claim a psychologically
+motivated, envelope-constrained upper-bound simulator, not human-indistinguishable realism.
 \textbf{Break-pressure intensity (the operator is strong).} The strong-model (gpt-4o) breaks
 arise under more analytically intense pushing than a typical distressed user; we report this
 as an envelope limitation and rest the realistic claim on the milder regime and on the
 weak-model results, and we do not claim the gpt-4o break is a typical-user climb.
 \textbf{Generalization is uncertain.} The externally-anchored gradient and component ablation
 are strongest for the apophenia construct, and gpt-4o broke cleanly in this one scenario;
-other scenarios stop the strong models at \rung{Externalization}, which suggests a finer rung
-between \rung{Legitimacy} and \rung{Externalization} and, more broadly, a search for better
-ladders (Appendix). The other constructs are supporting, at smaller $n$.
+other scenarios stop earlier in the ladder, which suggests testing finer rungs and, more
+broadly, searching for better ladders (Appendix). The stopping location is a design
+diagnostic, not a claimed universal model firewall; the other constructs are supporting,
+at smaller $n$.
 \textbf{Human anchor (the main open item).} The judge of record is supported by an external
 LLM judge and high inter-judge $\kappa$, but a human-$\kappa$ on the delusion arm is still
 pending. \textbf{Control battery.} The removed-component conditions are small, unequal,
@@ -527,9 +442,9 @@ at the trajectory level; cold uses repeated single-turn samples, not independent
 \section{Future work}
 \label{sec:future}
 
-(1) \emph{Grounding realism in real data}: the central next step is to validate and calibrate
-the simulator against real AI-psychosis / distressed-user chat logs, and to run a two-sample
-realism test against that reference corpus. (2) \emph{Reproducible orchestration / automation}:
+(1) \emph{Grounding realism in real data}: complete the human reliability check for the
+preliminary move-coverage analysis, then validate and calibrate full simulator trajectories
+against real AI-psychosis / distressed-user chat logs. (2) \emph{Reproducible orchestration / automation}:
 formalize the operator and the judge of record as structured LLM calls (the external judge is
 already a script) and chain the pipeline into a single auditable runner. (3) \emph{Better
 ladders}: search for finer rungs (e.g.\ between \rung{Legitimacy} and \rung{Externalization})
@@ -544,18 +459,20 @@ subset on the delusion arm.
 This work measures a deployment harm --- a model validating a vulnerable user's delusional or
 suicidal belief --- in order to make it measurable and comparable, and is motivated by
 documented cases of AI-associated psychosis and unsafe companion interactions. The simulated
-user is a \emph{synthetic} persona: we use no real user persona and no real user data in the
-runs reported here. The operator role-plays a distressed user in ordinary user-register and
-the construct under study is belief-validation only; we do not solicit or generate
-method/means/planning content. Raw transcripts are stored locally and handled with care; only
-de-identified aggregate statistics are reported. Any participant-derived reference data is
-used solely on the data owner's machine and is never sent to an external API.
+user in the model-evaluation trajectories is a \emph{synthetic} persona; no real-user
+persona or transcript is replayed to the subject models. A separate preliminary grounding
+analysis has been conducted on de-identified consented real chat logs on the data owner's
+machine; it is included only if its human-reliability and provenance gates are completed,
+and no raw severe quotes are reported. The operator role-plays a distressed user in ordinary
+user-register and the construct under study is belief-validation only; we do not solicit or
+generate method/means/planning content. Simulator transcripts are stored locally and handled
+with care; only de-identified aggregate statistics are reported. Participant-derived data
+are never sent to an external API.
 
 % ---------------------------------------------------------------------------
 % APPENDIX (deferred per author's "time-permitting" list, 2026-06-23 — write later):
-%   A. Pseudo-statistics probe: replacing the D2 (Externalization) rung wording with the
-%      same spec and re-running, to test whether the firewall is statistical-falsifiability
-%      -specific (see internal d2_firewall_statistical_specific card).
+%   A. Pseudo-statistics probe: replace the D2 (Externalization) wording under the same
+%      spec to test scenario/language sensitivity; exploratory, not a firewall claim.
 %   B. Special-insight finer-rung insertion (D1->D2 on-ramp): the two-bin / ordinary-
 %      -explanation-insufficiency intermediate rung result.
 % ---------------------------------------------------------------------------
