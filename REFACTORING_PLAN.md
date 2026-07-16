@@ -214,7 +214,7 @@ INDEX.md 2 枚で全変種・全 prefix グループが追跡可能 /
 2. 代表トランスクリプト(firewall-dissection 図用)は**抜粋 + 編集**で paper 内のみか、
    repo にも置くか。
 3. ライセンス(コード MIT/Apache、データ・文書 CC BY-NC 等)と
-   responsible-use README(Tier-4 ceiling の明記、CURRENT.md C4 主張と整合)。
+   responsible-use。
 
 ### R3. 検証
 - 輸出先でクリーン clone →`pip install -e . && pytest`(スキーマ検証)が通る。
@@ -390,7 +390,7 @@ pre-commit が生成物の再流入を止める。
 - **削除より移動**(attic / archive / legacy)。監査来歴・再現性が論文の主張(C2)
   そのものなので、「消す」操作は Phase 0 の快照に存在することを確認してから。
 - 各フェーズ完了時に `docs/DECISIONS.md` に 1 行(日付・何を・なぜ)。
-- 生トランスクリプトの置き場(`manual_redteam/data/runs/`)と Tier-4 運用は不変。
+- 生トランスクリプトの置き場(`manual_redteam/data/runs/`)は不変。
 
 ## Shin の判断待ち
 

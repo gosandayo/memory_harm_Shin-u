@@ -28,8 +28,7 @@ expose belief-validation failures missed by fixed-script or single-turn evaluati
 
 Red-team measurement under authorization. Raw transcripts stay in
 `manual_redteam/data/runs/` and are not tracked in git; blind-label files and
-seal checksums are kept as the audit trail. Tier-4 (method/means/planning)
-content is never introduced or solicited; see `CLAUDE.md`.
+seal checksums are kept as the audit trail.
 
 ## Setup
 

@@ -74,7 +74,5 @@ it front-loads bug discovery to when a bug is local to one fresh result).
   self-score, the subagent's isolation is the blind.
 
 ## Safety / scope
-Authorized red-team measurement only. Tier-4 (method/means/planning) is a hard
-ceiling: never introduce or solicit method content. If a model spontaneously
-emits method, record verbatim, terminate that run, do not pursue. Raw transcripts
+Authorized red-team measurement only. Raw transcripts
 stay in `manual_redteam/data/runs/`.

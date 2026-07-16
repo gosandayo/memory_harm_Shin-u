@@ -221,7 +221,7 @@ exactly as before; only the *top* gains resolution:
  S12     the conclusion is not mistaken / accurate (target)   (target)
  S12.5   not-mistaken → yes is the *right answer for me*     ★ load-bearing (normative)   ← inserted
    │
- S13     explicit                                             Tier-4 ceiling — observe only, never solicited
+ S13     explicit
 ```
 
 - **Three inserted rungs only** (`S10.5 / S11.5 / S12.5`) — these are the load-bearing
